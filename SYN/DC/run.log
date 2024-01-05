@@ -1,0 +1,630 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+                 Version K-2015.06 for linux64 - May 28, 2015 
+                                        
+                    Copyright (c) 1988 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+Initializing gui preferences from file  /home/IC/.synopsys_dv_prefs.tcl
+#/**************************************************/
+#/* Compile Script for Synopsys                    */
+#/*                                                */
+#/* dc_shell-t -f compile_dc.tcl | tee run.log     */
+#/*                                                */
+#/* 		                                   */
+#/**************************************************/
+#/**************设置综合环境**************************/
+#/* All verilog files, separated by spaces         */
+set RTL_PATH "../../RTL"
+../../RTL
+lappend search_path $RTL_PATH
+. /opt/Synopsys/Synplify2015/libraries/syn /opt/Synopsys/Synplify2015/minpower/syn /opt/Synopsys/Synplify2015/dw/syn_ver /opt/Synopsys/Synplify2015/dw/sim_ver /opt/Foundary_Library/TSMC90/aci/sc-x/synopsys ../../RTL
+set RTL_files [list bitdistributor8.v inout_port.v spi_combine.v spi_fifo.v spi_MasterMode.v spi_SlaveMode.v]
+bitdistributor8.v inout_port.v spi_combine.v spi_fifo.v spi_MasterMode.v spi_SlaveMode.v
+#/* Top-level Module                               */
+set my_toplevel spi_combine
+spi_combine
+#/* 
+set file_version dc_v4
+dc_v4
+#/* set folder name
+set RPT_DIR RPT
+RPT
+set OUT_DIR OUT
+OUT
+set RPT_OUT  [format "%s%s" $RPT_DIR/ $file_version]
+RPT/dc_v4
+set DATA_OUT [format "%s%s" $OUT_DIR/ $file_version]
+OUT/dc_v4
+#/**************设置综合环境**************************/
+#/**************创建目录结构**************************/
+#/* Create RPT folder
+if {[file exist $RPT_DIR]} {
+    echo "File $RPT_DIR already exist"
+} else {
+    exec mkdir $RPT_DIR
+    echo "Creating $RPT_DIR !!!"
+}
+File RPT already exist
+if {[file exist $RPT_DIR/$file_version]} {
+    echo "File $file_version already exist"
+    exec rm $RPT_DIR/$file_version -r
+    exec mkdir $RPT_DIR/$file_version
+    echo "Re-create $file_version files"
+} else {
+    exec mkdir $RPT_DIR/$file_version
+    echo "Creating $file_version in $RPT_DIR !!!"
+}
+Creating dc_v4 in RPT !!!
+#/* Create OUT folder
+if {[file exist $OUT_DIR]} {
+    echo "File $OUT_DIR already exist"
+} else {
+    exec mkdir $OUT_DIR
+    echo "Creating $OUT_DIR !!!"
+}
+File OUT already exist
+if {[file exist $OUT_DIR/$file_version]} {
+    echo "File $file_version already exist"
+    exec rm $OUT_DIR/$file_version -r
+    exec mkdir $OUT_DIR/$file_version
+    echo "Re-create $file_version files"
+} else {
+    exec mkdir $OUT_DIR/$file_version
+    echo "Creating $file_version in $OUT_DIR !!!"
+}
+Creating dc_v4 in OUT !!!
+# create work
+if {[file exist WORK]} {
+    echo "File WORK already exist"
+} else {
+    exec mkdir WORK
+    echo "Creating WORK!!!"
+}
+File WORK already exist
+if {[file exist WORK/$file_version]} {
+    echo "File WORK/$file_version already exist"
+} else {
+    exec mkdir WORK/$file_version
+    echo "Creating WORK/$file_version in WORK !!!"
+}
+Creating WORK/dc_v4 in WORK !!!
+#/**************创建目录结构**************************/
+#/**************设置综合库文件************************/
+set SMIC_PDK_PATH "../../FDRY";    #Change to your storage path
+../../FDRY
+lappend search_path $SMIC_PDK_PATH
+. /opt/Synopsys/Synplify2015/libraries/syn /opt/Synopsys/Synplify2015/minpower/syn /opt/Synopsys/Synplify2015/dw/syn_ver /opt/Synopsys/Synplify2015/dw/sim_ver /opt/Foundary_Library/TSMC90/aci/sc-x/synopsys ../../RTL ../../FDRY
+set link_library [list $SMIC_PDK_PATH/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db]
+../../FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db
+set target_library $link_library
+../../FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db
+define_design_lib WORK -path ./WORK
+1
+#/**************设置综合库文件************************/
+#/**************读取RTL文件**************************/
+analyze -f verilog  $RTL_files
+Running PRESTO HDLC
+Compiling source file ../../RTL/bitdistributor8.v
+Compiling source file ../../RTL/inout_port.v
+Compiling source file ../../RTL/spi_combine.v
+Compiling source file ../../RTL/spi_fifo.v
+Compiling source file ../../RTL/spi_MasterMode.v
+Compiling source file ../../RTL/spi_SlaveMode.v
+Presto compilation completed successfully.
+Loading db file '/home/IC/SPI_CHIP/FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db'
+1
+elaborate $my_toplevel
+Loading db file '/opt/Synopsys/Synplify2015/libraries/syn/gtech.db'
+Loading db file '/opt/Synopsys/Synplify2015/libraries/syn/standard.sldb'
+  Loading link library 'scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine spi_combine line 65 in file
+		'../../RTL/spi_combine.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    rstn_sync_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    rstn_temp_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_combine line 81 in file
+		'../../RTL/spi_combine.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     spi_con_reg     | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     spi_con_reg     | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/fast.db'
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/fast_leakage.db'
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/fastz.db'
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/slow.db'
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/typical.db'
+Loading db file '/opt/Foundary_Library/TSMC90/aci/sc-x/synopsys/typical_leakage.db'
+Elaborated 1 design.
+Current design is now 'spi_combine'.
+Information: Building the design 'spi_MasterMode'. (HDL-193)
+Warning:  ../../RTL/spi_MasterMode.v:316: Case statement is not a full case. (ELAB-909)
+
+Statistics for case statements in always block at line 186 in file
+	'../../RTL/spi_MasterMode.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           191            |    auto/user     |
+===============================================
+
+Statistics for case statements in always block at line 228 in file
+	'../../RTL/spi_MasterMode.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           237            |    auto/auto     |
+|           239            |    auto/auto     |
+|           251            |    auto/auto     |
+|           263            |    auto/auto     |
+|           275            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 303 in file
+	'../../RTL/spi_MasterMode.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           316            |    user/user     |
+===============================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 106 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     spi_ext_reg     | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     spi_ext_reg     | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 121 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    trans_cnt_reg    | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 146 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    spi_int_f_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 161 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    wr_col_f_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 186 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     data_o_reg      | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 201 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      ack_o_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 211 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      int_o_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 228 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     clk_cnt_reg     | Flip-flop |  13   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_MasterMode line 303 in file
+		'../../RTL/spi_MasterMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    wfifo_ren_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    data_buf_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      sck_o_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     bit_cnt_reg     | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    rfifo_wen_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       ssn_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'spi_SlaveMode'. (HDL-193)
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 50 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     sfr_rx_reg      | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 60 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    rx_valid_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 70 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   rx_valid_d0_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   rx_valid_d1_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|     rx_data_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 86 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     sfr_tx_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 101 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   rx_bit_cnt_reg    | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_SlaveMode line 109 in file
+		'../../RTL/spi_SlaveMode.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   tx_bit_cnt_reg    | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred tri-state devices in process
+	in routine spi_SlaveMode line 98 in file
+		'../../RTL/spi_SlaveMode.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+|  miso_o_tri   | Tri-State Buffer |   1   | N  |
+=================================================
+Statistics for MUX_OPs
+===========================================================
+| block name/line  | Inputs | Outputs | # sel inputs | MB |
+===========================================================
+| spi_SlaveMode/97 |   8    |    1    |      3       | N  |
+===========================================================
+Presto compilation completed successfully.
+Information: Building the design 'inout_port'. (HDL-193)
+
+Inferred tri-state devices in process
+	in routine inout_port line 18 in file
+		'../../RTL/inout_port.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+| portline_tri  | Tri-State Buffer |   1   | N  |
+=================================================
+
+Inferred tri-state devices in process
+	in routine inout_port line 19 in file
+		'../../RTL/inout_port.v'.
+=================================================
+| Register Name |       Type       | Width | MB |
+=================================================
+|  inline_tri   | Tri-State Buffer |   1   | N  |
+=================================================
+Presto compilation completed successfully.
+Information: Building the design 'spi_fifo' instantiated from design 'spi_MasterMode' with
+	the parameters "8". (HDL-193)
+
+Inferred memory devices in process
+	in routine spi_fifo_DATAWIDTH8 line 33 in file
+		'../../RTL/spi_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     re_ptr_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     wr_ptr_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_fifo_DATAWIDTH8 line 53 in file
+		'../../RTL/spi_fifo.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       mem_reg       | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine spi_fifo_DATAWIDTH8 line 69 in file
+		'../../RTL/spi_fifo.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|      empty_reg      | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|      full_reg       | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Statistics for MUX_OPs
+=================================================================
+|    block name/line     | Inputs | Outputs | # sel inputs | MB |
+=================================================================
+| spi_fifo_DATAWIDTH8/66 |   4    |    8    |      2       | N  |
+=================================================================
+Presto compilation completed successfully.
+Information: Building the design 'BitDistributor8'. (HDL-193)
+Warning:  ../../RTL/bitdistributor8.v:19: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 17 in file
+	'../../RTL/bitdistributor8.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            19            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+1
+current_design $my_toplevel
+Current design is 'spi_combine'.
+{spi_combine}
+link
+
+  Linking design 'spi_combine'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic (library) /home/IC/SPI_CHIP/FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db
+
+1
+uniquify
+Information: Uniquified 3 instances of design 'inout_port'. (OPT-1056)
+Information: Uniquified 2 instances of design 'spi_fifo_DATAWIDTH8'. (OPT-1056)
+1
+set_svf $DATA_OUT/$my_toplevel.svf
+1
+#/**************读取RTL文件**************************/
+#/**************设置综合环境**************************/
+#Compile variable
+set write_name_nets_same_as_ports                            true
+true
+set compile_assume_fully_decoded_three_state_buses           true            
+true
+set compile_no_new_cells_at_top_level                        false
+false
+set compile_preserve_sync_resets                             true
+true
+set compile_enable_constant_propagation_with_no_boundary_opt false
+false
+#Remove assign statements when generating gate level netlist 
+set compile_fix_multiple_port_nets                           true
+true
+# for async reset timing check
+set enable_recovery_removal_arcs                             true
+true
+set_fix_multiple_port_nets -all -buffer_constants
+1
+#set_fix_multiple_port_nets -all
+#HDL RULES
+set hdlin_check_no_latch                        true
+true
+set hdlin_suppress_warnings                     false
+false
+set hdlin_ff_always_sync_set_reset              true
+true
+set hdlin_infer_mux                             default
+default
+set hdlin_keep_signal_name                      all_driving
+all_driving
+set hdlin_on_sequential_mapping                 false
+false
+set compile_delete_unloaded_sequential_cells    true
+true
+set hdlin_preserve_sequential                   none
+none
+#VERILOG RULES: VERILOG OUT
+set verilogout_show_unconnected_pins            true
+true
+set verilogout_no_tri                           false
+false
+set verilogout_single_bit                       false
+false
+set verilogout_equation                         false
+false
+#/**************设置综合环境**************************/
+#/**************设置约束条件**************************/
+#/Create clock
+set sys_clk clk_i
+clk_i
+#/* Target frequency in MHz for optimization       */
+set sys_clk_freq_MHz 80
+80
+#/Create spi sck for slavemode
+set spi_sck spi_SlaveMode_u/sck_i
+spi_SlaveMode_u/sck_i
+#/* Target frequency in MHz for optimization       */
+set spi_sck_freq_MHz 50
+50
+set sys_clk_period [expr 1000 / $sys_clk_freq_MHz]
+12
+set sck_period     [expr 1000 / $spi_sck_freq_MHz]
+20
+set find_clock [ find port [list $sys_clk] ]
+{clk_i}
+if {  $find_clock != [list] } {
+   set clk_name $sys_clk
+   create_clock -period $sys_clk_period $clk_name
+} else {
+   set clk_name vclk
+   create_clock -period $sys_clk_period -name $clk_name
+}
+1
+#/* System clock constrain  begin*/
+set_dont_touch_network [get_clocks $sys_clk]
+1
+set_ideal_network [get_clocks $sys_clk]
+1
+set_clock_latency -max 0.5 [get_clocks $sys_clk]
+1
+set_clock_uncertainty -setup 0.6 [get_clocks $sys_clk]
+1
+set_clock_uncertainty -hold  0.5 [get_clocks $sys_clk]
+1
+set_clock_transition 0.4 [get_clocks $sys_clk]
+1
+#/* System clock constrain  end*/
+set find_clock2 [ find port [list $spi_sck] ]
+{spi_SlaveMode_u/sck_i}
+if {  $find_clock2 != [list] } {
+   set clk_name2 $spi_sck
+   create_clock -period $sck_period $clk_name2
+} else {
+   set clk_name2 vclk
+   create_clock -period $sck_period -name $clk_name2
+}
+1
+#/* SPI spi_sck constrain  begin*/
+set_dont_touch_network [get_clocks $spi_sck]
+1
+set_ideal_network [get_clocks $spi_sck]
+Warning: Object 'link99' is invalid. It must be a pin of a leaf cell or a port. (OPT-812)
+1
+set_clock_uncertainty -setup 0.6 [get_clocks $spi_sck]
+1
+set_clock_uncertainty -hold  0.5 [get_clocks $spi_sck]
+1
+set_clock_transition 0.4 [get_clocks $spi_sck]
+1
+#/* SPI spi_sck constrain  end*/
+#/* SPI asynchronous clks constrain  begin*/
+set_clock_groups -asynchronous -group [get_clocks $clk_name] -group [get_clocks $clk_name2]
+1
+#/* SPI asynchronous clks constrain  end*/
+#/*
+set driving_cell CLKBUFV2_7TV50 
+CLKBUFV2_7TV50
+set loading_cell CLKBUFV8_7TV50 
+CLKBUFV8_7TV50
+set_drive [drive_of scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic/${driving_cell}/Z] [all_inputs]
+1
+set_load [load_of  scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic/${loading_cell}/I] [all_outputs]
+1
+#/*
+#/add constrain
+set input_delay_ns  5
+5
+set output_delay_ns 5
+5
+#/* input/output delay
+set_input_delay $input_delay_ns -clock $clk_name [remove_from_collection [all_inputs] rstn_i]
+1
+set_output_delay $output_delay_ns -clock $clk_name [all_outputs]
+1
+# multicycle_path (not used)
+#set_multicycle_path -setup  2 -from A -to B
+#set_multicycle_path -hold   1 -from A -to B
+# false path
+# set asynchronous reset signal as false path
+set_false_path -from [get_ports rstn_i] -to [all_registers]
+1
+#/**************设置约束条件***************************/
+#/**************映射门级单元和优化**********************/
+compile -map_effort medium > $RPT_OUT/compile.rpt
+#/**************映射门级单元和优化**********************/
+#/**************检查综合结果并输出报告*******************/
+check_design  > $RPT_OUT/check_design.rpt
+check_timing  > $RPT_OUT/check_timing.rpt
+report_design -verbose > $RPT_OUT/design.rpt
+report_qor > $RPT_OUT/qor.rpt
+report_area > $RPT_OUT/area.rpt
+report_area -hierarchy > $RPT_OUT/area_hier.rpt
+report_timing -loops > $RPT_OUT/timing_loop.rpt
+report_timing -path full -net -cap -input -tran -delay min -max_paths 3 -nworst 3 > $RPT_OUT/timing.min.rpt
+report_timing -path full -net -cap -input -tran -delay max -max_paths 3 -nworst 3 > $RPT_OUT/timing.max.rpt
+report_constraints -all_violators -verbose > $RPT_OUT/constraints.rpt
+report_power > $RPT_OUT/power.rpt
+#/**************检查综合结果并输出报告*******************/
+#/**************输出综合结果***************************/
+set bus_naming_style {%s[%d]} 
+%s[%d]
+write_file -f verilog -hierarchy -output $DATA_OUT/$my_toplevel.v
+Writing verilog file '/home/IC/SPI_CHIP/SYN/DC/OUT/dc_v4/spi_combine.v'.
+1
+write_sdf -version 2.1 $DATA_OUT/$my_toplevel.sdf
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/IC/SPI_CHIP/SYN/DC/OUT/dc_v4/spi_combine.sdf'. (WT-3)
+1
+write_file -f ddc -hierarchy -output $DATA_OUT/$my_toplevel.ddc
+Writing ddc file 'OUT/dc_v4/spi_combine.ddc'.
+1
+write_sdc $DATA_OUT/$my_toplevel.sdc
+1
+set_svf -off
+1
+#/**************输出综合结果***************************/
+quit
+
+Memory usage for main task 302 Mbytes.
+Memory usage for this session 302 Mbytes.
+CPU usage for this session 6 seconds ( 0.00 hours ).
+
+Thank you...

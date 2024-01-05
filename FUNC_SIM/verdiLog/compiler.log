@@ -1,0 +1,22 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09-SP1-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    -top
+    tb_spi_master
+    -f ./pre_filelist.f
+        ../RTL/spi_combine.v
+        ../RTL/spi_MasterMode.v
+        ../RTL/spi_SlaveMode.v
+        ../RTL/bitdistributor8.v
+        ../RTL/spi_fifo.v
+        ../RTL/inout_port.v
+        ../testbench/tb_spi_master.v
+        ../testbench/spi_slave.v
+        ../testbench/wb_master_model.v
+
+Highest level modules:
+tb_spi_master
+
+Total	0 error(s),   0 warning(s)

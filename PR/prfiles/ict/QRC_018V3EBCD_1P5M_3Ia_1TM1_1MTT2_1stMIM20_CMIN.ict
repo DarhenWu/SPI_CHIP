@@ -1,0 +1,440 @@
+process QRC_018V3EBCD_1P5M_3Ia_1TM1_1MTT2_1stMIM20_CMIN {
+background_dielectric_constant 1.0
+temp_reference 25.0
+}
+
+conductor active {
+   min_spacing 1.5000E-01
+   min_width   1.80000E-01
+   height      2.1530E-01
+   thickness   1.600E-01
+   resistivity 1.0000E+01
+   temp_tc1    3.0400E-03
+   temp_tc2    2.1050E-06
+   gate_forming_layer    true
+   layer_type diffusion
+sub_conductor nactive {
+   height     2.1530E-01
+   thickness  1.600E-01
+   resistivity 1.0000E+01
+   temp_tc1   3.0140E-03
+   temp_tc2   1.5730E-06
+   wire_edge_enlargement_c {
+     wee_widths 1.80000E-01
+     wee_spacings 1.5000E-01
+     wee_adjustments 0.0000E+00
+   }
+   wire_edge_enlargement_r {
+     wee_widths 1.8000E-01
+     wee_spacings 1.5000E-01
+     wee_adjustments 0.000E+00
+   }
+}
+sub_conductor pactive {
+   height      2.1530E-01
+   thickness   1.600E-01
+   resistivity 1.0000E+01
+   temp_tc1    3.0400E-03
+   temp_tc2    2.1050E-06
+   wire_edge_enlargement_c {
+     wee_widths  1.8000E-01
+     wee_spacings 1.5000E-01
+     wee_adjustments 0.0000E+00
+   }
+   wire_edge_enlargement_r {
+     wee_widths 1.8000E-01
+     wee_spacings 1.5000E-01
+     wee_adjustments 0.0000E+00
+   }
+ }
+}
+conductor poly {
+   min_spacing           1.8000E-01 
+   min_width             1.5000E-01
+   height                3.7950E-01
+   thickness             1.8000E-01
+   resistivity           1.300E+01
+   temp_tc1              2.9290E-03
+   temp_tc2              1.1690E-06
+   gate_forming_layer    true
+   layer_type gate
+sub_conductor npoly {
+   height                3.7950E-01
+   thickness             1.8000E-01
+   resistivity           1.300E+01
+   temp_tc1              2.9290E-03  
+   temp_tc2              1.1690E-06
+   wire_edge_enlargement_c {
+     wee_widths  1.5000E-01
+     wee_spacings 2.2000E-01
+     wee_adjustments    -9.0000E-03
+   }
+   wire_edge_enlargement_r {
+     wee_widths  1.5000E-01
+     wee_spacings 2.2000E-01
+     wee_adjustments    0.0
+   }
+}
+sub_conductor ppoly {
+   height                3.7950E-01
+   thickness             1.8000E-01
+   resistivity           1.300E+01
+   temp_tc1              2.8910E-03
+   temp_tc2              7.2090E-07
+   wire_edge_enlargement_c {
+     wee_widths  1.5000E-01
+     wee_spacings 2.2000E-01
+     wee_adjustments    -9.0000E-03
+   }
+   wire_edge_enlargement_r {
+     wee_widths  1.5000E-01
+     wee_spacings 2.2000E-01
+     wee_adjustments    0.0
+  }
+ }
+}
+
+conductor M1 {
+   min_spacing           1.9000E-01
+   min_width             1.9000E-01
+   height                1.1385
+   thickness             3.8700E-01
+   resistivity           2.2000E-01
+   temp_tc1              3.3730E-03 
+   temp_tc2              -3.4230E-06
+   gate_forming_layer    false
+   wire_edge_enlargement_r {
+     wee_widths   1.9000E-01
+     wee_spacings 1.9000E-01
+     wee_adjustments     -0.0
+  }
+   wire_edge_enlargement_c {
+     wee_widths  1.9000E-01
+     wee_spacings 1.9000E-01
+     wee_adjustments    -9.5000E-03
+  }
+}
+
+conductor M2 {
+   min_spacing           2.4000E-01
+   min_width             2.4000E-01
+   height                2.4365
+   thickness             4.9500E-01
+   resistivity           1.5500E-01
+   temp_tc1              3.3860E-03
+   temp_tc2              -1.0460E-06
+   gate_forming_layer    false
+   wire_edge_enlargement_r {
+     wee_widths  2.4000E-01 
+     wee_spacings 2.4000E-01
+     wee_adjustments     0.00       
+  }
+   wire_edge_enlargement_c {
+     wee_widths  2.4000E-01
+     wee_spacings 2.4000E-01
+     wee_adjustments     -1.2000E-02
+  }
+}
+
+conductor M3 {
+   min_spacing           2.4000E-01
+   min_width             2.4000E-01
+   height                3.8665
+   thickness             4.9500E-01
+   resistivity           1.5500E-01
+   temp_tc1              3.3860E-03
+   temp_tc2              -1.0460E-06
+   gate_forming_layer    false
+   wire_edge_enlargement_r {
+     wee_widths  2.4000E-01
+     wee_spacings 2.4000E-01
+     wee_adjustments     0.00       
+  }
+   wire_edge_enlargement_c {
+     wee_widths  2.4000E-01
+     wee_spacings 2.4000E-01
+     wee_adjustments     -1.2000E-02
+  }
+}
+
+conductor MIM {
+   min_spacing           1.2000E+00
+   min_width             4.0000E+00
+   height                4.3978
+   thickness             1.8000E-01
+   resistivity           2.5000E-01
+   gate_forming_layer    false
+   capacitor_only_layer_to  M3
+}
+
+conductor TM1 {
+   min_spacing           4.6000E-01
+   min_width             4.4000E-01
+   height                5.5715
+   thickness             7.9425E-01
+   resistivity           5.2000E-02
+   temp_tc1              3.6000E-03
+   temp_tc2              -5.1500E-07
+   gate_forming_layer    false
+   wire_edge_enlargement_r {
+     wee_widths   4.4000E-01
+     wee_spacings 4.6000E-01
+     wee_adjustments -0.00
+  }
+   wire_edge_enlargement_c {
+     wee_widths 4.4000E-01
+     wee_spacings 4.6000E-01
+     wee_adjustments    -2.2000E-02
+  }
+}
+
+conductor MTT2 {
+   min_spacing           2.5000E+00
+   min_width             2.6000E+00
+   height                7.6423
+   thickness             3.6990E+00
+   resistivity           1.3300E-02
+   temp_tc1              3.6000E-03
+   temp_tc2              -5.1500E-07 
+   gate_forming_layer    false
+   wire_edge_enlargement_r {
+     wee_widths   2.6000E+00
+     wee_spacings 2.5000E+00
+     wee_adjustments     -0.00      
+  }
+   wire_edge_enlargement_c {
+     wee_widths  2.6000E+00
+     wee_spacings 2.5000E+00
+     wee_adjustments    -1.3000E-01       
+  }
+}
+
+dielectric FOXA {
+   conformal                FALSE
+   height                   0
+   thickness                2.1530E-01
+   dielectric_constant      4.000 
+}
+
+dielectric FOXB {
+   conformal                FALSE
+   height                   2.1530E-01
+   thickness                0.1600
+   dielectric_constant      4.000
+}
+
+dielectric tox {
+   conformal                FALSE
+   height                   3.7530E-01
+   thickness                4.200E-03
+   dielectric_constant      4.000 
+}
+
+dielectric ILD1a {
+   conformal                TRUE
+   expandedFrom             poly
+   height                   3.7950E-01
+   thickness                4.4000E-02
+   topThickness             4.4000E-02
+   sideExpand               4.4000E-02
+   dielectric_constant      7.00 
+}
+
+dielectric ILD1b {
+   conformal                FALSE
+   height                   4.2350E-01   
+   thickness                7.1500E-01
+   dielectric_constant      4.00 
+}
+
+dielectric IMD1a {
+   conformal                FALSE
+   height                   1.1385E+00
+   thickness                1.0780E+00
+   dielectric_constant      3.600 
+}
+
+dielectric IMD1b {
+   conformal                FALSE
+   height                   2.2165E+00
+   thickness                2.2000E-01
+   dielectric_constant      4.00 
+}
+
+dielectric IMD2a {
+   conformal                FALSE
+   height                   2.4365E+00
+   thickness                1.2100E+00
+   dielectric_constant      3.600 
+}
+
+dielectric IMD2b {
+   conformal                FALSE
+   height                   3.6465E+00
+   thickness                2.2000E-01
+   dielectric_constant      4.000 
+}
+
+dielectric IMD3a1 {
+   conformal                FALSE
+   height                   3.8665E+00
+   thickness                4.9500E-01
+   dielectric_constant      3.600 
+}
+
+dielectric MIMD {
+   conformal                FALSE
+   height                   4.3615E+00
+   thickness                3.6300E-02
+   dielectric_constant      7.000
+}
+
+dielectric IMD3a3 {
+   conformal                FALSE
+   height                   4.3978E+00
+   thickness                0.18
+   dielectric_constant      3.600
+}
+
+dielectric IMD3a4 {
+   conformal                FALSE
+   height                   4.5778E+00
+   thickness                6.0870E-01
+   dielectric_constant      3.600
+}
+
+
+dielectric IMD3b {
+   conformal                FALSE
+   height                   5.1865E+00
+   thickness                3.8500E-01
+   dielectric_constant      4.000 
+}
+
+dielectric IMD4a {
+   conformal                FALSE
+   height                   5.5715E+00
+   thickness                1.6858E+00
+   dielectric_constant      4.000 
+}
+
+dielectric IMD4b {
+   conformal                FALSE
+   height                   7.2573E+00
+   thickness                3.8500E-01
+   dielectric_constant      4.00 
+}
+
+dielectric PASS1 {
+   conformal                TRUE
+   expandedFrom             MTT2
+   height                   7.6423E+00
+   thickness                4.9500E-01
+   topThickness             4.9500E-01
+   sideExpand               4.9500E-01
+   dielectric_constant      4.00
+}
+
+dielectric PASS2 {
+   conformal                TRUE
+   expandedFrom             PASS1
+   height                   8.1373
+   thickness                6.6000E-01
+   topThickness             6.6000E-01
+   sideExpand               6.6000E-01
+   dielectric_constant      7.00 
+}
+
+via dfcont {
+   bottom_layer        active
+   top_layer           M1
+   contact_resistance  1.0000E+00
+   min_width           1.8000E-01
+   min_spacing         2.1000E-01
+  sub_via ndfcont  {
+     contact_resistance      1.0000E+00
+  }
+  sub_via pdfcont  {
+     contact_resistance      1.0000E+00
+ }
+}
+
+via polyCont {
+   bottom_layer        poly
+   top_layer           M1
+   contact_resistance  1.0000E+00
+   min_width           1.8000E-01
+   min_spacing         2.1000E-01
+   min_top_encl        5.0000E-03
+   min_bot_encl        8.5000E-02
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+   sub_via ppolyCont {
+   contact_resistance  1.0000E+00
+}
+   sub_via npolyCont {
+   contact_resistance  1.0000E+00
+ }
+}
+
+via V1 {
+   bottom_layer        M1
+   top_layer           M2
+   contact_resistance  1.0000E+00
+   min_width           2.2000E-01
+   min_spacing         2.2000E-01
+   min_top_encl        1.0000E-02
+   min_bot_encl        1.0000E-02
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+}
+
+via V2 {
+   bottom_layer        M2
+   top_layer           M3
+   contact_resistance  1.0000E+00
+   min_width           2.2000E-01
+   min_spacing         2.2000E-01
+   min_top_encl        1.0000E-02
+   min_bot_encl        1.0000E-02
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+}
+
+via TV1 {
+   bottom_layer        M3
+   top_layer           TM1
+   contact_resistance  1.0000E+00
+   min_width           2.2000E-01
+   min_spacing         2.2000E-01
+   min_top_encl        9.0000E-02
+   min_bot_encl        1.0000E-02
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+}
+
+via via3c {
+   bottom_layer        MIM
+   top_layer           TM1
+   contact_resistance  1.0000E+00
+   min_width           2.2000E-01
+   min_spacing         2.0000E+00
+   min_top_encl        9.0000E-02
+   min_bot_encl        2.4000E-01
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+}
+
+
+via TV2 {
+   bottom_layer        TM1
+   top_layer           MTT2
+   contact_resistance  1.0000E+00
+   min_width           3.6000E-01
+   min_spacing         3.5000E-01
+   min_top_encl        4.0000E-01
+   min_bot_encl        9.0000E-02
+   via_top_enlargement 0
+   via_bottom_enlargement 0
+}
+

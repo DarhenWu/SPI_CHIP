@@ -1,0 +1,2178 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09-SP1-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    -top
+    tb_spi_slave
+    -f ./netlist_filelist.f
+        ../OUT/dc_v1/spi_combine.v
+        ../testbench/spi_slave.v
+        ../testbench/wb_master_model.v
+        ../testbench/tb_spi_slave.v
+
+Highest level modules:
+spi_slave
+tb_spi_slave
+
+
+*Error* view OAI31V1_7TV50 is not defined for instance U46
+"../OUT/dc_v1/spi_combine.v", 29: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U50
+"../OUT/dc_v1/spi_combine.v", 30: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U53
+"../OUT/dc_v1/spi_combine.v", 32: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U55
+"../OUT/dc_v1/spi_combine.v", 34: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U58
+"../OUT/dc_v1/spi_combine.v", 36: 
+
+*Error* view NAND4BV1_7TV50 is not defined for instance U67
+"../OUT/dc_v1/spi_combine.v", 37: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance empty_reg
+"../OUT/dc_v1/spi_combine.v", 38: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance full_reg
+"../OUT/dc_v1/spi_combine.v", 39: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[2]
+"../OUT/dc_v1/spi_combine.v", 40: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[2]
+"../OUT/dc_v1/spi_combine.v", 41: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][7]
+"../OUT/dc_v1/spi_combine.v", 42: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][6]
+"../OUT/dc_v1/spi_combine.v", 43: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][5]
+"../OUT/dc_v1/spi_combine.v", 44: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][4]
+"../OUT/dc_v1/spi_combine.v", 45: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][3]
+"../OUT/dc_v1/spi_combine.v", 46: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][2]
+"../OUT/dc_v1/spi_combine.v", 47: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][1]
+"../OUT/dc_v1/spi_combine.v", 48: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][0]
+"../OUT/dc_v1/spi_combine.v", 49: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][7]
+"../OUT/dc_v1/spi_combine.v", 50: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][6]
+"../OUT/dc_v1/spi_combine.v", 51: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][5]
+"../OUT/dc_v1/spi_combine.v", 52: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][4]
+"../OUT/dc_v1/spi_combine.v", 53: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][3]
+"../OUT/dc_v1/spi_combine.v", 54: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][2]
+"../OUT/dc_v1/spi_combine.v", 55: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][1]
+"../OUT/dc_v1/spi_combine.v", 56: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][0]
+"../OUT/dc_v1/spi_combine.v", 57: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][7]
+"../OUT/dc_v1/spi_combine.v", 58: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][6]
+"../OUT/dc_v1/spi_combine.v", 59: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][5]
+"../OUT/dc_v1/spi_combine.v", 60: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][4]
+"../OUT/dc_v1/spi_combine.v", 61: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][3]
+"../OUT/dc_v1/spi_combine.v", 62: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][2]
+"../OUT/dc_v1/spi_combine.v", 63: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][1]
+"../OUT/dc_v1/spi_combine.v", 64: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][0]
+"../OUT/dc_v1/spi_combine.v", 65: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][7]
+"../OUT/dc_v1/spi_combine.v", 66: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][6]
+"../OUT/dc_v1/spi_combine.v", 67: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][5]
+"../OUT/dc_v1/spi_combine.v", 68: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][4]
+"../OUT/dc_v1/spi_combine.v", 69: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][3]
+"../OUT/dc_v1/spi_combine.v", 70: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][2]
+"../OUT/dc_v1/spi_combine.v", 71: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][1]
+"../OUT/dc_v1/spi_combine.v", 72: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][0]
+"../OUT/dc_v1/spi_combine.v", 73: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[0]
+"../OUT/dc_v1/spi_combine.v", 74: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[1]
+"../OUT/dc_v1/spi_combine.v", 75: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[1]
+"../OUT/dc_v1/spi_combine.v", 76: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[0]
+"../OUT/dc_v1/spi_combine.v", 77: 
+
+*Error* view INV1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 78: 
+
+*Error* view INV1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 80: 
+
+*Error* view INV1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 90: 
+
+*Error* view INV1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 91: 
+
+*Error* view INV1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 92: 
+
+*Error* view INV1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 93: 
+
+*Error* view INV1_7TV50 is not defined for instance U34
+"../OUT/dc_v1/spi_combine.v", 109: 
+
+*Error* view INV1_7TV50 is not defined for instance U68
+"../OUT/dc_v1/spi_combine.v", 161: 
+
+*Error* view INV1_7TV50 is not defined for instance U69
+"../OUT/dc_v1/spi_combine.v", 162: 
+
+*Error* view INV1_7TV50 is not defined for instance U70
+"../OUT/dc_v1/spi_combine.v", 163: 
+
+*Error* view INV1_7TV50 is not defined for instance U71
+"../OUT/dc_v1/spi_combine.v", 164: 
+
+*Error* view INV1_7TV50 is not defined for instance U72
+"../OUT/dc_v1/spi_combine.v", 165: 
+
+*Error* view INV1_7TV50 is not defined for instance U73
+"../OUT/dc_v1/spi_combine.v", 166: 
+
+*Error* view INV1_7TV50 is not defined for instance U74
+"../OUT/dc_v1/spi_combine.v", 167: 
+
+*Error* view INV1_7TV50 is not defined for instance U75
+"../OUT/dc_v1/spi_combine.v", 168: 
+
+*Error* view INV1_7TV50 is not defined for instance U76
+"../OUT/dc_v1/spi_combine.v", 169: 
+
+*Error* view INV1_7TV50 is not defined for instance U77
+"../OUT/dc_v1/spi_combine.v", 170: 
+
+*Error* view INV1_7TV50 is not defined for instance U78
+"../OUT/dc_v1/spi_combine.v", 171: 
+
+*Error* view INV1_7TV50 is not defined for instance U89
+"../OUT/dc_v1/spi_combine.v", 182: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 79: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U32
+"../OUT/dc_v1/spi_combine.v", 107: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 81: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 82: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 83: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 89: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 84: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 97: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 85: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 87: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 88: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 99: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U33
+"../OUT/dc_v1/spi_combine.v", 108: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U36
+"../OUT/dc_v1/spi_combine.v", 111: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U66
+"../OUT/dc_v1/spi_combine.v", 160: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 86: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U37
+"../OUT/dc_v1/spi_combine.v", 112: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U38
+"../OUT/dc_v1/spi_combine.v", 114: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U39
+"../OUT/dc_v1/spi_combine.v", 116: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U40
+"../OUT/dc_v1/spi_combine.v", 118: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U41
+"../OUT/dc_v1/spi_combine.v", 120: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U42
+"../OUT/dc_v1/spi_combine.v", 122: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U43
+"../OUT/dc_v1/spi_combine.v", 124: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U44
+"../OUT/dc_v1/spi_combine.v", 126: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U45
+"../OUT/dc_v1/spi_combine.v", 128: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U47
+"../OUT/dc_v1/spi_combine.v", 130: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U48
+"../OUT/dc_v1/spi_combine.v", 132: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U49
+"../OUT/dc_v1/spi_combine.v", 134: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U51
+"../OUT/dc_v1/spi_combine.v", 136: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U52
+"../OUT/dc_v1/spi_combine.v", 138: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U54
+"../OUT/dc_v1/spi_combine.v", 140: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U56
+"../OUT/dc_v1/spi_combine.v", 142: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U57
+"../OUT/dc_v1/spi_combine.v", 144: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U59
+"../OUT/dc_v1/spi_combine.v", 146: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U60
+"../OUT/dc_v1/spi_combine.v", 148: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U61
+"../OUT/dc_v1/spi_combine.v", 150: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U62
+"../OUT/dc_v1/spi_combine.v", 152: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U63
+"../OUT/dc_v1/spi_combine.v", 154: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U64
+"../OUT/dc_v1/spi_combine.v", 156: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U65
+"../OUT/dc_v1/spi_combine.v", 158: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U19
+"../OUT/dc_v1/spi_combine.v", 94: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 95: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 96: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 98: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 100: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U26
+"../OUT/dc_v1/spi_combine.v", 101: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U27
+"../OUT/dc_v1/spi_combine.v", 102: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U28
+"../OUT/dc_v1/spi_combine.v", 103: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U29
+"../OUT/dc_v1/spi_combine.v", 104: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U30
+"../OUT/dc_v1/spi_combine.v", 105: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U31
+"../OUT/dc_v1/spi_combine.v", 106: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U79
+"../OUT/dc_v1/spi_combine.v", 172: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U80
+"../OUT/dc_v1/spi_combine.v", 173: 
+
+*Error* view AND2V1_7TV50 is not defined for instance U35
+"../OUT/dc_v1/spi_combine.v", 110: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U81
+"../OUT/dc_v1/spi_combine.v", 174: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U82
+"../OUT/dc_v1/spi_combine.v", 175: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U83
+"../OUT/dc_v1/spi_combine.v", 176: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U84
+"../OUT/dc_v1/spi_combine.v", 177: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U85
+"../OUT/dc_v1/spi_combine.v", 178: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U86
+"../OUT/dc_v1/spi_combine.v", 179: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U87
+"../OUT/dc_v1/spi_combine.v", 180: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U88
+"../OUT/dc_v1/spi_combine.v", 181: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U90
+"../OUT/dc_v1/spi_combine.v", 183: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U91
+"../OUT/dc_v1/spi_combine.v", 185: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U92
+"../OUT/dc_v1/spi_combine.v", 187: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U93
+"../OUT/dc_v1/spi_combine.v", 189: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U94
+"../OUT/dc_v1/spi_combine.v", 191: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U95
+"../OUT/dc_v1/spi_combine.v", 193: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U96
+"../OUT/dc_v1/spi_combine.v", 195: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U97
+"../OUT/dc_v1/spi_combine.v", 197: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U46
+"../OUT/dc_v1/spi_combine.v", 224: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U50
+"../OUT/dc_v1/spi_combine.v", 225: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U53
+"../OUT/dc_v1/spi_combine.v", 227: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U55
+"../OUT/dc_v1/spi_combine.v", 229: 
+
+*Error* view OAI32V1_7TV50 is not defined for instance U58
+"../OUT/dc_v1/spi_combine.v", 231: 
+
+*Error* view NAND4BV1_7TV50 is not defined for instance U67
+"../OUT/dc_v1/spi_combine.v", 233: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance full_reg
+"../OUT/dc_v1/spi_combine.v", 234: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance empty_reg
+"../OUT/dc_v1/spi_combine.v", 235: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[2]
+"../OUT/dc_v1/spi_combine.v", 236: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[2]
+"../OUT/dc_v1/spi_combine.v", 237: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][7]
+"../OUT/dc_v1/spi_combine.v", 238: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][6]
+"../OUT/dc_v1/spi_combine.v", 239: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][5]
+"../OUT/dc_v1/spi_combine.v", 241: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][4]
+"../OUT/dc_v1/spi_combine.v", 243: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][3]
+"../OUT/dc_v1/spi_combine.v", 245: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][2]
+"../OUT/dc_v1/spi_combine.v", 247: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][1]
+"../OUT/dc_v1/spi_combine.v", 249: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[1][0]
+"../OUT/dc_v1/spi_combine.v", 251: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][7]
+"../OUT/dc_v1/spi_combine.v", 253: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][6]
+"../OUT/dc_v1/spi_combine.v", 254: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][5]
+"../OUT/dc_v1/spi_combine.v", 255: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][4]
+"../OUT/dc_v1/spi_combine.v", 256: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][3]
+"../OUT/dc_v1/spi_combine.v", 257: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][2]
+"../OUT/dc_v1/spi_combine.v", 258: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][1]
+"../OUT/dc_v1/spi_combine.v", 259: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[0][0]
+"../OUT/dc_v1/spi_combine.v", 260: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][7]
+"../OUT/dc_v1/spi_combine.v", 261: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][6]
+"../OUT/dc_v1/spi_combine.v", 263: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][5]
+"../OUT/dc_v1/spi_combine.v", 265: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][4]
+"../OUT/dc_v1/spi_combine.v", 267: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][3]
+"../OUT/dc_v1/spi_combine.v", 269: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][2]
+"../OUT/dc_v1/spi_combine.v", 271: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][1]
+"../OUT/dc_v1/spi_combine.v", 273: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[2][0]
+"../OUT/dc_v1/spi_combine.v", 275: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][7]
+"../OUT/dc_v1/spi_combine.v", 277: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][6]
+"../OUT/dc_v1/spi_combine.v", 279: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][5]
+"../OUT/dc_v1/spi_combine.v", 281: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][4]
+"../OUT/dc_v1/spi_combine.v", 283: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][3]
+"../OUT/dc_v1/spi_combine.v", 285: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][2]
+"../OUT/dc_v1/spi_combine.v", 287: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][1]
+"../OUT/dc_v1/spi_combine.v", 289: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \mem_reg[3][0]
+"../OUT/dc_v1/spi_combine.v", 291: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[0]
+"../OUT/dc_v1/spi_combine.v", 293: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[0]
+"../OUT/dc_v1/spi_combine.v", 294: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \wr_ptr_reg[1]
+"../OUT/dc_v1/spi_combine.v", 295: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[1]
+"../OUT/dc_v1/spi_combine.v", 296: 
+
+*Error* view INV1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 297: 
+
+*Error* view INV1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 299: 
+
+*Error* view INV1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 300: 
+
+*Error* view INV1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 307: 
+
+*Error* view INV1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 309: 
+
+*Error* view INV1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 311: 
+
+*Error* view INV1_7TV50 is not defined for instance U62
+"../OUT/dc_v1/spi_combine.v", 383: 
+
+*Error* view INV1_7TV50 is not defined for instance U63
+"../OUT/dc_v1/spi_combine.v", 384: 
+
+*Error* view INV1_7TV50 is not defined for instance U64
+"../OUT/dc_v1/spi_combine.v", 385: 
+
+*Error* view INV1_7TV50 is not defined for instance U65
+"../OUT/dc_v1/spi_combine.v", 386: 
+
+*Error* view INV1_7TV50 is not defined for instance U66
+"../OUT/dc_v1/spi_combine.v", 387: 
+
+*Error* view INV1_7TV50 is not defined for instance U68
+"../OUT/dc_v1/spi_combine.v", 388: 
+
+*Error* view INV1_7TV50 is not defined for instance U69
+"../OUT/dc_v1/spi_combine.v", 389: 
+
+*Error* view INV1_7TV50 is not defined for instance U70
+"../OUT/dc_v1/spi_combine.v", 390: 
+
+*Error* view INV1_7TV50 is not defined for instance U82
+"../OUT/dc_v1/spi_combine.v", 402: 
+
+*Error* view INV1_7TV50 is not defined for instance U85
+"../OUT/dc_v1/spi_combine.v", 405: 
+
+*Error* view INV1_7TV50 is not defined for instance U86
+"../OUT/dc_v1/spi_combine.v", 406: 
+
+*Error* view INV1_7TV50 is not defined for instance U87
+"../OUT/dc_v1/spi_combine.v", 407: 
+
+*Error* view INV1_7TV50 is not defined for instance U89
+"../OUT/dc_v1/spi_combine.v", 409: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 298: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U88
+"../OUT/dc_v1/spi_combine.v", 408: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 301: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 302: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 303: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 306: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 304: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 305: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 308: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 316: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 318: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U81
+"../OUT/dc_v1/spi_combine.v", 401: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U84
+"../OUT/dc_v1/spi_combine.v", 404: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 310: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 319: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U26
+"../OUT/dc_v1/spi_combine.v", 321: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U27
+"../OUT/dc_v1/spi_combine.v", 323: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U28
+"../OUT/dc_v1/spi_combine.v", 325: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U29
+"../OUT/dc_v1/spi_combine.v", 327: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U30
+"../OUT/dc_v1/spi_combine.v", 329: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U31
+"../OUT/dc_v1/spi_combine.v", 331: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U32
+"../OUT/dc_v1/spi_combine.v", 333: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U33
+"../OUT/dc_v1/spi_combine.v", 335: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U34
+"../OUT/dc_v1/spi_combine.v", 337: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U35
+"../OUT/dc_v1/spi_combine.v", 339: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U36
+"../OUT/dc_v1/spi_combine.v", 341: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U37
+"../OUT/dc_v1/spi_combine.v", 343: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U38
+"../OUT/dc_v1/spi_combine.v", 345: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U39
+"../OUT/dc_v1/spi_combine.v", 347: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U40
+"../OUT/dc_v1/spi_combine.v", 349: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U41
+"../OUT/dc_v1/spi_combine.v", 351: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U42
+"../OUT/dc_v1/spi_combine.v", 353: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U43
+"../OUT/dc_v1/spi_combine.v", 355: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U44
+"../OUT/dc_v1/spi_combine.v", 357: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U45
+"../OUT/dc_v1/spi_combine.v", 359: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U47
+"../OUT/dc_v1/spi_combine.v", 361: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U48
+"../OUT/dc_v1/spi_combine.v", 363: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U49
+"../OUT/dc_v1/spi_combine.v", 365: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 312: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U19
+"../OUT/dc_v1/spi_combine.v", 313: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 314: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 315: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U83
+"../OUT/dc_v1/spi_combine.v", 403: 
+
+*Error* view AND2V1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 317: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U51
+"../OUT/dc_v1/spi_combine.v", 367: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U52
+"../OUT/dc_v1/spi_combine.v", 369: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U54
+"../OUT/dc_v1/spi_combine.v", 371: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U56
+"../OUT/dc_v1/spi_combine.v", 373: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U57
+"../OUT/dc_v1/spi_combine.v", 375: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U59
+"../OUT/dc_v1/spi_combine.v", 377: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U60
+"../OUT/dc_v1/spi_combine.v", 379: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U61
+"../OUT/dc_v1/spi_combine.v", 381: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U71
+"../OUT/dc_v1/spi_combine.v", 391: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U72
+"../OUT/dc_v1/spi_combine.v", 392: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U73
+"../OUT/dc_v1/spi_combine.v", 393: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U74
+"../OUT/dc_v1/spi_combine.v", 394: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U75
+"../OUT/dc_v1/spi_combine.v", 395: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U76
+"../OUT/dc_v1/spi_combine.v", 396: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U77
+"../OUT/dc_v1/spi_combine.v", 397: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U78
+"../OUT/dc_v1/spi_combine.v", 398: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U79
+"../OUT/dc_v1/spi_combine.v", 399: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U80
+"../OUT/dc_v1/spi_combine.v", 400: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U90
+"../OUT/dc_v1/spi_combine.v", 410: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U91
+"../OUT/dc_v1/spi_combine.v", 412: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U92
+"../OUT/dc_v1/spi_combine.v", 414: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U93
+"../OUT/dc_v1/spi_combine.v", 416: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U94
+"../OUT/dc_v1/spi_combine.v", 418: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U95
+"../OUT/dc_v1/spi_combine.v", 420: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U96
+"../OUT/dc_v1/spi_combine.v", 422: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U97
+"../OUT/dc_v1/spi_combine.v", 424: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U2
+"../OUT/dc_v1/spi_combine.v", 435: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 440: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 436: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 437: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 438: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 448: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 449: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 439: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 450: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 441: 
+
+*Error* view INV1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 442: 
+
+*Error* view INV1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 444: 
+
+*Error* view INV1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 447: 
+
+*Error* view INV1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 452: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 443: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 445: 
+
+*Error* view OR3V1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 451: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U1
+"../OUT/dc_v1/spi_combine.v", 461: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 473: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 478: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U19
+"../OUT/dc_v1/spi_combine.v", 479: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 480: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 481: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 482: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 483: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 484: 
+
+*Error* view INV1_7TV50 is not defined for instance U2
+"../OUT/dc_v1/spi_combine.v", 462: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 463: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 464: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 465: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 466: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 467: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 468: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 469: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 470: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 471: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 472: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 474: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 475: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 476: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 477: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 485: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[2]
+"../OUT/dc_v1/spi_combine.v", 530: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[1]
+"../OUT/dc_v1/spi_combine.v", 532: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[0]
+"../OUT/dc_v1/spi_combine.v", 534: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance ack_o_reg
+"../OUT/dc_v1/spi_combine.v", 536: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance wfifo_ren_reg
+"../OUT/dc_v1/spi_combine.v", 537: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance wr_col_f_reg
+"../OUT/dc_v1/spi_combine.v", 539: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[0]
+"../OUT/dc_v1/spi_combine.v", 541: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[0]
+"../OUT/dc_v1/spi_combine.v", 543: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[1]
+"../OUT/dc_v1/spi_combine.v", 545: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[2]
+"../OUT/dc_v1/spi_combine.v", 547: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[3]
+"../OUT/dc_v1/spi_combine.v", 549: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[4]
+"../OUT/dc_v1/spi_combine.v", 551: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[5]
+"../OUT/dc_v1/spi_combine.v", 553: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[6]
+"../OUT/dc_v1/spi_combine.v", 555: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[7]
+"../OUT/dc_v1/spi_combine.v", 557: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[8]
+"../OUT/dc_v1/spi_combine.v", 559: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[9]
+"../OUT/dc_v1/spi_combine.v", 561: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[10]
+"../OUT/dc_v1/spi_combine.v", 563: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[11]
+"../OUT/dc_v1/spi_combine.v", 565: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[12]
+"../OUT/dc_v1/spi_combine.v", 567: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[1]
+"../OUT/dc_v1/spi_combine.v", 569: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[0]
+"../OUT/dc_v1/spi_combine.v", 571: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[0]
+"../OUT/dc_v1/spi_combine.v", 573: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[1]
+"../OUT/dc_v1/spi_combine.v", 575: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[2]
+"../OUT/dc_v1/spi_combine.v", 577: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[3]
+"../OUT/dc_v1/spi_combine.v", 579: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[4]
+"../OUT/dc_v1/spi_combine.v", 581: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[5]
+"../OUT/dc_v1/spi_combine.v", 583: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[6]
+"../OUT/dc_v1/spi_combine.v", 585: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[7]
+"../OUT/dc_v1/spi_combine.v", 587: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[2]
+"../OUT/dc_v1/spi_combine.v", 589: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[1]
+"../OUT/dc_v1/spi_combine.v", 591: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance sck_o_reg
+"../OUT/dc_v1/spi_combine.v", 593: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rfifo_wen_reg
+"../OUT/dc_v1/spi_combine.v", 594: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[0]
+"../OUT/dc_v1/spi_combine.v", 596: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[1]
+"../OUT/dc_v1/spi_combine.v", 597: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[2]
+"../OUT/dc_v1/spi_combine.v", 598: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[3]
+"../OUT/dc_v1/spi_combine.v", 599: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[4]
+"../OUT/dc_v1/spi_combine.v", 600: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[5]
+"../OUT/dc_v1/spi_combine.v", 601: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[6]
+"../OUT/dc_v1/spi_combine.v", 602: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \trans_cnt_reg[0]
+"../OUT/dc_v1/spi_combine.v", 603: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \trans_cnt_reg[1]
+"../OUT/dc_v1/spi_combine.v", 605: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance spi_int_f_reg
+"../OUT/dc_v1/spi_combine.v", 607: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance int_o_reg
+"../OUT/dc_v1/spi_combine.v", 609: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[7]
+"../OUT/dc_v1/spi_combine.v", 610: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[2]
+"../OUT/dc_v1/spi_combine.v", 643: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 611: 
+
+*Error* view OAI221V1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 612: 
+
+*Error* view OAI221V1_7TV50 is not defined for instance U152
+"../OUT/dc_v1/spi_combine.v", 627: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U51
+"../OUT/dc_v1/spi_combine.v", 614: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U124
+"../OUT/dc_v1/spi_combine.v", 625: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U82
+"../OUT/dc_v1/spi_combine.v", 615: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U83
+"../OUT/dc_v1/spi_combine.v", 616: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U95
+"../OUT/dc_v1/spi_combine.v", 617: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U100
+"../OUT/dc_v1/spi_combine.v", 618: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U107
+"../OUT/dc_v1/spi_combine.v", 621: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U121
+"../OUT/dc_v1/spi_combine.v", 623: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U106
+"../OUT/dc_v1/spi_combine.v", 620: 
+
+*Error* view CLKOR2V1_7TV50 is not defined for instance U214
+"../OUT/dc_v1/spi_combine.v", 906: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_ext_reg[7]
+"../OUT/dc_v1/spi_combine.v", 639: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_ext_reg[6]
+"../OUT/dc_v1/spi_combine.v", 640: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_ext_reg[4]
+"../OUT/dc_v1/spi_combine.v", 641: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_ext_reg[5]
+"../OUT/dc_v1/spi_combine.v", 642: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance ssn_reg
+"../OUT/dc_v1/spi_combine.v", 645: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \spi_ext_reg[3]
+"../OUT/dc_v1/spi_combine.v", 646: 
+
+*Error* view PULL1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 648: 
+
+*Error* view INV1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 649: 
+
+*Error* view INV1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 650: 
+
+*Error* view INV1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 655: 
+
+*Error* view INV1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 657: 
+
+*Error* view INV1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 659: 
+
+*Error* view INV1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 661: 
+
+*Error* view INV1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 663: 
+
+*Error* view INV1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 665: 
+
+*Error* view INV1_7TV50 is not defined for instance U31
+"../OUT/dc_v1/spi_combine.v", 674: 
+
+*Error* view INV1_7TV50 is not defined for instance U41
+"../OUT/dc_v1/spi_combine.v", 684: 
+
+*Error* view INV1_7TV50 is not defined for instance U42
+"../OUT/dc_v1/spi_combine.v", 685: 
+
+*Error* view INV1_7TV50 is not defined for instance U43
+"../OUT/dc_v1/spi_combine.v", 686: 
+
+*Error* view INV1_7TV50 is not defined for instance U44
+"../OUT/dc_v1/spi_combine.v", 687: 
+
+*Error* view INV1_7TV50 is not defined for instance U47
+"../OUT/dc_v1/spi_combine.v", 690: 
+
+*Error* view INV1_7TV50 is not defined for instance U55
+"../OUT/dc_v1/spi_combine.v", 697: 
+
+*Error* view INV1_7TV50 is not defined for instance U56
+"../OUT/dc_v1/spi_combine.v", 698: 
+
+*Error* view INV1_7TV50 is not defined for instance U59
+"../OUT/dc_v1/spi_combine.v", 701: 
+
+*Error* view INV1_7TV50 is not defined for instance U60
+"../OUT/dc_v1/spi_combine.v", 702: 
+
+*Error* view INV1_7TV50 is not defined for instance U70
+"../OUT/dc_v1/spi_combine.v", 715: 
+
+*Error* view INV1_7TV50 is not defined for instance U89
+"../OUT/dc_v1/spi_combine.v", 745: 
+
+*Error* view INV1_7TV50 is not defined for instance U91
+"../OUT/dc_v1/spi_combine.v", 748: 
+
+*Error* view INV1_7TV50 is not defined for instance U110
+"../OUT/dc_v1/spi_combine.v", 771: 
+
+*Error* view INV1_7TV50 is not defined for instance U136
+"../OUT/dc_v1/spi_combine.v", 808: 
+
+*Error* view INV1_7TV50 is not defined for instance U174
+"../OUT/dc_v1/spi_combine.v", 855: 
+
+*Error* view INV1_7TV50 is not defined for instance U177
+"../OUT/dc_v1/spi_combine.v", 858: 
+
+*Error* view INV1_7TV50 is not defined for instance U180
+"../OUT/dc_v1/spi_combine.v", 862: 
+
+*Error* view INV1_7TV50 is not defined for instance U181
+"../OUT/dc_v1/spi_combine.v", 863: 
+
+*Error* view INV1_7TV50 is not defined for instance U184
+"../OUT/dc_v1/spi_combine.v", 866: 
+
+*Error* view INV1_7TV50 is not defined for instance U185
+"../OUT/dc_v1/spi_combine.v", 867: 
+
+*Error* view INV1_7TV50 is not defined for instance U194
+"../OUT/dc_v1/spi_combine.v", 880: 
+
+*Error* view INV1_7TV50 is not defined for instance U195
+"../OUT/dc_v1/spi_combine.v", 881: 
+
+*Error* view INV1_7TV50 is not defined for instance U202
+"../OUT/dc_v1/spi_combine.v", 892: 
+
+*Error* view INV1_7TV50 is not defined for instance U203
+"../OUT/dc_v1/spi_combine.v", 893: 
+
+*Error* view INV1_7TV50 is not defined for instance U204
+"../OUT/dc_v1/spi_combine.v", 894: 
+
+*Error* view INV1_7TV50 is not defined for instance U207
+"../OUT/dc_v1/spi_combine.v", 897: 
+
+*Error* view INV1_7TV50 is not defined for instance U208
+"../OUT/dc_v1/spi_combine.v", 898: 
+
+*Error* view INV1_7TV50 is not defined for instance U210
+"../OUT/dc_v1/spi_combine.v", 901: 
+
+*Error* view INV1_7TV50 is not defined for instance U211
+"../OUT/dc_v1/spi_combine.v", 902: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 651: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 654: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 656: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U26
+"../OUT/dc_v1/spi_combine.v", 669: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U28
+"../OUT/dc_v1/spi_combine.v", 671: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U32
+"../OUT/dc_v1/spi_combine.v", 675: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U33
+"../OUT/dc_v1/spi_combine.v", 676: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U50
+"../OUT/dc_v1/spi_combine.v", 693: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U57
+"../OUT/dc_v1/spi_combine.v", 699: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U58
+"../OUT/dc_v1/spi_combine.v", 700: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U68
+"../OUT/dc_v1/spi_combine.v", 712: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U71
+"../OUT/dc_v1/spi_combine.v", 716: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U122
+"../OUT/dc_v1/spi_combine.v", 790: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U146
+"../OUT/dc_v1/spi_combine.v", 820: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U179
+"../OUT/dc_v1/spi_combine.v", 861: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U201
+"../OUT/dc_v1/spi_combine.v", 891: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 652: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 653: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 664: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 667: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U27
+"../OUT/dc_v1/spi_combine.v", 670: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U63
+"../OUT/dc_v1/spi_combine.v", 705: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U64
+"../OUT/dc_v1/spi_combine.v", 706: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U65
+"../OUT/dc_v1/spi_combine.v", 707: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U72
+"../OUT/dc_v1/spi_combine.v", 717: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 658: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 666: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U35
+"../OUT/dc_v1/spi_combine.v", 678: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U37
+"../OUT/dc_v1/spi_combine.v", 680: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U98
+"../OUT/dc_v1/spi_combine.v", 756: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U102
+"../OUT/dc_v1/spi_combine.v", 761: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U182
+"../OUT/dc_v1/spi_combine.v", 864: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U199
+"../OUT/dc_v1/spi_combine.v", 888: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 660: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U19
+"../OUT/dc_v1/spi_combine.v", 662: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U155
+"../OUT/dc_v1/spi_combine.v", 831: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U175
+"../OUT/dc_v1/spi_combine.v", 856: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U191
+"../OUT/dc_v1/spi_combine.v", 876: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 668: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U30
+"../OUT/dc_v1/spi_combine.v", 673: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U34
+"../OUT/dc_v1/spi_combine.v", 677: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U46
+"../OUT/dc_v1/spi_combine.v", 689: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U48
+"../OUT/dc_v1/spi_combine.v", 691: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U134
+"../OUT/dc_v1/spi_combine.v", 806: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U29
+"../OUT/dc_v1/spi_combine.v", 672: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U123
+"../OUT/dc_v1/spi_combine.v", 791: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U127
+"../OUT/dc_v1/spi_combine.v", 795: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U129
+"../OUT/dc_v1/spi_combine.v", 797: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U130
+"../OUT/dc_v1/spi_combine.v", 799: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U131
+"../OUT/dc_v1/spi_combine.v", 801: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U176
+"../OUT/dc_v1/spi_combine.v", 857: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U178
+"../OUT/dc_v1/spi_combine.v", 859: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U196
+"../OUT/dc_v1/spi_combine.v", 882: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U197
+"../OUT/dc_v1/spi_combine.v", 884: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U36
+"../OUT/dc_v1/spi_combine.v", 679: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U38
+"../OUT/dc_v1/spi_combine.v", 681: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U166
+"../OUT/dc_v1/spi_combine.v", 842: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U39
+"../OUT/dc_v1/spi_combine.v", 682: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U52
+"../OUT/dc_v1/spi_combine.v", 694: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U143
+"../OUT/dc_v1/spi_combine.v", 815: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U40
+"../OUT/dc_v1/spi_combine.v", 683: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U54
+"../OUT/dc_v1/spi_combine.v", 696: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U132
+"../OUT/dc_v1/spi_combine.v", 803: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U163
+"../OUT/dc_v1/spi_combine.v", 839: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U206
+"../OUT/dc_v1/spi_combine.v", 896: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U45
+"../OUT/dc_v1/spi_combine.v", 688: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U105
+"../OUT/dc_v1/spi_combine.v", 765: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U109
+"../OUT/dc_v1/spi_combine.v", 769: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U187
+"../OUT/dc_v1/spi_combine.v", 870: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U190
+"../OUT/dc_v1/spi_combine.v", 874: 
+
+*Error* view AND2V1_7TV50 is not defined for instance U49
+"../OUT/dc_v1/spi_combine.v", 692: 
+
+*Error* view AND2V1_7TV50 is not defined for instance U92
+"../OUT/dc_v1/spi_combine.v", 749: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U53
+"../OUT/dc_v1/spi_combine.v", 695: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U61
+"../OUT/dc_v1/spi_combine.v", 703: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U88
+"../OUT/dc_v1/spi_combine.v", 744: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U94
+"../OUT/dc_v1/spi_combine.v", 752: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U140
+"../OUT/dc_v1/spi_combine.v", 812: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U149
+"../OUT/dc_v1/spi_combine.v", 825: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U188
+"../OUT/dc_v1/spi_combine.v", 872: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U189
+"../OUT/dc_v1/spi_combine.v", 873: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U62
+"../OUT/dc_v1/spi_combine.v", 704: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U66
+"../OUT/dc_v1/spi_combine.v", 708: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U67
+"../OUT/dc_v1/spi_combine.v", 710: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U87
+"../OUT/dc_v1/spi_combine.v", 742: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U108
+"../OUT/dc_v1/spi_combine.v", 767: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U120
+"../OUT/dc_v1/spi_combine.v", 788: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U128
+"../OUT/dc_v1/spi_combine.v", 796: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U150
+"../OUT/dc_v1/spi_combine.v", 826: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U200
+"../OUT/dc_v1/spi_combine.v", 889: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U69
+"../OUT/dc_v1/spi_combine.v", 713: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U93
+"../OUT/dc_v1/spi_combine.v", 750: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U119
+"../OUT/dc_v1/spi_combine.v", 787: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U205
+"../OUT/dc_v1/spi_combine.v", 895: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U73
+"../OUT/dc_v1/spi_combine.v", 718: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U75
+"../OUT/dc_v1/spi_combine.v", 722: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U77
+"../OUT/dc_v1/spi_combine.v", 726: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U79
+"../OUT/dc_v1/spi_combine.v", 730: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U81
+"../OUT/dc_v1/spi_combine.v", 734: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U85
+"../OUT/dc_v1/spi_combine.v", 738: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U148
+"../OUT/dc_v1/spi_combine.v", 823: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U168
+"../OUT/dc_v1/spi_combine.v", 844: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U170
+"../OUT/dc_v1/spi_combine.v", 848: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U171
+"../OUT/dc_v1/spi_combine.v", 850: 
+
+*Error* view AO221V1_7TV50 is not defined for instance U186
+"../OUT/dc_v1/spi_combine.v", 868: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U74
+"../OUT/dc_v1/spi_combine.v", 720: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U76
+"../OUT/dc_v1/spi_combine.v", 724: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U78
+"../OUT/dc_v1/spi_combine.v", 728: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U80
+"../OUT/dc_v1/spi_combine.v", 732: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U84
+"../OUT/dc_v1/spi_combine.v", 736: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U86
+"../OUT/dc_v1/spi_combine.v", 740: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U97
+"../OUT/dc_v1/spi_combine.v", 754: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U117
+"../OUT/dc_v1/spi_combine.v", 784: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U118
+"../OUT/dc_v1/spi_combine.v", 785: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U156
+"../OUT/dc_v1/spi_combine.v", 832: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U157
+"../OUT/dc_v1/spi_combine.v", 833: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U158
+"../OUT/dc_v1/spi_combine.v", 834: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U159
+"../OUT/dc_v1/spi_combine.v", 835: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U160
+"../OUT/dc_v1/spi_combine.v", 836: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U161
+"../OUT/dc_v1/spi_combine.v", 837: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U162
+"../OUT/dc_v1/spi_combine.v", 838: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U169
+"../OUT/dc_v1/spi_combine.v", 846: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U90
+"../OUT/dc_v1/spi_combine.v", 746: 
+
+*Error* view OA12V1_7TV50 is not defined for instance U96
+"../OUT/dc_v1/spi_combine.v", 753: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U99
+"../OUT/dc_v1/spi_combine.v", 757: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U101
+"../OUT/dc_v1/spi_combine.v", 759: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U103
+"../OUT/dc_v1/spi_combine.v", 762: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U104
+"../OUT/dc_v1/spi_combine.v", 763: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U133
+"../OUT/dc_v1/spi_combine.v", 804: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U139
+"../OUT/dc_v1/spi_combine.v", 811: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U141
+"../OUT/dc_v1/spi_combine.v", 813: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U147
+"../OUT/dc_v1/spi_combine.v", 821: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U151
+"../OUT/dc_v1/spi_combine.v", 827: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U154
+"../OUT/dc_v1/spi_combine.v", 830: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U164
+"../OUT/dc_v1/spi_combine.v", 840: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U198
+"../OUT/dc_v1/spi_combine.v", 886: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U111
+"../OUT/dc_v1/spi_combine.v", 772: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U112
+"../OUT/dc_v1/spi_combine.v", 774: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U113
+"../OUT/dc_v1/spi_combine.v", 776: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U114
+"../OUT/dc_v1/spi_combine.v", 778: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U115
+"../OUT/dc_v1/spi_combine.v", 780: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U116
+"../OUT/dc_v1/spi_combine.v", 782: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U172
+"../OUT/dc_v1/spi_combine.v", 852: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U192
+"../OUT/dc_v1/spi_combine.v", 877: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U209
+"../OUT/dc_v1/spi_combine.v", 899: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U125
+"../OUT/dc_v1/spi_combine.v", 792: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U135
+"../OUT/dc_v1/spi_combine.v", 807: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U137
+"../OUT/dc_v1/spi_combine.v", 809: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U138
+"../OUT/dc_v1/spi_combine.v", 810: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U142
+"../OUT/dc_v1/spi_combine.v", 814: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U165
+"../OUT/dc_v1/spi_combine.v", 841: 
+
+*Error* view NOR4V1_7TV50 is not defined for instance U126
+"../OUT/dc_v1/spi_combine.v", 793: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U144
+"../OUT/dc_v1/spi_combine.v", 816: 
+
+*Error* view AOI222V1_7TV50 is not defined for instance U145
+"../OUT/dc_v1/spi_combine.v", 818: 
+
+*Error* view AOI31V1_7TV50 is not defined for instance U153
+"../OUT/dc_v1/spi_combine.v", 829: 
+
+*Error* view AOI31V1_7TV50 is not defined for instance U173
+"../OUT/dc_v1/spi_combine.v", 854: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U167
+"../OUT/dc_v1/spi_combine.v", 843: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U193
+"../OUT/dc_v1/spi_combine.v", 879: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U183
+"../OUT/dc_v1/spi_combine.v", 865: 
+
+*Error* view OA21BV1_7TV50 is not defined for instance U212
+"../OUT/dc_v1/spi_combine.v", 903: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U213
+"../OUT/dc_v1/spi_combine.v", 904: 
+
+*Error* view OAI22XBV1_7TV50 is not defined for instance U215
+"../OUT/dc_v1/spi_combine.v", 907: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_reg
+"../OUT/dc_v1/spi_combine.v", 932: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_d0_reg
+"../OUT/dc_v1/spi_combine.v", 934: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_d1_reg
+"../OUT/dc_v1/spi_combine.v", 936: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[0]
+"../OUT/dc_v1/spi_combine.v", 938: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[1]
+"../OUT/dc_v1/spi_combine.v", 940: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[2]
+"../OUT/dc_v1/spi_combine.v", 942: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[3]
+"../OUT/dc_v1/spi_combine.v", 944: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[4]
+"../OUT/dc_v1/spi_combine.v", 946: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[5]
+"../OUT/dc_v1/spi_combine.v", 948: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[6]
+"../OUT/dc_v1/spi_combine.v", 950: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[7]
+"../OUT/dc_v1/spi_combine.v", 952: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[0]
+"../OUT/dc_v1/spi_combine.v", 976: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[7]
+"../OUT/dc_v1/spi_combine.v", 978: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[6]
+"../OUT/dc_v1/spi_combine.v", 980: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[5]
+"../OUT/dc_v1/spi_combine.v", 982: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[4]
+"../OUT/dc_v1/spi_combine.v", 984: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[3]
+"../OUT/dc_v1/spi_combine.v", 986: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[2]
+"../OUT/dc_v1/spi_combine.v", 988: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[1]
+"../OUT/dc_v1/spi_combine.v", 990: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U27
+"../OUT/dc_v1/spi_combine.v", 954: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[5]
+"../OUT/dc_v1/spi_combine.v", 955: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[4]
+"../OUT/dc_v1/spi_combine.v", 956: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[7]
+"../OUT/dc_v1/spi_combine.v", 957: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[3]
+"../OUT/dc_v1/spi_combine.v", 958: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[1]
+"../OUT/dc_v1/spi_combine.v", 959: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[6]
+"../OUT/dc_v1/spi_combine.v", 960: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[2]
+"../OUT/dc_v1/spi_combine.v", 961: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[0]
+"../OUT/dc_v1/spi_combine.v", 962: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance miso_o_tri
+"../OUT/dc_v1/spi_combine.v", 963: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[0]
+"../OUT/dc_v1/spi_combine.v", 964: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[0]
+"../OUT/dc_v1/spi_combine.v", 966: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[1]
+"../OUT/dc_v1/spi_combine.v", 968: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[1]
+"../OUT/dc_v1/spi_combine.v", 970: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[2]
+"../OUT/dc_v1/spi_combine.v", 972: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[2]
+"../OUT/dc_v1/spi_combine.v", 974: 
+
+*Error* view PULL1_7TV50 is not defined for instance U3
+"../OUT/dc_v1/spi_combine.v", 992: 
+
+*Error* view INV1_7TV50 is not defined for instance U4
+"../OUT/dc_v1/spi_combine.v", 993: 
+
+*Error* view INV1_7TV50 is not defined for instance U5
+"../OUT/dc_v1/spi_combine.v", 994: 
+
+*Error* view INV1_7TV50 is not defined for instance U18
+"../OUT/dc_v1/spi_combine.v", 1007: 
+
+*Error* view INV1_7TV50 is not defined for instance U19
+"../OUT/dc_v1/spi_combine.v", 1008: 
+
+*Error* view INV1_7TV50 is not defined for instance U54
+"../OUT/dc_v1/spi_combine.v", 1058: 
+
+*Error* view INV1_7TV50 is not defined for instance U59
+"../OUT/dc_v1/spi_combine.v", 1064: 
+
+*Error* view INV1_7TV50 is not defined for instance U60
+"../OUT/dc_v1/spi_combine.v", 1065: 
+
+*Error* view INV1_7TV50 is not defined for instance U61
+"../OUT/dc_v1/spi_combine.v", 1066: 
+
+*Error* view INV1_7TV50 is not defined for instance U62
+"../OUT/dc_v1/spi_combine.v", 1067: 
+
+*Error* view INV1_7TV50 is not defined for instance U63
+"../OUT/dc_v1/spi_combine.v", 1068: 
+
+*Error* view INV1_7TV50 is not defined for instance U64
+"../OUT/dc_v1/spi_combine.v", 1069: 
+
+*Error* view INV1_7TV50 is not defined for instance U65
+"../OUT/dc_v1/spi_combine.v", 1070: 
+
+*Error* view INV1_7TV50 is not defined for instance U66
+"../OUT/dc_v1/spi_combine.v", 1071: 
+
+*Error* view INV1_7TV50 is not defined for instance U67
+"../OUT/dc_v1/spi_combine.v", 1072: 
+
+*Error* view INV1_7TV50 is not defined for instance U68
+"../OUT/dc_v1/spi_combine.v", 1073: 
+
+*Error* view INV1_7TV50 is not defined for instance U69
+"../OUT/dc_v1/spi_combine.v", 1074: 
+
+*Error* view INV1_7TV50 is not defined for instance U70
+"../OUT/dc_v1/spi_combine.v", 1075: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U6
+"../OUT/dc_v1/spi_combine.v", 995: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U7
+"../OUT/dc_v1/spi_combine.v", 996: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U11
+"../OUT/dc_v1/spi_combine.v", 1000: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U12
+"../OUT/dc_v1/spi_combine.v", 1001: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U13
+"../OUT/dc_v1/spi_combine.v", 1002: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U14
+"../OUT/dc_v1/spi_combine.v", 1003: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U15
+"../OUT/dc_v1/spi_combine.v", 1004: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U16
+"../OUT/dc_v1/spi_combine.v", 1005: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U17
+"../OUT/dc_v1/spi_combine.v", 1006: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U8
+"../OUT/dc_v1/spi_combine.v", 997: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 1011: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U29
+"../OUT/dc_v1/spi_combine.v", 1017: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U30
+"../OUT/dc_v1/spi_combine.v", 1018: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U56
+"../OUT/dc_v1/spi_combine.v", 1061: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U9
+"../OUT/dc_v1/spi_combine.v", 998: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U10
+"../OUT/dc_v1/spi_combine.v", 999: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U57
+"../OUT/dc_v1/spi_combine.v", 1062: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 1009: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 1010: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 1013: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U50
+"../OUT/dc_v1/spi_combine.v", 1054: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U51
+"../OUT/dc_v1/spi_combine.v", 1055: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U52
+"../OUT/dc_v1/spi_combine.v", 1056: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U71
+"../OUT/dc_v1/spi_combine.v", 1076: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U72
+"../OUT/dc_v1/spi_combine.v", 1077: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 1012: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 1014: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U26
+"../OUT/dc_v1/spi_combine.v", 1015: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U28
+"../OUT/dc_v1/spi_combine.v", 1016: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U31
+"../OUT/dc_v1/spi_combine.v", 1019: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U32
+"../OUT/dc_v1/spi_combine.v", 1021: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U33
+"../OUT/dc_v1/spi_combine.v", 1023: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U34
+"../OUT/dc_v1/spi_combine.v", 1025: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U35
+"../OUT/dc_v1/spi_combine.v", 1027: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U36
+"../OUT/dc_v1/spi_combine.v", 1029: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U37
+"../OUT/dc_v1/spi_combine.v", 1031: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U38
+"../OUT/dc_v1/spi_combine.v", 1033: 
+
+*Error* view OAI22BBV1_7TV50 is not defined for instance U58
+"../OUT/dc_v1/spi_combine.v", 1063: 
+
+*Error* view BUFV1_7TV50 is not defined for instance U39
+"../OUT/dc_v1/spi_combine.v", 1035: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U40
+"../OUT/dc_v1/spi_combine.v", 1036: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U41
+"../OUT/dc_v1/spi_combine.v", 1037: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U42
+"../OUT/dc_v1/spi_combine.v", 1039: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U43
+"../OUT/dc_v1/spi_combine.v", 1041: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U44
+"../OUT/dc_v1/spi_combine.v", 1043: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U45
+"../OUT/dc_v1/spi_combine.v", 1045: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U46
+"../OUT/dc_v1/spi_combine.v", 1047: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U47
+"../OUT/dc_v1/spi_combine.v", 1049: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U48
+"../OUT/dc_v1/spi_combine.v", 1051: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U49
+"../OUT/dc_v1/spi_combine.v", 1053: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U53
+"../OUT/dc_v1/spi_combine.v", 1057: 
+
+*Error* view OR3V1_7TV50 is not defined for instance U55
+"../OUT/dc_v1/spi_combine.v", 1059: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U73
+"../OUT/dc_v1/spi_combine.v", 1078: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U74
+"../OUT/dc_v1/spi_combine.v", 1080: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../OUT/dc_v1/spi_combine.v", 1093: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../OUT/dc_v1/spi_combine.v", 1094: 
+
+*Error* view INV1_7TV50 is not defined for instance U1
+"../OUT/dc_v1/spi_combine.v", 1095: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../OUT/dc_v1/spi_combine.v", 1108: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../OUT/dc_v1/spi_combine.v", 1109: 
+
+*Error* view INV1_7TV50 is not defined for instance U1
+"../OUT/dc_v1/spi_combine.v", 1110: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../OUT/dc_v1/spi_combine.v", 1122: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../OUT/dc_v1/spi_combine.v", 1123: 
+
+*Error* view INV1_7TV50 is not defined for instance U1
+"../OUT/dc_v1/spi_combine.v", 1124: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[4]
+"../OUT/dc_v1/spi_combine.v", 1152: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[3]
+"../OUT/dc_v1/spi_combine.v", 1154: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[2]
+"../OUT/dc_v1/spi_combine.v", 1156: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[1]
+"../OUT/dc_v1/spi_combine.v", 1158: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[0]
+"../OUT/dc_v1/spi_combine.v", 1160: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_con_reg[6]
+"../OUT/dc_v1/spi_combine.v", 1176: 
+
+*Error* view DRQV1_7TV50 is not defined for instance rstn_sync_reg
+"../OUT/dc_v1/spi_combine.v", 1178: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \spi_con_reg[7]
+"../OUT/dc_v1/spi_combine.v", 1180: 
+
+*Error* view DRQV1_7TV50 is not defined for instance rstn_temp_reg
+"../OUT/dc_v1/spi_combine.v", 1182: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \spi_con_reg[5]
+"../OUT/dc_v1/spi_combine.v", 1184: 
+
+*Error* view PULL1_7TV50 is not defined for instance U20
+"../OUT/dc_v1/spi_combine.v", 1186: 
+
+*Error* view INV1_7TV50 is not defined for instance U21
+"../OUT/dc_v1/spi_combine.v", 1187: 
+
+*Error* view INV1_7TV50 is not defined for instance U23
+"../OUT/dc_v1/spi_combine.v", 1189: 
+
+*Error* view INV1_7TV50 is not defined for instance U34
+"../OUT/dc_v1/spi_combine.v", 1203: 
+
+*Error* view INV1_7TV50 is not defined for instance U35
+"../OUT/dc_v1/spi_combine.v", 1204: 
+
+*Error* view INV1_7TV50 is not defined for instance U36
+"../OUT/dc_v1/spi_combine.v", 1205: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U22
+"../OUT/dc_v1/spi_combine.v", 1188: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U33
+"../OUT/dc_v1/spi_combine.v", 1202: 
+
+*Error* view NAND4XXBBV1_7TV50 is not defined for instance U24
+"../OUT/dc_v1/spi_combine.v", 1190: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U25
+"../OUT/dc_v1/spi_combine.v", 1191: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U26
+"../OUT/dc_v1/spi_combine.v", 1193: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U27
+"../OUT/dc_v1/spi_combine.v", 1195: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U28
+"../OUT/dc_v1/spi_combine.v", 1197: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U29
+"../OUT/dc_v1/spi_combine.v", 1198: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U30
+"../OUT/dc_v1/spi_combine.v", 1199: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U31
+"../OUT/dc_v1/spi_combine.v", 1200: 
+
+*Error* view AO22V1_7TV50 is not defined for instance U32
+"../OUT/dc_v1/spi_combine.v", 1201: 
+Total	720 error(s),   0 warning(s)

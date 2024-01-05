@@ -1,0 +1,68 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_K-2015.09-SP1-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[hb]
+postSimFile = /home/IC/SPI_CHIP/POST_SIM/AfterPR/tb_spi_slave.fsdb
+syncTime = 1360010
+viewport = 0 25 1918 850 635 480 94 1916
+activeNode = "tb_spi_slave"
+activeScope = "tb_spi_slave"
+activeFile = "../../testbench/tb_spi_slave.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 10
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_spi_slave"
+multipleSelection = 1 10 2 0 0
+sdfCheckUndef = FALSE
+[hb.sourceTab.1]
+scope = tb_spi_slave
+File = /home/IC/SPI_CHIP/testbench/tb_spi_slave.v
+Line = 11
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/IC/SPI_CHIP/POST_SIM/AfterPR
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog -top tb_spi_slave -f ./layout_filelist.f
+topName = tb_spi_slave
+[nMemoryManager]
+FsdbFile = /home/IC/SPI_CHIP/POST_SIM/AfterPR/tb_spi_slave.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1918 746 100 65
+SessionFile = /home/IC/SPI_CHIP/POST_SIM/AfterPR/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

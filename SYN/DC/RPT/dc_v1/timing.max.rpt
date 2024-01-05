@@ -1,0 +1,269 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 3
+        -input_pins
+        -nets
+        -max_paths 3
+        -transition_time
+        -capacitance
+Design : spi_combine
+Version: K-2015.06
+Date   : Mon Jan  1 18:08:46 2024
+****************************************
+
+Operating Conditions: tt_v5p0_25c   Library: scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic
+Wire Load Model Mode: top
+
+  Startpoint: ssn_i (input port clocked by clk_i)
+  Endpoint: miso (output port clocked by clk_i)
+  Path Group: clk_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk_i (rise edge)                                                     0.00       0.00
+  clock network delay (ideal)                                                 0.50       0.50
+  input external delay                                                        5.00       5.50 f
+  ssn_i (in)                                                        0.02      0.02       5.52 f
+  ssn_i (net)                                   1         0.00                0.00       5.52 f
+  spi_SlaveMode_u/ssn_i (spi_SlaveMode)                                       0.00       5.52 f
+  spi_SlaveMode_u/ssn_i (net)                             0.00                0.00       5.52 f
+  spi_SlaveMode_u/U19/I (INV1_7TV50)                                0.02      0.00       5.52 f
+  spi_SlaveMode_u/U19/ZN (INV1_7TV50)                               0.17      0.11       5.63 r
+  spi_SlaveMode_u/n47 (net)                     2         0.01                0.00       5.63 r
+  spi_SlaveMode_u/miso_o_tri/OE (TBUFV1_7TV50)                      0.17      0.00       5.63 r
+  spi_SlaveMode_u/miso_o_tri/Z (TBUFV1_7TV50)                       0.12      0.23       5.86 f
+  spi_SlaveMode_u/miso_o (net)                  1         0.00                0.00       5.86 f
+  spi_SlaveMode_u/miso_o (spi_SlaveMode)                                      0.00       5.86 f
+  miso_o (net)                                            0.00                0.00       5.86 f
+  miso_inout_port/outline (inout_port_1)                                      0.00       5.86 f
+  miso_inout_port/outline (net)                           0.00                0.00       5.86 f
+  miso_inout_port/portline_tri/I (TBUFV1_7TV50)                     0.12      0.00       5.86 f
+  miso_inout_port/portline_tri/Z (TBUFV1_7TV50)                     0.24      0.41       6.27 f
+  miso_inout_port/portline (net)                2         0.01                0.00       6.27 f
+  miso_inout_port/portline (inout_port_1)                                     0.00       6.27 f
+  miso (net)                                              0.01                0.00       6.27 f
+  miso (inout)                                                      0.24      0.00       6.27 f
+  data arrival time                                                                      6.27
+
+  clock clk_i (rise edge)                                                    12.00      12.00
+  clock network delay (ideal)                                                 0.50      12.50
+  clock uncertainty                                                          -0.60      11.90
+  output external delay                                                      -5.00       6.90
+  data required time                                                                     6.90
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     6.90
+  data arrival time                                                                     -6.27
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.63
+
+
+  Startpoint: ssn_i (input port clocked by clk_i)
+  Endpoint: miso (output port clocked by clk_i)
+  Path Group: clk_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk_i (rise edge)                                                     0.00       0.00
+  clock network delay (ideal)                                                 0.50       0.50
+  input external delay                                                        5.00       5.50 r
+  ssn_i (in)                                                        0.02      0.02       5.52 r
+  ssn_i (net)                                   1         0.00                0.00       5.52 r
+  spi_SlaveMode_u/ssn_i (spi_SlaveMode)                                       0.00       5.52 r
+  spi_SlaveMode_u/ssn_i (net)                             0.00                0.00       5.52 r
+  spi_SlaveMode_u/U19/I (INV1_7TV50)                                0.02      0.00       5.52 r
+  spi_SlaveMode_u/U19/ZN (INV1_7TV50)                               0.11      0.08       5.60 f
+  spi_SlaveMode_u/n47 (net)                     2         0.01                0.00       5.60 f
+  spi_SlaveMode_u/miso_o_tri/OE (TBUFV1_7TV50)                      0.11      0.00       5.60 f
+  spi_SlaveMode_u/miso_o_tri/Z (TBUFV1_7TV50)                       0.12      0.21       5.82 f
+  spi_SlaveMode_u/miso_o (net)                  1         0.00                0.00       5.82 f
+  spi_SlaveMode_u/miso_o (spi_SlaveMode)                                      0.00       5.82 f
+  miso_o (net)                                            0.00                0.00       5.82 f
+  miso_inout_port/outline (inout_port_1)                                      0.00       5.82 f
+  miso_inout_port/outline (net)                           0.00                0.00       5.82 f
+  miso_inout_port/portline_tri/I (TBUFV1_7TV50)                     0.12      0.00       5.82 f
+  miso_inout_port/portline_tri/Z (TBUFV1_7TV50)                     0.24      0.41       6.22 f
+  miso_inout_port/portline (net)                2         0.01                0.00       6.22 f
+  miso_inout_port/portline (inout_port_1)                                     0.00       6.22 f
+  miso (net)                                              0.01                0.00       6.22 f
+  miso (inout)                                                      0.24      0.00       6.22 f
+  data arrival time                                                                      6.22
+
+  clock clk_i (rise edge)                                                    12.00      12.00
+  clock network delay (ideal)                                                 0.50      12.50
+  clock uncertainty                                                          -0.60      11.90
+  output external delay                                                      -5.00       6.90
+  data required time                                                                     6.90
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     6.90
+  data arrival time                                                                     -6.22
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.68
+
+
+  Startpoint: ssn_i (input port clocked by clk_i)
+  Endpoint: miso (output port clocked by clk_i)
+  Path Group: clk_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock clk_i (rise edge)                                                     0.00       0.00
+  clock network delay (ideal)                                                 0.50       0.50
+  input external delay                                                        5.00       5.50 r
+  ssn_i (in)                                                        0.02      0.02       5.52 r
+  ssn_i (net)                                   1         0.00                0.00       5.52 r
+  spi_SlaveMode_u/ssn_i (spi_SlaveMode)                                       0.00       5.52 r
+  spi_SlaveMode_u/ssn_i (net)                             0.00                0.00       5.52 r
+  spi_SlaveMode_u/U19/I (INV1_7TV50)                                0.02      0.00       5.52 r
+  spi_SlaveMode_u/U19/ZN (INV1_7TV50)                               0.11      0.08       5.60 f
+  spi_SlaveMode_u/n47 (net)                     2         0.01                0.00       5.60 f
+  spi_SlaveMode_u/miso_o_tri/OE (TBUFV1_7TV50)                      0.11      0.00       5.60 f
+  spi_SlaveMode_u/miso_o_tri/Z (TBUFV1_7TV50)                       0.11      0.23       5.83 r
+  spi_SlaveMode_u/miso_o (net)                  1         0.00                0.00       5.83 r
+  spi_SlaveMode_u/miso_o (spi_SlaveMode)                                      0.00       5.83 r
+  miso_o (net)                                            0.00                0.00       5.83 r
+  miso_inout_port/outline (inout_port_1)                                      0.00       5.83 r
+  miso_inout_port/outline (net)                           0.00                0.00       5.83 r
+  miso_inout_port/portline_tri/I (TBUFV1_7TV50)                     0.11      0.00       5.83 r
+  miso_inout_port/portline_tri/Z (TBUFV1_7TV50)                     0.25      0.35       6.18 r
+  miso_inout_port/portline (net)                2         0.01                0.00       6.18 r
+  miso_inout_port/portline (inout_port_1)                                     0.00       6.18 r
+  miso (net)                                              0.01                0.00       6.18 r
+  miso (inout)                                                      0.25      0.00       6.18 r
+  data arrival time                                                                      6.18
+
+  clock clk_i (rise edge)                                                    12.00      12.00
+  clock network delay (ideal)                                                 0.50      12.50
+  clock uncertainty                                                          -0.60      11.90
+  output external delay                                                      -5.00       6.90
+  data required time                                                                     6.90
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     6.90
+  data arrival time                                                                     -6.18
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            0.72
+
+
+  Startpoint: spi_SlaveMode_u/rx_bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/rx_bit_cnt_reg[2]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i)
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)                                   10.00      10.00
+  clock network delay (ideal)                                                 0.00      10.00
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/CK (DSRNQV1_7TV50)              0.40      0.00      10.00 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/Q (DSRNQV1_7TV50)               0.14      0.79      10.79 f
+  spi_SlaveMode_u/rx_bit_cnt[0] (net)           2         0.00                0.00      10.79 f
+  spi_SlaveMode_u/U49/A1 (NAND2XBV1_7TV50)                          0.14      0.00      10.79 f
+  spi_SlaveMode_u/U49/ZN (NAND2XBV1_7TV50)                          0.46      0.35      11.13 f
+  spi_SlaveMode_u/n23 (net)                     4         0.01                0.00      11.13 f
+  spi_SlaveMode_u/U55/A3 (OR3V1_7TV50)                              0.46      0.00      11.13 f
+  spi_SlaveMode_u/U55/Z (OR3V1_7TV50)                               0.19      0.51      11.64 f
+  spi_SlaveMode_u/n21 (net)                     2         0.01                0.00      11.64 f
+  spi_SlaveMode_u/U56/A1 (NAND2V1_7TV50)                            0.19      0.00      11.64 f
+  spi_SlaveMode_u/U56/ZN (NAND2V1_7TV50)                            0.12      0.09      11.73 r
+  spi_SlaveMode_u/n48 (net)                     1         0.00                0.00      11.73 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/D (DSRNQV1_7TV50)               0.12      0.00      11.73 r
+  data arrival time                                                                     11.73
+
+  clock spi_SlaveMode_u/sck_i (rise edge)                                    20.00      20.00
+  clock network delay (ideal)                                                 0.00      20.00
+  clock uncertainty                                                          -0.60      19.40
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)                        0.00      19.40 r
+  library setup time                                                         -0.19      19.21
+  data required time                                                                    19.21
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                    19.21
+  data arrival time                                                                    -11.73
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            7.48
+
+
+  Startpoint: spi_SlaveMode_u/rx_bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i)
+  Endpoint: spi_SlaveMode_u/rx_bit_cnt_reg[2]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                                                 0.00       0.00
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/CK (DSRNQV1_7TV50)              0.40      0.00       0.00 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/Q (DSRNQV1_7TV50)               0.14      0.79       0.79 f
+  spi_SlaveMode_u/rx_bit_cnt[0] (net)           2         0.00                0.00       0.79 f
+  spi_SlaveMode_u/U49/A1 (NAND2XBV1_7TV50)                          0.14      0.00       0.79 f
+  spi_SlaveMode_u/U49/ZN (NAND2XBV1_7TV50)                          0.46      0.35       1.13 f
+  spi_SlaveMode_u/n23 (net)                     4         0.01                0.00       1.13 f
+  spi_SlaveMode_u/U55/A3 (OR3V1_7TV50)                              0.46      0.00       1.13 f
+  spi_SlaveMode_u/U55/Z (OR3V1_7TV50)                               0.19      0.51       1.64 f
+  spi_SlaveMode_u/n21 (net)                     2         0.01                0.00       1.64 f
+  spi_SlaveMode_u/U56/A1 (NAND2V1_7TV50)                            0.19      0.00       1.64 f
+  spi_SlaveMode_u/U56/ZN (NAND2V1_7TV50)                            0.12      0.09       1.73 r
+  spi_SlaveMode_u/n48 (net)                     1         0.00                0.00       1.73 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/D (DSRNQV1_7TV50)               0.12      0.00       1.73 r
+  data arrival time                                                                      1.73
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)                                   10.00      10.00
+  clock network delay (ideal)                                                 0.00      10.00
+  clock uncertainty                                                          -0.60       9.40
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)                        0.00       9.40 r
+  library setup time                                                         -0.19       9.21
+  data required time                                                                     9.21
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                     9.21
+  data arrival time                                                                     -1.73
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            7.48
+
+
+  Startpoint: spi_SlaveMode_u/rx_bit_cnt_reg[0]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/rx_valid_reg
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i)
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: max
+
+  Point                                       Fanout       Cap     Trans      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)                                   10.00      10.00
+  clock network delay (ideal)                                                 0.00      10.00
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/CK (DSRNQV1_7TV50)              0.40      0.00      10.00 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[0]/Q (DSRNQV1_7TV50)               0.14      0.79      10.79 f
+  spi_SlaveMode_u/rx_bit_cnt[0] (net)           2         0.00                0.00      10.79 f
+  spi_SlaveMode_u/U49/A1 (NAND2XBV1_7TV50)                          0.14      0.00      10.79 f
+  spi_SlaveMode_u/U49/ZN (NAND2XBV1_7TV50)                          0.46      0.35      11.13 f
+  spi_SlaveMode_u/n23 (net)                     4         0.01                0.00      11.13 f
+  spi_SlaveMode_u/U55/A3 (OR3V1_7TV50)                              0.46      0.00      11.13 f
+  spi_SlaveMode_u/U55/Z (OR3V1_7TV50)                               0.19      0.51      11.64 f
+  spi_SlaveMode_u/n21 (net)                     2         0.01                0.00      11.64 f
+  spi_SlaveMode_u/U9/B (OAI21V1_7TV50)                              0.19      0.00      11.64 f
+  spi_SlaveMode_u/U9/ZN (OAI21V1_7TV50)                             0.30      0.10      11.74 r
+  spi_SlaveMode_u/n46 (net)                     1         0.00                0.00      11.74 r
+  spi_SlaveMode_u/rx_valid_reg/D (DRNQV1_7TV50)                     0.30      0.00      11.74 r
+  data arrival time                                                                     11.74
+
+  clock spi_SlaveMode_u/sck_i (rise edge)                                    20.00      20.00
+  clock network delay (ideal)                                                 0.00      20.00
+  clock uncertainty                                                          -0.60      19.40
+  spi_SlaveMode_u/rx_valid_reg/CK (DRNQV1_7TV50)                              0.00      19.40 r
+  library setup time                                                         -0.11      19.29
+  data required time                                                                    19.29
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                    19.29
+  data arrival time                                                                    -11.74
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                            7.55
+
+
+1

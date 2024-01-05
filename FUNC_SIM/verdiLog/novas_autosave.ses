@@ -1,0 +1,68 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_K-2015.09-SP1-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+[hb]
+postSimFile = /home/IC/SPI_CHIP/FUNC_SIM/tb_spi_master.fsdb
+syncTime = 95000
+viewport = 0 25 1918 850 635 331 303 1916
+activeNode = "tb_spi_master.u_spi_combine.spi_MasterMode_u"
+activeScope = "tb_spi_master.u_spi_combine.spi_MasterMode_u"
+activeFile = "../RTL/spi_MasterMode.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 20
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_spi_master.u_spi_combine.spi_MasterMode_u"
+Scope2 = "tb_spi_master"
+sdfCheckUndef = FALSE
+[hb.sourceTab.1]
+scope = tb_spi_master.u_spi_combine.spi_MasterMode_u
+File = /home/IC/SPI_CHIP/RTL/spi_MasterMode.v
+Line = 21
+[imp.design1]
+dbEnum =  oh
+invokeDir = /home/IC/SPI_CHIP/FUNC_SIM
+design = DebussyLib
+hostCommand = hostCommand +v2k -sverilog -top tb_spi_master -f ./pre_filelist.f
+topName = tb_spi_master
+[nMemoryManager]
+FsdbFile = /home/IC/SPI_CHIP/FUNC_SIM/tb_spi_master.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1918 331 152 65
+SessionFile = /home/IC/SPI_CHIP/FUNC_SIM/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

@@ -1,0 +1,5 @@
+/home/IC/SPI_CHIP/LIB/scc018v3ebcd_uhd50_rvt.v
+/home/IC/SPI_CHIP/PR/Output_Files/spi_combine.v
+/home/IC/SPI_CHIP/testbench/spi_slave.v
+/home/IC/SPI_CHIP/testbench/tb_spi_slave.v
+/home/IC/SPI_CHIP/testbench/wb_master_model.v

@@ -1,0 +1,3624 @@
+*design* DebussyLib (btIdent Verdi3_K-2015.09-SP1-1)
+Command arguments:
+    +define+verilog
+    +v2k
+    -sverilog
+    -top
+    tb_spi_slave
+    -f ./layout_filelist.f
+        ../../PR/Output_Files/spi_combine.v
+        ../../testbench/spi_slave.v
+        ../../testbench/wb_master_model.v
+        ../../testbench/tb_spi_slave.v
+
+Highest level modules:
+spi_slave
+tb_spi_slave
+
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC474_n61
+"../../PR/Output_Files/spi_combine.v", 312: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC466_n58
+"../../PR/Output_Files/spi_combine.v", 316: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC454_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 326: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC430_n69
+"../../PR/Output_Files/spi_combine.v", 344: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC249_n48
+"../../PR/Output_Files/spi_combine.v", 464: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC473_n45
+"../../PR/Output_Files/spi_combine.v", 314: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC459_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 318: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC457_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 320: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC456_n37
+"../../PR/Output_Files/spi_combine.v", 322: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC455_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 324: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC450_mem_3__4_
+"../../PR/Output_Files/spi_combine.v", 328: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC445_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 330: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC444_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 332: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC443_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 334: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC439_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 336: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC436_n61
+"../../PR/Output_Files/spi_combine.v", 340: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC434_n45
+"../../PR/Output_Files/spi_combine.v", 342: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC427_mem_2__1_
+"../../PR/Output_Files/spi_combine.v", 346: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC421_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 348: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC416_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 350: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC409_n46
+"../../PR/Output_Files/spi_combine.v", 352: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC405_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 354: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC403_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 356: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC390_n46
+"../../PR/Output_Files/spi_combine.v", 366: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC389_n56
+"../../PR/Output_Files/spi_combine.v", 368: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC387_n62
+"../../PR/Output_Files/spi_combine.v", 372: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC385_n65
+"../../PR/Output_Files/spi_combine.v", 374: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC384_n38
+"../../PR/Output_Files/spi_combine.v", 376: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC381_n48
+"../../PR/Output_Files/spi_combine.v", 378: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC380_n40
+"../../PR/Output_Files/spi_combine.v", 380: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC377_n64
+"../../PR/Output_Files/spi_combine.v", 386: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC376_n60
+"../../PR/Output_Files/spi_combine.v", 388: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC369_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 390: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC367_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 392: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC366_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 394: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC364_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 396: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC336_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 400: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC334_mem_3__2_
+"../../PR/Output_Files/spi_combine.v", 402: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC320_mem_2__1_
+"../../PR/Output_Files/spi_combine.v", 408: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC312_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 414: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC307_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 418: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC305_mem_0__5_
+"../../PR/Output_Files/spi_combine.v", 420: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC294_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 422: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC290_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 424: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC278_n63
+"../../PR/Output_Files/spi_combine.v", 430: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC277_n39
+"../../PR/Output_Files/spi_combine.v", 432: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC276_n56
+"../../PR/Output_Files/spi_combine.v", 434: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC275_n43
+"../../PR/Output_Files/spi_combine.v", 436: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC274_n36
+"../../PR/Output_Files/spi_combine.v", 438: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC272_n44
+"../../PR/Output_Files/spi_combine.v", 440: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC202_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 478: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC115_mem_3__4_
+"../../PR/Output_Files/spi_combine.v", 498: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC113_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 500: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC111_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 502: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC110_mem_2__6_
+"../../PR/Output_Files/spi_combine.v", 504: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC109_mem_2__2_
+"../../PR/Output_Files/spi_combine.v", 506: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC108_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 508: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC107_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 510: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC105_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 512: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC103_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 514: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC102_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 516: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC101_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 518: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC97_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 520: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC96_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 522: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC94_mem_2__0_
+"../../PR/Output_Files/spi_combine.v", 524: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC93_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 526: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC91_mem_3__5_
+"../../PR/Output_Files/spi_combine.v", 528: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC88_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 530: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC86_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 532: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC84_mem_2__3_
+"../../PR/Output_Files/spi_combine.v", 534: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC80_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 536: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC78_mem_3__2_
+"../../PR/Output_Files/spi_combine.v", 538: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC75_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 540: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC74_mem_0__1_
+"../../PR/Output_Files/spi_combine.v", 542: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC73_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 544: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC71_mem_0__2_
+"../../PR/Output_Files/spi_combine.v", 546: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC50_mem_2__1_
+"../../PR/Output_Files/spi_combine.v", 550: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC47_mem_1__4_
+"../../PR/Output_Files/spi_combine.v", 552: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC45_mem_3__6_
+"../../PR/Output_Files/spi_combine.v", 554: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC438_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 338: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC388_n68
+"../../PR/Output_Files/spi_combine.v", 370: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC379_n49
+"../../PR/Output_Files/spi_combine.v", 382: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC378_n41
+"../../PR/Output_Files/spi_combine.v", 384: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC324_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 406: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC319_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 410: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC398_n61
+"../../PR/Output_Files/spi_combine.v", 358: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC396_n45
+"../../PR/Output_Files/spi_combine.v", 360: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC263_n35
+"../../PR/Output_Files/spi_combine.v", 452: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC262_n58
+"../../PR/Output_Files/spi_combine.v", 454: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC395_n54
+"../../PR/Output_Files/spi_combine.v", 362: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC308_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 416: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC281_n52
+"../../PR/Output_Files/spi_combine.v", 426: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC251_n53
+"../../PR/Output_Files/spi_combine.v", 462: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC227_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 468: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC226_mem_2__3_
+"../../PR/Output_Files/spi_combine.v", 470: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC224_mosi_o
+"../../PR/Output_Files/spi_combine.v", 472: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC394_n57
+"../../PR/Output_Files/spi_combine.v", 364: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC280_n51
+"../../PR/Output_Files/spi_combine.v", 428: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC248_n64
+"../../PR/Output_Files/spi_combine.v", 466: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC220_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 474: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC356_mem_3__4_
+"../../PR/Output_Files/spi_combine.v", 398: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC154_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 494: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC146_n70
+"../../PR/Output_Files/spi_combine.v", 496: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC326_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 404: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC318_mem_2__0_
+"../../PR/Output_Files/spi_combine.v", 412: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC270_n60
+"../../PR/Output_Files/spi_combine.v", 444: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC268_n47
+"../../PR/Output_Files/spi_combine.v", 446: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC264_n37
+"../../PR/Output_Files/spi_combine.v", 450: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC271_n55
+"../../PR/Output_Files/spi_combine.v", 442: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC206_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 476: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC52_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 548: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC266_n40
+"../../PR/Output_Files/spi_combine.v", 448: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC259_n68
+"../../PR/Output_Files/spi_combine.v", 458: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC170_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 488: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC169_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 490: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC167_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 492: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_PHC260_n59
+"../../PR/Output_Files/spi_combine.v", 456: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC255_n69
+"../../PR/Output_Files/spi_combine.v", 460: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC192_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 480: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC190_mem_2__6_
+"../../PR/Output_Files/spi_combine.v", 482: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC182_mem_3__6_
+"../../PR/Output_Files/spi_combine.v", 484: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC181_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 486: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC23_mem_1__7_
+"../../PR/Output_Files/spi_combine.v", 556: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC15_mem_2__5_
+"../../PR/Output_Files/spi_combine.v", 558: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC14_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 560: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC13_mem_0__5_
+"../../PR/Output_Files/spi_combine.v", 562: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \re_ptr_reg[0]
+"../../PR/Output_Files/spi_combine.v", 564: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \re_ptr_reg[1]
+"../../PR/Output_Files/spi_combine.v", 568: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \re_ptr_reg[2]
+"../../PR/Output_Files/spi_combine.v", 572: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[0]
+"../../PR/Output_Files/spi_combine.v", 576: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[1]
+"../../PR/Output_Files/spi_combine.v", 580: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[2]
+"../../PR/Output_Files/spi_combine.v", 584: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][7]
+"../../PR/Output_Files/spi_combine.v", 588: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][6]
+"../../PR/Output_Files/spi_combine.v", 592: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][5]
+"../../PR/Output_Files/spi_combine.v", 596: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][4]
+"../../PR/Output_Files/spi_combine.v", 600: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][3]
+"../../PR/Output_Files/spi_combine.v", 604: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][2]
+"../../PR/Output_Files/spi_combine.v", 608: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][1]
+"../../PR/Output_Files/spi_combine.v", 612: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][0]
+"../../PR/Output_Files/spi_combine.v", 616: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][7]
+"../../PR/Output_Files/spi_combine.v", 620: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][6]
+"../../PR/Output_Files/spi_combine.v", 624: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][5]
+"../../PR/Output_Files/spi_combine.v", 628: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][4]
+"../../PR/Output_Files/spi_combine.v", 632: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][3]
+"../../PR/Output_Files/spi_combine.v", 636: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][2]
+"../../PR/Output_Files/spi_combine.v", 640: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][1]
+"../../PR/Output_Files/spi_combine.v", 644: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][0]
+"../../PR/Output_Files/spi_combine.v", 648: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][7]
+"../../PR/Output_Files/spi_combine.v", 652: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][6]
+"../../PR/Output_Files/spi_combine.v", 656: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][5]
+"../../PR/Output_Files/spi_combine.v", 660: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][4]
+"../../PR/Output_Files/spi_combine.v", 664: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][3]
+"../../PR/Output_Files/spi_combine.v", 668: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][2]
+"../../PR/Output_Files/spi_combine.v", 672: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][1]
+"../../PR/Output_Files/spi_combine.v", 676: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][0]
+"../../PR/Output_Files/spi_combine.v", 680: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][7]
+"../../PR/Output_Files/spi_combine.v", 684: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][6]
+"../../PR/Output_Files/spi_combine.v", 688: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][5]
+"../../PR/Output_Files/spi_combine.v", 692: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][4]
+"../../PR/Output_Files/spi_combine.v", 696: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][3]
+"../../PR/Output_Files/spi_combine.v", 700: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][2]
+"../../PR/Output_Files/spi_combine.v", 704: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][1]
+"../../PR/Output_Files/spi_combine.v", 708: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][0]
+"../../PR/Output_Files/spi_combine.v", 712: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U43
+"../../PR/Output_Files/spi_combine.v", 716: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U44
+"../../PR/Output_Files/spi_combine.v", 721: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U45
+"../../PR/Output_Files/spi_combine.v", 726: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U46
+"../../PR/Output_Files/spi_combine.v", 731: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U47
+"../../PR/Output_Files/spi_combine.v", 736: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U48
+"../../PR/Output_Files/spi_combine.v", 741: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U49
+"../../PR/Output_Files/spi_combine.v", 746: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U50
+"../../PR/Output_Files/spi_combine.v", 751: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U51
+"../../PR/Output_Files/spi_combine.v", 756: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U52
+"../../PR/Output_Files/spi_combine.v", 761: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U53
+"../../PR/Output_Files/spi_combine.v", 766: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U54
+"../../PR/Output_Files/spi_combine.v", 771: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U55
+"../../PR/Output_Files/spi_combine.v", 776: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U56
+"../../PR/Output_Files/spi_combine.v", 781: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U57
+"../../PR/Output_Files/spi_combine.v", 786: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U58
+"../../PR/Output_Files/spi_combine.v", 791: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U59
+"../../PR/Output_Files/spi_combine.v", 796: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U60
+"../../PR/Output_Files/spi_combine.v", 801: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U61
+"../../PR/Output_Files/spi_combine.v", 806: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U62
+"../../PR/Output_Files/spi_combine.v", 811: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U63
+"../../PR/Output_Files/spi_combine.v", 816: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U64
+"../../PR/Output_Files/spi_combine.v", 821: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U65
+"../../PR/Output_Files/spi_combine.v", 826: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U66
+"../../PR/Output_Files/spi_combine.v", 831: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U67
+"../../PR/Output_Files/spi_combine.v", 836: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U68
+"../../PR/Output_Files/spi_combine.v", 841: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U69
+"../../PR/Output_Files/spi_combine.v", 846: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U70
+"../../PR/Output_Files/spi_combine.v", 851: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U71
+"../../PR/Output_Files/spi_combine.v", 856: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U72
+"../../PR/Output_Files/spi_combine.v", 861: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U73
+"../../PR/Output_Files/spi_combine.v", 866: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U74
+"../../PR/Output_Files/spi_combine.v", 871: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U77
+"../../PR/Output_Files/spi_combine.v", 885: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U78
+"../../PR/Output_Files/spi_combine.v", 890: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U75
+"../../PR/Output_Files/spi_combine.v", 876: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U76
+"../../PR/Output_Files/spi_combine.v", 880: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance empty_reg
+"../../PR/Output_Files/spi_combine.v", 895: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance full_reg
+"../../PR/Output_Files/spi_combine.v", 898: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U15
+"../../PR/Output_Files/spi_combine.v", 901: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U20
+"../../PR/Output_Files/spi_combine.v", 951: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 905: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 932: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 909: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U16
+"../../PR/Output_Files/spi_combine.v", 915: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 921: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U22
+"../../PR/Output_Files/spi_combine.v", 955: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 927: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U23
+"../../PR/Output_Files/spi_combine.v", 936: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U19
+"../../PR/Output_Files/spi_combine.v", 941: 
+
+*Error* view OAI2XB1V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 944: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 948: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 961: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 964: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 973: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U24
+"../../PR/Output_Files/spi_combine.v", 967: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 976: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U21
+"../../PR/Output_Files/spi_combine.v", 970: 
+
+*Error* view NOR2V2_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 979: 
+
+*Error* view NOR2V2_7TV50 is not defined for instance U25
+"../../PR/Output_Files/spi_combine.v", 986: 
+
+*Error* view NOR2V2_7TV50 is not defined for instance U35
+"../../PR/Output_Files/spi_combine.v", 1007: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 982: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U27
+"../../PR/Output_Files/spi_combine.v", 991: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U28
+"../../PR/Output_Files/spi_combine.v", 993: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U29
+"../../PR/Output_Files/spi_combine.v", 995: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U30
+"../../PR/Output_Files/spi_combine.v", 997: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U31
+"../../PR/Output_Files/spi_combine.v", 999: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U32
+"../../PR/Output_Files/spi_combine.v", 1001: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U33
+"../../PR/Output_Files/spi_combine.v", 1003: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U34
+"../../PR/Output_Files/spi_combine.v", 1005: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U38
+"../../PR/Output_Files/spi_combine.v", 1012: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 984: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U26
+"../../PR/Output_Files/spi_combine.v", 989: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U36
+"../../PR/Output_Files/spi_combine.v", 1010: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U39
+"../../PR/Output_Files/spi_combine.v", 1014: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U40
+"../../PR/Output_Files/spi_combine.v", 1016: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U41
+"../../PR/Output_Files/spi_combine.v", 1018: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U42
+"../../PR/Output_Files/spi_combine.v", 1020: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U79
+"../../PR/Output_Files/spi_combine.v", 1022: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U80
+"../../PR/Output_Files/spi_combine.v", 1027: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U81
+"../../PR/Output_Files/spi_combine.v", 1032: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U82
+"../../PR/Output_Files/spi_combine.v", 1037: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U83
+"../../PR/Output_Files/spi_combine.v", 1042: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U84
+"../../PR/Output_Files/spi_combine.v", 1047: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U85
+"../../PR/Output_Files/spi_combine.v", 1052: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U86
+"../../PR/Output_Files/spi_combine.v", 1057: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U87
+"../../PR/Output_Files/spi_combine.v", 1062: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U88
+"../../PR/Output_Files/spi_combine.v", 1067: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U89
+"../../PR/Output_Files/spi_combine.v", 1072: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U90
+"../../PR/Output_Files/spi_combine.v", 1077: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U91
+"../../PR/Output_Files/spi_combine.v", 1082: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U92
+"../../PR/Output_Files/spi_combine.v", 1087: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U93
+"../../PR/Output_Files/spi_combine.v", 1092: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U94
+"../../PR/Output_Files/spi_combine.v", 1097: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U95
+"../../PR/Output_Files/spi_combine.v", 1102: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U96
+"../../PR/Output_Files/spi_combine.v", 1107: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U97
+"../../PR/Output_Files/spi_combine.v", 1112: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U98
+"../../PR/Output_Files/spi_combine.v", 1117: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U99
+"../../PR/Output_Files/spi_combine.v", 1122: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U100
+"../../PR/Output_Files/spi_combine.v", 1127: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U101
+"../../PR/Output_Files/spi_combine.v", 1132: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U102
+"../../PR/Output_Files/spi_combine.v", 1137: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC482_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1417: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC462_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 1423: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC452_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 1427: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC451_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 1429: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC437_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 1431: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC433_mem_1__7_
+"../../PR/Output_Files/spi_combine.v", 1433: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC432_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 1435: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC426_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 1437: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC425_mem_0__2_
+"../../PR/Output_Files/spi_combine.v", 1439: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC420_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 1441: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC419_mem_2__2_
+"../../PR/Output_Files/spi_combine.v", 1443: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC418_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 1445: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC415_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 1447: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC411_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 1451: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC410_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 1453: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC406_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 1455: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC404_n93
+"../../PR/Output_Files/spi_combine.v", 1457: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC353_mem_2__3_
+"../../PR/Output_Files/spi_combine.v", 1465: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC351_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 1469: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC348_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 1473: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC345_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 1477: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC342_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 1479: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC341_mem_2__2_
+"../../PR/Output_Files/spi_combine.v", 1481: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC338_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 1483: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC333_mem_2__0_
+"../../PR/Output_Files/spi_combine.v", 1487: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC331_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 1489: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC329_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 1491: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC328_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 1493: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC327_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 1495: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC323_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 1497: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC322_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 1499: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC321_mem_0__2_
+"../../PR/Output_Files/spi_combine.v", 1501: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC302_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1511: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC299_wr_ptr_0_
+"../../PR/Output_Files/spi_combine.v", 1515: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC292_mem_2__5_
+"../../PR/Output_Files/spi_combine.v", 1517: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC223_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 1537: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC222_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 1539: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC221_mem_0__2_
+"../../PR/Output_Files/spi_combine.v", 1541: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC218_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 1543: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC217_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 1545: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC216_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 1547: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC215_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 1549: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC210_mem_0__1_
+"../../PR/Output_Files/spi_combine.v", 1551: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC207_mem_3__6_
+"../../PR/Output_Files/spi_combine.v", 1555: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC205_mem_2__6_
+"../../PR/Output_Files/spi_combine.v", 1557: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC199_mem_2__1_
+"../../PR/Output_Files/spi_combine.v", 1561: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC177_mem_3__5_
+"../../PR/Output_Files/spi_combine.v", 1573: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC124_wr_ptr_0_
+"../../PR/Output_Files/spi_combine.v", 1589: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC114_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 1591: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC112_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 1593: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC106_mem_1__4_
+"../../PR/Output_Files/spi_combine.v", 1595: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC104_mem_3__2_
+"../../PR/Output_Files/spi_combine.v", 1597: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC100_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 1599: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC98_mem_1__7_
+"../../PR/Output_Files/spi_combine.v", 1601: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC95_mem_2__7_
+"../../PR/Output_Files/spi_combine.v", 1603: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC92_mem_0__0_
+"../../PR/Output_Files/spi_combine.v", 1605: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC90_mem_3__0_
+"../../PR/Output_Files/spi_combine.v", 1607: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC89_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 1609: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC87_mem_1__2_
+"../../PR/Output_Files/spi_combine.v", 1611: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC83_mem_2__6_
+"../../PR/Output_Files/spi_combine.v", 1613: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC82_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 1615: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC81_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 1617: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC79_mem_0__5_
+"../../PR/Output_Files/spi_combine.v", 1619: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC77_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 1621: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC76_mem_2__2_
+"../../PR/Output_Files/spi_combine.v", 1623: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC72_mem_2__0_
+"../../PR/Output_Files/spi_combine.v", 1625: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC70_mem_0__1_
+"../../PR/Output_Files/spi_combine.v", 1627: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC69_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 1629: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC67_mem_3__5_
+"../../PR/Output_Files/spi_combine.v", 1631: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC66_mem_1__0_
+"../../PR/Output_Files/spi_combine.v", 1633: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC56_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 1635: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC55_mem_3__6_
+"../../PR/Output_Files/spi_combine.v", 1637: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC54_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 1639: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC51_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 1643: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC49_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 1645: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC46_mem_2__3_
+"../../PR/Output_Files/spi_combine.v", 1647: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC43_mem_0__2_
+"../../PR/Output_Files/spi_combine.v", 1649: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC41_mem_3__4_
+"../../PR/Output_Files/spi_combine.v", 1651: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC40_mem_2__5_
+"../../PR/Output_Files/spi_combine.v", 1653: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC35_mem_2__1_
+"../../PR/Output_Files/spi_combine.v", 1655: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC477_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 1419: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC461_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1425: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC476_mem_3__5_
+"../../PR/Output_Files/spi_combine.v", 1421: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC314_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 1505: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC300_mem_3__7_
+"../../PR/Output_Files/spi_combine.v", 1513: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC166_mem_3__4_
+"../../PR/Output_Files/spi_combine.v", 1581: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC163_mem_2__4_
+"../../PR/Output_Files/spi_combine.v", 1585: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC412_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1449: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC372_re_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1459: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC180_mem_1__3_
+"../../PR/Output_Files/spi_combine.v", 1571: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC53_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1641: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC360_mem_1__4_
+"../../PR/Output_Files/spi_combine.v", 1461: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC359_mem_0__1_
+"../../PR/Output_Files/spi_combine.v", 1463: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC352_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 1467: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC350_mem_0__5_
+"../../PR/Output_Files/spi_combine.v", 1471: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC346_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 1475: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC335_mem_1__7_
+"../../PR/Output_Files/spi_combine.v", 1485: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC238_mem_3__1_
+"../../PR/Output_Files/spi_combine.v", 1521: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC237_mem_2__2_
+"../../PR/Output_Files/spi_combine.v", 1523: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC232_mem_1__7_
+"../../PR/Output_Files/spi_combine.v", 1527: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC231_mem_1__5_
+"../../PR/Output_Files/spi_combine.v", 1529: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC230_mem_1__6_
+"../../PR/Output_Files/spi_combine.v", 1531: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC229_mem_1__1_
+"../../PR/Output_Files/spi_combine.v", 1533: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC315_n93
+"../../PR/Output_Files/spi_combine.v", 1503: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC311_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 1507: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC309_n122
+"../../PR/Output_Files/spi_combine.v", 1509: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC267_n134
+"../../PR/Output_Files/spi_combine.v", 1519: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC189_mem_1__4_
+"../../PR/Output_Files/spi_combine.v", 1567: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC188_mem_0__4_
+"../../PR/Output_Files/spi_combine.v", 1569: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC176_mem_2__3_
+"../../PR/Output_Files/spi_combine.v", 1575: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC173_mem_2__5_
+"../../PR/Output_Files/spi_combine.v", 1577: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC168_mem_0__3_
+"../../PR/Output_Files/spi_combine.v", 1579: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC165_mem_3__3_
+"../../PR/Output_Files/spi_combine.v", 1583: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC233_mem_0__7_
+"../../PR/Output_Files/spi_combine.v", 1525: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC225_mem_0__5_
+"../../PR/Output_Files/spi_combine.v", 1535: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC208_mem_3__2_
+"../../PR/Output_Files/spi_combine.v", 1553: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC200_mem_0__6_
+"../../PR/Output_Files/spi_combine.v", 1559: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC198_wr_ptr_0_
+"../../PR/Output_Files/spi_combine.v", 1563: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC197_mem_2__0_
+"../../PR/Output_Files/spi_combine.v", 1565: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC160_wr_ptr_2_
+"../../PR/Output_Files/spi_combine.v", 1587: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \re_ptr_reg[0]
+"../../PR/Output_Files/spi_combine.v", 1657: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \re_ptr_reg[1]
+"../../PR/Output_Files/spi_combine.v", 1661: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[0]
+"../../PR/Output_Files/spi_combine.v", 1665: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[1]
+"../../PR/Output_Files/spi_combine.v", 1669: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \wr_ptr_reg[2]
+"../../PR/Output_Files/spi_combine.v", 1673: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][7]
+"../../PR/Output_Files/spi_combine.v", 1677: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][6]
+"../../PR/Output_Files/spi_combine.v", 1681: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][5]
+"../../PR/Output_Files/spi_combine.v", 1685: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][4]
+"../../PR/Output_Files/spi_combine.v", 1689: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][3]
+"../../PR/Output_Files/spi_combine.v", 1693: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][2]
+"../../PR/Output_Files/spi_combine.v", 1697: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][1]
+"../../PR/Output_Files/spi_combine.v", 1701: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[0][0]
+"../../PR/Output_Files/spi_combine.v", 1705: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][7]
+"../../PR/Output_Files/spi_combine.v", 1709: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][6]
+"../../PR/Output_Files/spi_combine.v", 1713: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][5]
+"../../PR/Output_Files/spi_combine.v", 1717: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][4]
+"../../PR/Output_Files/spi_combine.v", 1721: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][3]
+"../../PR/Output_Files/spi_combine.v", 1725: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][2]
+"../../PR/Output_Files/spi_combine.v", 1729: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][1]
+"../../PR/Output_Files/spi_combine.v", 1733: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[1][0]
+"../../PR/Output_Files/spi_combine.v", 1737: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][7]
+"../../PR/Output_Files/spi_combine.v", 1741: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][6]
+"../../PR/Output_Files/spi_combine.v", 1745: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][5]
+"../../PR/Output_Files/spi_combine.v", 1749: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][4]
+"../../PR/Output_Files/spi_combine.v", 1753: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][3]
+"../../PR/Output_Files/spi_combine.v", 1757: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][2]
+"../../PR/Output_Files/spi_combine.v", 1761: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][1]
+"../../PR/Output_Files/spi_combine.v", 1765: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[2][0]
+"../../PR/Output_Files/spi_combine.v", 1769: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][7]
+"../../PR/Output_Files/spi_combine.v", 1773: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][6]
+"../../PR/Output_Files/spi_combine.v", 1777: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][5]
+"../../PR/Output_Files/spi_combine.v", 1781: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][4]
+"../../PR/Output_Files/spi_combine.v", 1785: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][3]
+"../../PR/Output_Files/spi_combine.v", 1789: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][2]
+"../../PR/Output_Files/spi_combine.v", 1793: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][1]
+"../../PR/Output_Files/spi_combine.v", 1797: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \mem_reg[3][0]
+"../../PR/Output_Files/spi_combine.v", 1801: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U43
+"../../PR/Output_Files/spi_combine.v", 1805: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U44
+"../../PR/Output_Files/spi_combine.v", 1810: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U45
+"../../PR/Output_Files/spi_combine.v", 1815: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U46
+"../../PR/Output_Files/spi_combine.v", 1820: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U47
+"../../PR/Output_Files/spi_combine.v", 1825: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U48
+"../../PR/Output_Files/spi_combine.v", 1830: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U49
+"../../PR/Output_Files/spi_combine.v", 1835: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U50
+"../../PR/Output_Files/spi_combine.v", 1840: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U51
+"../../PR/Output_Files/spi_combine.v", 1845: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U52
+"../../PR/Output_Files/spi_combine.v", 1850: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U53
+"../../PR/Output_Files/spi_combine.v", 1855: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U54
+"../../PR/Output_Files/spi_combine.v", 1860: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U55
+"../../PR/Output_Files/spi_combine.v", 1865: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U56
+"../../PR/Output_Files/spi_combine.v", 1870: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U57
+"../../PR/Output_Files/spi_combine.v", 1875: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U58
+"../../PR/Output_Files/spi_combine.v", 1880: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U59
+"../../PR/Output_Files/spi_combine.v", 1885: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U60
+"../../PR/Output_Files/spi_combine.v", 1890: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U61
+"../../PR/Output_Files/spi_combine.v", 1895: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U62
+"../../PR/Output_Files/spi_combine.v", 1900: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U63
+"../../PR/Output_Files/spi_combine.v", 1905: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U64
+"../../PR/Output_Files/spi_combine.v", 1910: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U65
+"../../PR/Output_Files/spi_combine.v", 1915: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U66
+"../../PR/Output_Files/spi_combine.v", 1920: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U67
+"../../PR/Output_Files/spi_combine.v", 1925: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U68
+"../../PR/Output_Files/spi_combine.v", 1930: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U69
+"../../PR/Output_Files/spi_combine.v", 1935: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U70
+"../../PR/Output_Files/spi_combine.v", 1940: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U71
+"../../PR/Output_Files/spi_combine.v", 1945: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U72
+"../../PR/Output_Files/spi_combine.v", 1950: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U73
+"../../PR/Output_Files/spi_combine.v", 1955: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U74
+"../../PR/Output_Files/spi_combine.v", 1960: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U77
+"../../PR/Output_Files/spi_combine.v", 1974: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U78
+"../../PR/Output_Files/spi_combine.v", 1979: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U75
+"../../PR/Output_Files/spi_combine.v", 1965: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U76
+"../../PR/Output_Files/spi_combine.v", 1969: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance empty_reg
+"../../PR/Output_Files/spi_combine.v", 1984: 
+
+*Error* view LAHQV1_7TV50 is not defined for instance full_reg
+"../../PR/Output_Files/spi_combine.v", 1987: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 1990: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U16
+"../../PR/Output_Files/spi_combine.v", 2005: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U22
+"../../PR/Output_Files/spi_combine.v", 2044: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 1996: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 2001: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 2015: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U15
+"../../PR/Output_Files/spi_combine.v", 2011: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U20
+"../../PR/Output_Files/spi_combine.v", 2037: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 2019: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U23
+"../../PR/Output_Files/spi_combine.v", 2025: 
+
+*Error* view OAI2XB1V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 2030: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U19
+"../../PR/Output_Files/spi_combine.v", 2034: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 2041: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 2050: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U21
+"../../PR/Output_Files/spi_combine.v", 2059: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 2062: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 2053: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U24
+"../../PR/Output_Files/spi_combine.v", 2056: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 2071: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance \re_ptr_reg[2]/U3
+"../../PR/Output_Files/spi_combine.v", 2065: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 2077: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U26
+"../../PR/Output_Files/spi_combine.v", 2085: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U29
+"../../PR/Output_Files/spi_combine.v", 2089: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U30
+"../../PR/Output_Files/spi_combine.v", 2091: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U31
+"../../PR/Output_Files/spi_combine.v", 2093: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U32
+"../../PR/Output_Files/spi_combine.v", 2095: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U33
+"../../PR/Output_Files/spi_combine.v", 2097: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U34
+"../../PR/Output_Files/spi_combine.v", 2099: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U35
+"../../PR/Output_Files/spi_combine.v", 2101: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U36
+"../../PR/Output_Files/spi_combine.v", 2103: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \re_ptr_reg[2]
+"../../PR/Output_Files/spi_combine.v", 2067: 
+
+*Error* view NOR2V2_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 2074: 
+
+*Error* view NOR2V2_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 2079: 
+
+*Error* view CLKNOR2V2_7TV50 is not defined for instance U25
+"../../PR/Output_Files/spi_combine.v", 2082: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U27
+"../../PR/Output_Files/spi_combine.v", 2087: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U37
+"../../PR/Output_Files/spi_combine.v", 2105: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U38
+"../../PR/Output_Files/spi_combine.v", 2107: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U39
+"../../PR/Output_Files/spi_combine.v", 2109: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U40
+"../../PR/Output_Files/spi_combine.v", 2111: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U41
+"../../PR/Output_Files/spi_combine.v", 2113: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U42
+"../../PR/Output_Files/spi_combine.v", 2115: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U79
+"../../PR/Output_Files/spi_combine.v", 2120: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U80
+"../../PR/Output_Files/spi_combine.v", 2125: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U81
+"../../PR/Output_Files/spi_combine.v", 2130: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U82
+"../../PR/Output_Files/spi_combine.v", 2135: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U83
+"../../PR/Output_Files/spi_combine.v", 2140: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U84
+"../../PR/Output_Files/spi_combine.v", 2145: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U85
+"../../PR/Output_Files/spi_combine.v", 2150: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U86
+"../../PR/Output_Files/spi_combine.v", 2155: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U87
+"../../PR/Output_Files/spi_combine.v", 2160: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U88
+"../../PR/Output_Files/spi_combine.v", 2165: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U89
+"../../PR/Output_Files/spi_combine.v", 2170: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U90
+"../../PR/Output_Files/spi_combine.v", 2175: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U91
+"../../PR/Output_Files/spi_combine.v", 2180: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U92
+"../../PR/Output_Files/spi_combine.v", 2185: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U93
+"../../PR/Output_Files/spi_combine.v", 2190: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U94
+"../../PR/Output_Files/spi_combine.v", 2195: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U95
+"../../PR/Output_Files/spi_combine.v", 2200: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U96
+"../../PR/Output_Files/spi_combine.v", 2205: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U97
+"../../PR/Output_Files/spi_combine.v", 2210: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U98
+"../../PR/Output_Files/spi_combine.v", 2215: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U99
+"../../PR/Output_Files/spi_combine.v", 2220: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U100
+"../../PR/Output_Files/spi_combine.v", 2225: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U101
+"../../PR/Output_Files/spi_combine.v", 2230: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 2252: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 2256: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U2
+"../../PR/Output_Files/spi_combine.v", 2260: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 2264: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 2268: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 2271: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 2274: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 2277: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 2283: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 2286: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 2289: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 2280: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 2292: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U1
+"../../PR/Output_Files/spi_combine.v", 2320: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 2325: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 2339: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 2341: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 2343: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 2345: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U2
+"../../PR/Output_Files/spi_combine.v", 2322: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 2327: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 2330: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 2333: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 2336: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 2347: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 2355: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U16
+"../../PR/Output_Files/spi_combine.v", 2363: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 2371: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U20
+"../../PR/Output_Files/spi_combine.v", 2379: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 2351: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U15
+"../../PR/Output_Files/spi_combine.v", 2359: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 2367: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U19
+"../../PR/Output_Files/spi_combine.v", 2375: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U22
+"../../PR/Output_Files/spi_combine.v", 2388: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U24
+"../../PR/Output_Files/spi_combine.v", 2395: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U21
+"../../PR/Output_Files/spi_combine.v", 2383: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U23
+"../../PR/Output_Files/spi_combine.v", 2392: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U25
+"../../PR/Output_Files/spi_combine.v", 2399: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U26
+"../../PR/Output_Files/spi_combine.v", 2402: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U27
+"../../PR/Output_Files/spi_combine.v", 2405: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U28
+"../../PR/Output_Files/spi_combine.v", 2408: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U29
+"../../PR/Output_Files/spi_combine.v", 2411: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_PHC488_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 2864: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_PHC486_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 2866: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_PHC484_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 2870: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_PHC178_wfifo_ren
+"../../PR/Output_Files/spi_combine.v", 3080: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC485_bit_cnt_2_
+"../../PR/Output_Files/spi_combine.v", 2868: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC483_bit_cnt_2_
+"../../PR/Output_Files/spi_combine.v", 2872: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC478_int_o
+"../../PR/Output_Files/spi_combine.v", 2880: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC475_bit_cnt_1_
+"../../PR/Output_Files/spi_combine.v", 2882: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC472_n84
+"../../PR/Output_Files/spi_combine.v", 2884: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC471_N187
+"../../PR/Output_Files/spi_combine.v", 2886: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC470_clk_cnt_7_
+"../../PR/Output_Files/spi_combine.v", 2888: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC467_n84
+"../../PR/Output_Files/spi_combine.v", 2892: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC465_bit_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 2894: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC463_rfifo_wen
+"../../PR/Output_Files/spi_combine.v", 2896: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC460_n17
+"../../PR/Output_Files/spi_combine.v", 2898: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC449_n54
+"../../PR/Output_Files/spi_combine.v", 2900: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC448_clk_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 2902: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC441_n47
+"../../PR/Output_Files/spi_combine.v", 2906: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC440_data_o_7_
+"../../PR/Output_Files/spi_combine.v", 2908: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC435_n65
+"../../PR/Output_Files/spi_combine.v", 2910: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC424_n80
+"../../PR/Output_Files/spi_combine.v", 2918: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC423_spi_sta_6
+"../../PR/Output_Files/spi_combine.v", 2920: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC422_ssn
+"../../PR/Output_Files/spi_combine.v", 2922: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC417_clk_cnt_6_
+"../../PR/Output_Files/spi_combine.v", 2924: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC414_clk_cnt_9_
+"../../PR/Output_Files/spi_combine.v", 2926: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC413_n190
+"../../PR/Output_Files/spi_combine.v", 2928: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC407_data_o_3_
+"../../PR/Output_Files/spi_combine.v", 2932: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC391_n146
+"../../PR/Output_Files/spi_combine.v", 2948: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC383_n159
+"../../PR/Output_Files/spi_combine.v", 2952: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC375_data_o_1_
+"../../PR/Output_Files/spi_combine.v", 2956: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC374_bit_cnt_1_
+"../../PR/Output_Files/spi_combine.v", 2958: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC371_spi_ext_6_
+"../../PR/Output_Files/spi_combine.v", 2962: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC370_rfifo_wen
+"../../PR/Output_Files/spi_combine.v", 2964: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC363_wfifo_ren
+"../../PR/Output_Files/spi_combine.v", 2966: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC358_clk_cnt_12_
+"../../PR/Output_Files/spi_combine.v", 2972: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC357_data_o_6_
+"../../PR/Output_Files/spi_combine.v", 2974: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC347_ssn
+"../../PR/Output_Files/spi_combine.v", 2978: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC340_n133
+"../../PR/Output_Files/spi_combine.v", 2980: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC339_clk_cnt_6_
+"../../PR/Output_Files/spi_combine.v", 2982: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC332_n89
+"../../PR/Output_Files/spi_combine.v", 2986: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC317_spi_ext_7_
+"../../PR/Output_Files/spi_combine.v", 2990: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC313_clk_cnt_3_
+"../../PR/Output_Files/spi_combine.v", 2994: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC303_spi_ext_2_
+"../../PR/Output_Files/spi_combine.v", 2998: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC301_data_o_4_
+"../../PR/Output_Files/spi_combine.v", 3000: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC298_mosi_o
+"../../PR/Output_Files/spi_combine.v", 3002: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC296_data_buf_2_
+"../../PR/Output_Files/spi_combine.v", 3004: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC289_spi_sta_7
+"../../PR/Output_Files/spi_combine.v", 3006: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC288_n128
+"../../PR/Output_Files/spi_combine.v", 3008: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC287_n154
+"../../PR/Output_Files/spi_combine.v", 3010: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC284_n162
+"../../PR/Output_Files/spi_combine.v", 3016: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC279_n48
+"../../PR/Output_Files/spi_combine.v", 3022: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC273_n142
+"../../PR/Output_Files/spi_combine.v", 3024: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC253_n153
+"../../PR/Output_Files/spi_combine.v", 3038: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC252_n19
+"../../PR/Output_Files/spi_combine.v", 3040: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC244_spi_ext_5_
+"../../PR/Output_Files/spi_combine.v", 3050: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC243_spi_ext_4_
+"../../PR/Output_Files/spi_combine.v", 3052: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC211_n115
+"../../PR/Output_Files/spi_combine.v", 3062: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC203_state_2_
+"../../PR/Output_Files/spi_combine.v", 3066: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC194_data_buf_5_
+"../../PR/Output_Files/spi_combine.v", 3072: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC193_spi_ext_7_
+"../../PR/Output_Files/spi_combine.v", 3074: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC153_spi_ext_0_
+"../../PR/Output_Files/spi_combine.v", 3094: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC117_spi_ext_5_
+"../../PR/Output_Files/spi_combine.v", 3154: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC99_spi_ext_3_
+"../../PR/Output_Files/spi_combine.v", 3156: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC85_spi_sta_6
+"../../PR/Output_Files/spi_combine.v", 3158: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC65_data_buf_5_
+"../../PR/Output_Files/spi_combine.v", 3160: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC62_spi_ext_6_
+"../../PR/Output_Files/spi_combine.v", 3164: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC42_bit_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 3172: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC36_data_buf_6_
+"../../PR/Output_Files/spi_combine.v", 3178: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC33_data_buf_4_
+"../../PR/Output_Files/spi_combine.v", 3182: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC32_data_buf_0_
+"../../PR/Output_Files/spi_combine.v", 3184: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC481_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 2874: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC480_n193
+"../../PR/Output_Files/spi_combine.v", 2876: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC479_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 2878: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC431_N187
+"../../PR/Output_Files/spi_combine.v", 2912: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC401_n42
+"../../PR/Output_Files/spi_combine.v", 2936: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC400_n46
+"../../PR/Output_Files/spi_combine.v", 2938: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC399_n90
+"../../PR/Output_Files/spi_combine.v", 2940: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC397_n190
+"../../PR/Output_Files/spi_combine.v", 2942: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC393_n84
+"../../PR/Output_Files/spi_combine.v", 2944: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC392_n53
+"../../PR/Output_Files/spi_combine.v", 2946: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC286_n188
+"../../PR/Output_Files/spi_combine.v", 3012: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC285_n155
+"../../PR/Output_Files/spi_combine.v", 3014: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC234_ssn
+"../../PR/Output_Files/spi_combine.v", 3058: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC219_spi_ext_2_
+"../../PR/Output_Files/spi_combine.v", 3060: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC130_n151
+"../../PR/Output_Files/spi_combine.v", 3134: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC128_n187
+"../../PR/Output_Files/spi_combine.v", 3138: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC468_n193
+"../../PR/Output_Files/spi_combine.v", 2890: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC408_clk_cnt_2_
+"../../PR/Output_Files/spi_combine.v", 2930: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC254_n17
+"../../PR/Output_Files/spi_combine.v", 3036: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC126_n196
+"../../PR/Output_Files/spi_combine.v", 3142: 
+
+*Error* view BUFV2_7TV50 is not defined for instance FE_PHC125_n192
+"../../PR/Output_Files/spi_combine.v", 3144: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC446_bit_cnt_1_
+"../../PR/Output_Files/spi_combine.v", 2904: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC428_int_o
+"../../PR/Output_Files/spi_combine.v", 2916: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC355_data_buf_3_
+"../../PR/Output_Files/spi_combine.v", 2976: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC257_n164
+"../../PR/Output_Files/spi_combine.v", 3032: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC239_spi_ext_3_
+"../../PR/Output_Files/spi_combine.v", 3056: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC156_data_buf_2_
+"../../PR/Output_Files/spi_combine.v", 3090: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC155_data_buf_4_
+"../../PR/Output_Files/spi_combine.v", 3092: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC151_data_buf_0_
+"../../PR/Output_Files/spi_combine.v", 3098: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC150_data_buf_3_
+"../../PR/Output_Files/spi_combine.v", 3100: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC149_data_buf_1_
+"../../PR/Output_Files/spi_combine.v", 3102: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC429_clk_cnt_7_
+"../../PR/Output_Files/spi_combine.v", 2914: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC402_n142
+"../../PR/Output_Files/spi_combine.v", 2934: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC373_clk_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 2960: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC362_clk_cnt_9_
+"../../PR/Output_Files/spi_combine.v", 2968: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC325_n65
+"../../PR/Output_Files/spi_combine.v", 2988: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC310_n80
+"../../PR/Output_Files/spi_combine.v", 2996: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC241_rfifo_wen
+"../../PR/Output_Files/spi_combine.v", 3054: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC196_spi_sta_7
+"../../PR/Output_Files/spi_combine.v", 3070: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC179_spi_sta_6
+"../../PR/Output_Files/spi_combine.v", 3078: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC162_data_o_1_
+"../../PR/Output_Files/spi_combine.v", 3082: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC123_clk_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 3146: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC122_clk_cnt_9_
+"../../PR/Output_Files/spi_combine.v", 3148: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC121_state_0_
+"../../PR/Output_Files/spi_combine.v", 3150: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC119_spi_ext_4_
+"../../PR/Output_Files/spi_combine.v", 3152: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC63_data_buf_3_
+"../../PR/Output_Files/spi_combine.v", 3162: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC61_trans_cnt_1_
+"../../PR/Output_Files/spi_combine.v", 3166: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC48_spi_ext_2_
+"../../PR/Output_Files/spi_combine.v", 3168: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC44_mosi_o
+"../../PR/Output_Files/spi_combine.v", 3170: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC38_trans_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 3174: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC37_spi_ext_7_
+"../../PR/Output_Files/spi_combine.v", 3176: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC34_data_buf_2_
+"../../PR/Output_Files/spi_combine.v", 3180: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC31_data_buf_1_
+"../../PR/Output_Files/spi_combine.v", 3186: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC30_wfifo_ren
+"../../PR/Output_Files/spi_combine.v", 3188: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC12_spi_ext_0_
+"../../PR/Output_Files/spi_combine.v", 3190: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC11_spi_ext_1_
+"../../PR/Output_Files/spi_combine.v", 3192: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC386_n81
+"../../PR/Output_Files/spi_combine.v", 2950: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC152_ack_o
+"../../PR/Output_Files/spi_combine.v", 3096: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC143_n161
+"../../PR/Output_Files/spi_combine.v", 3108: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC382_n186
+"../../PR/Output_Files/spi_combine.v", 2954: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC361_data_o_3_
+"../../PR/Output_Files/spi_combine.v", 2970: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC337_trans_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 2984: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC316_data_buf_0_
+"../../PR/Output_Files/spi_combine.v", 2992: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC283_n143
+"../../PR/Output_Files/spi_combine.v", 3018: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC282_n148
+"../../PR/Output_Files/spi_combine.v", 3020: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC258_n161
+"../../PR/Output_Files/spi_combine.v", 3030: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC250_n182
+"../../PR/Output_Files/spi_combine.v", 3042: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC247_n149
+"../../PR/Output_Files/spi_combine.v", 3044: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC246_n191
+"../../PR/Output_Files/spi_combine.v", 3046: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC245_clk_cnt_5_
+"../../PR/Output_Files/spi_combine.v", 3048: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC183_clk_cnt_4_
+"../../PR/Output_Files/spi_combine.v", 3076: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC157_spi_ext_1_
+"../../PR/Output_Files/spi_combine.v", 3088: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC145_n165
+"../../PR/Output_Files/spi_combine.v", 3104: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC144_n146
+"../../PR/Output_Files/spi_combine.v", 3106: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC129_n191
+"../../PR/Output_Files/spi_combine.v", 3136: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC127_n168
+"../../PR/Output_Files/spi_combine.v", 3140: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC265_n145
+"../../PR/Output_Files/spi_combine.v", 3026: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC261_n158
+"../../PR/Output_Files/spi_combine.v", 3028: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC161_data_buf_6_
+"../../PR/Output_Files/spi_combine.v", 3084: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC136_n150
+"../../PR/Output_Files/spi_combine.v", 3122: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC133_n149
+"../../PR/Output_Files/spi_combine.v", 3128: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC132_n183
+"../../PR/Output_Files/spi_combine.v", 3130: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC131_n160
+"../../PR/Output_Files/spi_combine.v", 3132: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC256_n189
+"../../PR/Output_Files/spi_combine.v", 3034: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC209_data_o_0_
+"../../PR/Output_Files/spi_combine.v", 3064: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC159_spi_ext_6_
+"../../PR/Output_Files/spi_combine.v", 3086: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC135_n153
+"../../PR/Output_Files/spi_combine.v", 3124: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC201_bit_cnt_0_
+"../../PR/Output_Files/spi_combine.v", 3068: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC142_n152
+"../../PR/Output_Files/spi_combine.v", 3110: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC141_n159
+"../../PR/Output_Files/spi_combine.v", 3112: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC140_n147
+"../../PR/Output_Files/spi_combine.v", 3114: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC139_n144
+"../../PR/Output_Files/spi_combine.v", 3116: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC138_n185
+"../../PR/Output_Files/spi_combine.v", 3118: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC137_n181
+"../../PR/Output_Files/spi_combine.v", 3120: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC134_n180
+"../../PR/Output_Files/spi_combine.v", 3126: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[7]
+"../../PR/Output_Files/spi_combine.v", 3194: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[6]
+"../../PR/Output_Files/spi_combine.v", 3198: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[5]
+"../../PR/Output_Files/spi_combine.v", 3202: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[4]
+"../../PR/Output_Files/spi_combine.v", 3206: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3210: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3214: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_ext_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3218: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance ack_o_reg
+"../../PR/Output_Files/spi_combine.v", 3222: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance wfifo_ren_reg
+"../../PR/Output_Files/spi_combine.v", 3226: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance wr_col_f_reg
+"../../PR/Output_Files/spi_combine.v", 3230: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3234: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[8]
+"../../PR/Output_Files/spi_combine.v", 3238: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3242: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3246: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3250: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[3]
+"../../PR/Output_Files/spi_combine.v", 3254: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[4]
+"../../PR/Output_Files/spi_combine.v", 3258: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[5]
+"../../PR/Output_Files/spi_combine.v", 3262: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[6]
+"../../PR/Output_Files/spi_combine.v", 3266: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[7]
+"../../PR/Output_Files/spi_combine.v", 3270: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[9]
+"../../PR/Output_Files/spi_combine.v", 3274: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[10]
+"../../PR/Output_Files/spi_combine.v", 3278: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[11]
+"../../PR/Output_Files/spi_combine.v", 3282: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \clk_cnt_reg[12]
+"../../PR/Output_Files/spi_combine.v", 3286: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3290: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3294: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3298: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3302: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[3]
+"../../PR/Output_Files/spi_combine.v", 3306: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[4]
+"../../PR/Output_Files/spi_combine.v", 3310: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[5]
+"../../PR/Output_Files/spi_combine.v", 3314: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[6]
+"../../PR/Output_Files/spi_combine.v", 3318: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_buf_reg[7]
+"../../PR/Output_Files/spi_combine.v", 3322: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3326: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3330: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \bit_cnt_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3334: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance sck_o_reg
+"../../PR/Output_Files/spi_combine.v", 3338: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rfifo_wen_reg
+"../../PR/Output_Files/spi_combine.v", 3342: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3346: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3350: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3354: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[3]
+"../../PR/Output_Files/spi_combine.v", 3358: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[4]
+"../../PR/Output_Files/spi_combine.v", 3362: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[5]
+"../../PR/Output_Files/spi_combine.v", 3366: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[6]
+"../../PR/Output_Files/spi_combine.v", 3370: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \trans_cnt_reg[1]
+"../../PR/Output_Files/spi_combine.v", 3374: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \trans_cnt_reg[0]
+"../../PR/Output_Files/spi_combine.v", 3378: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance spi_int_f_reg
+"../../PR/Output_Files/spi_combine.v", 3382: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance int_o_reg
+"../../PR/Output_Files/spi_combine.v", 3386: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \data_o_reg[7]
+"../../PR/Output_Files/spi_combine.v", 3390: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \state_reg[2]
+"../../PR/Output_Files/spi_combine.v", 3529: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 3394: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U122
+"../../PR/Output_Files/spi_combine.v", 3419: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U124
+"../../PR/Output_Files/spi_combine.v", 3424: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U126
+"../../PR/Output_Files/spi_combine.v", 3429: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U128
+"../../PR/Output_Files/spi_combine.v", 3434: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U129
+"../../PR/Output_Files/spi_combine.v", 3439: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U143
+"../../PR/Output_Files/spi_combine.v", 3449: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U165
+"../../PR/Output_Files/spi_combine.v", 3454: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U200
+"../../PR/Output_Files/spi_combine.v", 3464: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U23
+"../../PR/Output_Files/spi_combine.v", 3399: 
+
+*Error* view OAI2XB11V1_7TV50 is not defined for instance U167
+"../../PR/Output_Files/spi_combine.v", 3459: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U37
+"../../PR/Output_Files/spi_combine.v", 3404: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U132
+"../../PR/Output_Files/spi_combine.v", 3444: 
+
+*Error* view NAND4BV1_7TV50 is not defined for instance U52
+"../../PR/Output_Files/spi_combine.v", 3409: 
+
+*Error* view NAND4BV1_7TV50 is not defined for instance U62
+"../../PR/Output_Files/spi_combine.v", 3414: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U114
+"../../PR/Output_Files/spi_combine.v", 3533: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U74
+"../../PR/Output_Files/spi_combine.v", 3816: 
+
+*Error* view NAND4V1_7TV50 is not defined for instance U161
+"../../PR/Output_Files/spi_combine.v", 4048: 
+
+*Error* view AND3V1_7TV50 is not defined for instance U111
+"../../PR/Output_Files/spi_combine.v", 3538: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U109
+"../../PR/Output_Files/spi_combine.v", 3542: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U117
+"../../PR/Output_Files/spi_combine.v", 3883: 
+
+*Error* view AO32V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 4008: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U155
+"../../PR/Output_Files/spi_combine.v", 3548: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U152
+"../../PR/Output_Files/spi_combine.v", 3558: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U61
+"../../PR/Output_Files/spi_combine.v", 3719: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U72
+"../../PR/Output_Files/spi_combine.v", 3741: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U78
+"../../PR/Output_Files/spi_combine.v", 3805: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U133
+"../../PR/Output_Files/spi_combine.v", 3955: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U172
+"../../PR/Output_Files/spi_combine.v", 4014: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U176
+"../../PR/Output_Files/spi_combine.v", 4082: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U153
+"../../PR/Output_Files/spi_combine.v", 3552: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U148
+"../../PR/Output_Files/spi_combine.v", 3655: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U66
+"../../PR/Output_Files/spi_combine.v", 3902: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U182
+"../../PR/Output_Files/spi_combine.v", 3932: 
+
+*Error* view AOI32V1_7TV50 is not defined for instance U168
+"../../PR/Output_Files/spi_combine.v", 4018: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U25
+"../../PR/Output_Files/spi_combine.v", 3562: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U24
+"../../PR/Output_Files/spi_combine.v", 3567: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 3572: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 3577: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U32
+"../../PR/Output_Files/spi_combine.v", 3591: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U30
+"../../PR/Output_Files/spi_combine.v", 3596: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U28
+"../../PR/Output_Files/spi_combine.v", 3606: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U27
+"../../PR/Output_Files/spi_combine.v", 3611: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 3621: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 3626: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U21
+"../../PR/Output_Files/spi_combine.v", 3636: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U20
+"../../PR/Output_Files/spi_combine.v", 3641: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U15
+"../../PR/Output_Files/spi_combine.v", 3661: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 3666: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 3671: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 3676: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U43
+"../../PR/Output_Files/spi_combine.v", 3762: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U86
+"../../PR/Output_Files/spi_combine.v", 3775: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U82
+"../../PR/Output_Files/spi_combine.v", 3795: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U48
+"../../PR/Output_Files/spi_combine.v", 3821: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U53
+"../../PR/Output_Files/spi_combine.v", 3842: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U98
+"../../PR/Output_Files/spi_combine.v", 3847: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U50
+"../../PR/Output_Files/spi_combine.v", 3863: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U45
+"../../PR/Output_Files/spi_combine.v", 3873: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U88
+"../../PR/Output_Files/spi_combine.v", 3893: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U65
+"../../PR/Output_Files/spi_combine.v", 3908: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U188
+"../../PR/Output_Files/spi_combine.v", 3921: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U171
+"../../PR/Output_Files/spi_combine.v", 4029: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 3582: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U29
+"../../PR/Output_Files/spi_combine.v", 3601: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U26
+"../../PR/Output_Files/spi_combine.v", 3616: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 3631: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U19
+"../../PR/Output_Files/spi_combine.v", 3646: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U41
+"../../PR/Output_Files/spi_combine.v", 3770: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U90
+"../../PR/Output_Files/spi_combine.v", 3780: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U83
+"../../PR/Output_Files/spi_combine.v", 3790: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U46
+"../../PR/Output_Files/spi_combine.v", 3829: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U96
+"../../PR/Output_Files/spi_combine.v", 3852: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U49
+"../../PR/Output_Files/spi_combine.v", 3868: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U44
+"../../PR/Output_Files/spi_combine.v", 3878: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U63
+"../../PR/Output_Files/spi_combine.v", 3916: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U180
+"../../PR/Output_Files/spi_combine.v", 3942: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U163
+"../../PR/Output_Files/spi_combine.v", 3947: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U173
+"../../PR/Output_Files/spi_combine.v", 4024: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U145
+"../../PR/Output_Files/spi_combine.v", 4039: 
+
+*Error* view OAI211V1_7TV50 is not defined for instance U105
+"../../PR/Output_Files/spi_combine.v", 4077: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 3587: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U79
+"../../PR/Output_Files/spi_combine.v", 3715: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U112
+"../../PR/Output_Files/spi_combine.v", 4044: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U36
+"../../PR/Output_Files/spi_combine.v", 4107: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U94
+"../../PR/Output_Files/spi_combine.v", 4127: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U149
+"../../PR/Output_Files/spi_combine.v", 3651: 
+
+*Error* view NOR4V1_7TV50 is not defined for instance U199
+"../../PR/Output_Files/spi_combine.v", 3681: 
+
+*Error* view NOR4V1_7TV50 is not defined for instance U198
+"../../PR/Output_Files/spi_combine.v", 3686: 
+
+*Error* view NOR4V1_7TV50 is not defined for instance U196
+"../../PR/Output_Files/spi_combine.v", 3696: 
+
+*Error* view NAND4XXBBV1_7TV50 is not defined for instance U197
+"../../PR/Output_Files/spi_combine.v", 3691: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U39
+"../../PR/Output_Files/spi_combine.v", 3701: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U141
+"../../PR/Output_Files/spi_combine.v", 3708: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U136
+"../../PR/Output_Files/spi_combine.v", 3959: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U139
+"../../PR/Output_Files/spi_combine.v", 3966: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U134
+"../../PR/Output_Files/spi_combine.v", 3973: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U135
+"../../PR/Output_Files/spi_combine.v", 3980: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U140
+"../../PR/Output_Files/spi_combine.v", 3987: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U137
+"../../PR/Output_Files/spi_combine.v", 3994: 
+
+*Error* view AO222V1_7TV50 is not defined for instance U138
+"../../PR/Output_Files/spi_combine.v", 4001: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U60
+"../../PR/Output_Files/spi_combine.v", 3723: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U59
+"../../PR/Output_Files/spi_combine.v", 3728: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U70
+"../../PR/Output_Files/spi_combine.v", 3745: 
+
+*Error* view OAI22V1_7TV50 is not defined for instance U146
+"../../PR/Output_Files/spi_combine.v", 4034: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U58
+"../../PR/Output_Files/spi_combine.v", 3733: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U68
+"../../PR/Output_Files/spi_combine.v", 3757: 
+
+*Error* view AOI211V1_7TV50 is not defined for instance U84
+"../../PR/Output_Files/spi_combine.v", 3785: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U73
+"../../PR/Output_Files/spi_combine.v", 3738: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U77
+"../../PR/Output_Files/spi_combine.v", 3809: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U64
+"../../PR/Output_Files/spi_combine.v", 3913: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U184
+"../../PR/Output_Files/spi_combine.v", 3926: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U33
+"../../PR/Output_Files/spi_combine.v", 4071: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U31
+"../../PR/Output_Files/spi_combine.v", 4111: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 4114: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U103
+"../../PR/Output_Files/spi_combine.v", 4121: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U101
+"../../PR/Output_Files/spi_combine.v", 4124: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U85
+"../../PR/Output_Files/spi_combine.v", 4131: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U194
+"../../PR/Output_Files/spi_combine.v", 4153: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U106
+"../../PR/Output_Files/spi_combine.v", 4216: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U127
+"../../PR/Output_Files/spi_combine.v", 4230: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U210
+"../../PR/Output_Files/spi_combine.v", 4295: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U97
+"../../PR/Output_Files/spi_combine.v", 3750: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U42
+"../../PR/Output_Files/spi_combine.v", 3767: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U47
+"../../PR/Output_Files/spi_combine.v", 3826: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U183
+"../../PR/Output_Files/spi_combine.v", 3929: 
+
+*Error* view NAND2XBV1_7TV50 is not defined for instance U166
+"../../PR/Output_Files/spi_combine.v", 3952: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U69
+"../../PR/Output_Files/spi_combine.v", 3753: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U76
+"../../PR/Output_Files/spi_combine.v", 3812: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U56
+"../../PR/Output_Files/spi_combine.v", 3834: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U185
+"../../PR/Output_Files/spi_combine.v", 4140: 
+
+*Error* view AOI21V1_7TV50 is not defined for instance U209
+"../../PR/Output_Files/spi_combine.v", 4291: 
+
+*Error* view AOI31V1_7TV50 is not defined for instance U80
+"../../PR/Output_Files/spi_combine.v", 3800: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U54
+"../../PR/Output_Files/spi_combine.v", 3838: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U89
+"../../PR/Output_Files/spi_combine.v", 3889: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U181
+"../../PR/Output_Files/spi_combine.v", 3938: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U108
+"../../PR/Output_Files/spi_combine.v", 4117: 
+
+*Error* view AOI221V1_7TV50 is not defined for instance U51
+"../../PR/Output_Files/spi_combine.v", 3857: 
+
+*Error* view NAND3BV1_7TV50 is not defined for instance U87
+"../../PR/Output_Files/spi_combine.v", 3898: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U160
+"../../PR/Output_Files/spi_combine.v", 4053: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U38
+"../../PR/Output_Files/spi_combine.v", 4065: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U159
+"../../PR/Output_Files/spi_combine.v", 4104: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U156
+"../../PR/Output_Files/spi_combine.v", 4147: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U75
+"../../PR/Output_Files/spi_combine.v", 4150: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U91
+"../../PR/Output_Files/spi_combine.v", 4156: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 4159: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U16
+"../../PR/Output_Files/spi_combine.v", 4162: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U81
+"../../PR/Output_Files/spi_combine.v", 4203: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U34
+"../../PR/Output_Files/spi_combine.v", 4056: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U190
+"../../PR/Output_Files/spi_combine.v", 4059: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U193
+"../../PR/Output_Files/spi_combine.v", 4062: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U110
+"../../PR/Output_Files/spi_combine.v", 4068: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U151
+"../../PR/Output_Files/spi_combine.v", 4074: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U92
+"../../PR/Output_Files/spi_combine.v", 4086: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U55
+"../../PR/Output_Files/spi_combine.v", 4089: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U164
+"../../PR/Output_Files/spi_combine.v", 4092: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U174
+"../../PR/Output_Files/spi_combine.v", 4095: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U170
+"../../PR/Output_Files/spi_combine.v", 4098: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U144
+"../../PR/Output_Files/spi_combine.v", 4101: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U57
+"../../PR/Output_Files/spi_combine.v", 4134: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U192
+"../../PR/Output_Files/spi_combine.v", 4137: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U102
+"../../PR/Output_Files/spi_combine.v", 4177: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U123
+"../../PR/Output_Files/spi_combine.v", 4225: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U175
+"../../PR/Output_Files/spi_combine.v", 4253: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U201
+"../../PR/Output_Files/spi_combine.v", 4272: 
+
+*Error* view NOR2XBV1_7TV50 is not defined for instance U113
+"../../PR/Output_Files/spi_combine.v", 4144: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U121
+"../../PR/Output_Files/spi_combine.v", 4165: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U120
+"../../PR/Output_Files/spi_combine.v", 4169: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U119
+"../../PR/Output_Files/spi_combine.v", 4173: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U116
+"../../PR/Output_Files/spi_combine.v", 4180: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance ssn_reg
+"../../PR/Output_Files/spi_combine.v", 4184: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \spi_ext_reg[3]
+"../../PR/Output_Files/spi_combine.v", 4189: 
+
+*Error* view PULL1_7TV50 is not defined for instance U22
+"../../PR/Output_Files/spi_combine.v", 4194: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U35
+"../../PR/Output_Files/spi_combine.v", 4195: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U67
+"../../PR/Output_Files/spi_combine.v", 4199: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U71
+"../../PR/Output_Files/spi_combine.v", 4201: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U93
+"../../PR/Output_Files/spi_combine.v", 4206: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U95
+"../../PR/Output_Files/spi_combine.v", 4208: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U100
+"../../PR/Output_Files/spi_combine.v", 4212: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U107
+"../../PR/Output_Files/spi_combine.v", 4219: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U130
+"../../PR/Output_Files/spi_combine.v", 4233: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U131
+"../../PR/Output_Files/spi_combine.v", 4235: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U142
+"../../PR/Output_Files/spi_combine.v", 4237: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U147
+"../../PR/Output_Files/spi_combine.v", 4239: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U157
+"../../PR/Output_Files/spi_combine.v", 4245: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U158
+"../../PR/Output_Files/spi_combine.v", 4247: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U162
+"../../PR/Output_Files/spi_combine.v", 4249: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U169
+"../../PR/Output_Files/spi_combine.v", 4251: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U177
+"../../PR/Output_Files/spi_combine.v", 4256: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U191
+"../../PR/Output_Files/spi_combine.v", 4268: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U203
+"../../PR/Output_Files/spi_combine.v", 4277: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U204
+"../../PR/Output_Files/spi_combine.v", 4279: 
+
+*Error* view INV0P7_7TV50 is not defined for instance U207
+"../../PR/Output_Files/spi_combine.v", 4285: 
+
+*Error* view INV2_7TV50 is not defined for instance U40
+"../../PR/Output_Files/spi_combine.v", 4197: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U99
+"../../PR/Output_Files/spi_combine.v", 4210: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U104
+"../../PR/Output_Files/spi_combine.v", 4214: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U115
+"../../PR/Output_Files/spi_combine.v", 4221: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U118
+"../../PR/Output_Files/spi_combine.v", 4223: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U125
+"../../PR/Output_Files/spi_combine.v", 4228: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U150
+"../../PR/Output_Files/spi_combine.v", 4241: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U154
+"../../PR/Output_Files/spi_combine.v", 4243: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U179
+"../../PR/Output_Files/spi_combine.v", 4258: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U187
+"../../PR/Output_Files/spi_combine.v", 4264: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U189
+"../../PR/Output_Files/spi_combine.v", 4266: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U195
+"../../PR/Output_Files/spi_combine.v", 4270: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U202
+"../../PR/Output_Files/spi_combine.v", 4275: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U205
+"../../PR/Output_Files/spi_combine.v", 4281: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U206
+"../../PR/Output_Files/spi_combine.v", 4283: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U186
+"../../PR/Output_Files/spi_combine.v", 4260: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U208
+"../../PR/Output_Files/spi_combine.v", 4287: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U213
+"../../PR/Output_Files/spi_combine.v", 4308: 
+
+*Error* view MUX3V1_7TV50 is not defined for instance U211
+"../../PR/Output_Files/spi_combine.v", 4298: 
+
+*Error* view OAI2XB1V1_7TV50 is not defined for instance U212
+"../../PR/Output_Files/spi_combine.v", 4304: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC464_rx_valid_d0
+"../../PR/Output_Files/spi_combine.v", 4468: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC453_rx_data_2_
+"../../PR/Output_Files/spi_combine.v", 4470: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC447_sfr_tx_0_
+"../../PR/Output_Files/spi_combine.v", 4472: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC442_sfr_tx_4_
+"../../PR/Output_Files/spi_combine.v", 4474: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC368_rx_data_0_
+"../../PR/Output_Files/spi_combine.v", 4476: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC365_sfr_tx_6_
+"../../PR/Output_Files/spi_combine.v", 4478: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC354_sfr_tx_4_
+"../../PR/Output_Files/spi_combine.v", 4480: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC349_rx_data_2_
+"../../PR/Output_Files/spi_combine.v", 4482: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC344_sfr_tx_0_
+"../../PR/Output_Files/spi_combine.v", 4484: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC306_sfr_tx_1_
+"../../PR/Output_Files/spi_combine.v", 4488: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC304_rx_data_1_
+"../../PR/Output_Files/spi_combine.v", 4490: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC295_sfr_tx_3_
+"../../PR/Output_Files/spi_combine.v", 4492: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC293_sfr_tx_2_
+"../../PR/Output_Files/spi_combine.v", 4494: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC185_rx_data_7_
+"../../PR/Output_Files/spi_combine.v", 4512: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC174_sfr_tx_2_
+"../../PR/Output_Files/spi_combine.v", 4516: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC172_sfr_tx_1_
+"../../PR/Output_Files/spi_combine.v", 4518: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC171_rx_data_1_
+"../../PR/Output_Files/spi_combine.v", 4520: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC164_sfr_tx_6_
+"../../PR/Output_Files/spi_combine.v", 4522: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC148_rx_data_3_
+"../../PR/Output_Files/spi_combine.v", 4526: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC120_rx_valid_d0
+"../../PR/Output_Files/spi_combine.v", 4528: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC60_rx_data_4_
+"../../PR/Output_Files/spi_combine.v", 4530: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC59_sfr_tx_0_
+"../../PR/Output_Files/spi_combine.v", 4532: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC58_sfr_tx_4_
+"../../PR/Output_Files/spi_combine.v", 4534: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC57_rx_data_2_
+"../../PR/Output_Files/spi_combine.v", 4536: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC29_rx_data_5_
+"../../PR/Output_Files/spi_combine.v", 4538: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC7_n32
+"../../PR/Output_Files/spi_combine.v", 4562: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC6_rx_bit_cnt_2_
+"../../PR/Output_Files/spi_combine.v", 4564: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC5_n23
+"../../PR/Output_Files/spi_combine.v", 4566: 
+
+*Error* view BUFV3_7TV50 is not defined for instance FE_PHC330_sfr_tx_5_
+"../../PR/Output_Files/spi_combine.v", 4486: 
+
+*Error* view CLKBUFV8_7TV50 is not defined for instance FE_PHC269_n30
+"../../PR/Output_Files/spi_combine.v", 4496: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC240_rx_valid_d0
+"../../PR/Output_Files/spi_combine.v", 4498: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC212_rx_data_4_
+"../../PR/Output_Files/spi_combine.v", 4506: 
+
+*Error* view BUFV6_7TV50 is not defined for instance FE_PHC236_rx_data_2_
+"../../PR/Output_Files/spi_combine.v", 4500: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC214_sfr_tx_0_
+"../../PR/Output_Files/spi_combine.v", 4502: 
+
+*Error* view BUFV8_7TV50 is not defined for instance FE_PHC213_sfr_tx_4_
+"../../PR/Output_Files/spi_combine.v", 4504: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC187_sfr_tx_5_
+"../../PR/Output_Files/spi_combine.v", 4508: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC184_sfr_tx_3_
+"../../PR/Output_Files/spi_combine.v", 4514: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC186_rx_data_0_
+"../../PR/Output_Files/spi_combine.v", 4510: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC158_sfr_tx_7_
+"../../PR/Output_Files/spi_combine.v", 4524: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC28_rx_data_6_
+"../../PR/Output_Files/spi_combine.v", 4540: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC27_sfr_tx_7_
+"../../PR/Output_Files/spi_combine.v", 4542: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC26_rx_data_3_
+"../../PR/Output_Files/spi_combine.v", 4544: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC25_rx_data_7_
+"../../PR/Output_Files/spi_combine.v", 4546: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC24_rx_data_0_
+"../../PR/Output_Files/spi_combine.v", 4548: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC22_sfr_tx_1_
+"../../PR/Output_Files/spi_combine.v", 4550: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC21_sfr_tx_6_
+"../../PR/Output_Files/spi_combine.v", 4552: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC20_rx_data_1_
+"../../PR/Output_Files/spi_combine.v", 4554: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC18_sfr_tx_5_
+"../../PR/Output_Files/spi_combine.v", 4556: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC17_sfr_tx_2_
+"../../PR/Output_Files/spi_combine.v", 4558: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC16_sfr_tx_3_
+"../../PR/Output_Files/spi_combine.v", 4560: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[0]
+"../../PR/Output_Files/spi_combine.v", 4568: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[1]
+"../../PR/Output_Files/spi_combine.v", 4572: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[2]
+"../../PR/Output_Files/spi_combine.v", 4576: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[3]
+"../../PR/Output_Files/spi_combine.v", 4580: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[4]
+"../../PR/Output_Files/spi_combine.v", 4584: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[5]
+"../../PR/Output_Files/spi_combine.v", 4588: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \sfr_rx_reg[6]
+"../../PR/Output_Files/spi_combine.v", 4592: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_reg
+"../../PR/Output_Files/spi_combine.v", 4596: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_d0_reg
+"../../PR/Output_Files/spi_combine.v", 4600: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rx_valid_d1_reg
+"../../PR/Output_Files/spi_combine.v", 4604: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[7]
+"../../PR/Output_Files/spi_combine.v", 4608: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[6]
+"../../PR/Output_Files/spi_combine.v", 4612: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[5]
+"../../PR/Output_Files/spi_combine.v", 4616: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[4]
+"../../PR/Output_Files/spi_combine.v", 4620: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[3]
+"../../PR/Output_Files/spi_combine.v", 4624: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[2]
+"../../PR/Output_Files/spi_combine.v", 4628: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[1]
+"../../PR/Output_Files/spi_combine.v", 4632: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \rx_data_reg[0]
+"../../PR/Output_Files/spi_combine.v", 4636: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U3
+"../../PR/Output_Files/spi_combine.v", 4640: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 4645: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 4668: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U24
+"../../PR/Output_Files/spi_combine.v", 4673: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U27
+"../../PR/Output_Files/spi_combine.v", 4678: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U29
+"../../PR/Output_Files/spi_combine.v", 4683: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U31
+"../../PR/Output_Files/spi_combine.v", 4688: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U33
+"../../PR/Output_Files/spi_combine.v", 4693: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U35
+"../../PR/Output_Files/spi_combine.v", 4698: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U37
+"../../PR/Output_Files/spi_combine.v", 4703: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U39
+"../../PR/Output_Files/spi_combine.v", 4708: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U55
+"../../PR/Output_Files/spi_combine.v", 4713: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U61
+"../../PR/Output_Files/spi_combine.v", 4718: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 4650: 
+
+*Error* view OAI31V1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 4659: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 4655: 
+
+*Error* view AO21BV1_7TV50 is not defined for instance U15
+"../../PR/Output_Files/spi_combine.v", 4664: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[7]
+"../../PR/Output_Files/spi_combine.v", 4723: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[5]
+"../../PR/Output_Files/spi_combine.v", 4726: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[3]
+"../../PR/Output_Files/spi_combine.v", 4729: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[1]
+"../../PR/Output_Files/spi_combine.v", 4732: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[6]
+"../../PR/Output_Files/spi_combine.v", 4735: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[4]
+"../../PR/Output_Files/spi_combine.v", 4738: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[2]
+"../../PR/Output_Files/spi_combine.v", 4741: 
+
+*Error* view DQV1_7TV50 is not defined for instance \sfr_tx_reg[0]
+"../../PR/Output_Files/spi_combine.v", 4744: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance miso_o_tri
+"../../PR/Output_Files/spi_combine.v", 4747: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U59
+"../../PR/Output_Files/spi_combine.v", 4750: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U57
+"../../PR/Output_Files/spi_combine.v", 4757: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U14
+"../../PR/Output_Files/spi_combine.v", 4773: 
+
+*Error* view XNOR2V1_7TV50 is not defined for instance U63
+"../../PR/Output_Files/spi_combine.v", 4931: 
+
+*Error* view NAND3V1_7TV50 is not defined for instance U58
+"../../PR/Output_Files/spi_combine.v", 4753: 
+
+*Error* view OA22V1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 4760: 
+
+*Error* view OAI21V1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 4765: 
+
+*Error* view NOR3V1_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 4769: 
+
+*Error* view AO12V1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 4776: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U19
+"../../PR/Output_Files/spi_combine.v", 4780: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U20
+"../../PR/Output_Files/spi_combine.v", 4785: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U21
+"../../PR/Output_Files/spi_combine.v", 4790: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 4795: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U22
+"../../PR/Output_Files/spi_combine.v", 4800: 
+
+*Error* view AOI22V1_7TV50 is not defined for instance U23
+"../../PR/Output_Files/spi_combine.v", 4805: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U60
+"../../PR/Output_Files/spi_combine.v", 4810: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U42
+"../../PR/Output_Files/spi_combine.v", 4813: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U51
+"../../PR/Output_Files/spi_combine.v", 4819: 
+
+*Error* view NAND2V1_7TV50 is not defined for instance U32
+"../../PR/Output_Files/spi_combine.v", 4906: 
+
+*Error* view CLKNAND2V1_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 4816: 
+
+*Error* view OR2V1_7TV50 is not defined for instance U16
+"../../PR/Output_Files/spi_combine.v", 4822: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 4825: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U30
+"../../PR/Output_Files/spi_combine.v", 4903: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U45
+"../../PR/Output_Files/spi_combine.v", 4828: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U44
+"../../PR/Output_Files/spi_combine.v", 4832: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U43
+"../../PR/Output_Files/spi_combine.v", 4836: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U47
+"../../PR/Output_Files/spi_combine.v", 4840: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U49
+"../../PR/Output_Files/spi_combine.v", 4844: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U46
+"../../PR/Output_Files/spi_combine.v", 4848: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U50
+"../../PR/Output_Files/spi_combine.v", 4852: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U48
+"../../PR/Output_Files/spi_combine.v", 4856: 
+
+*Error* view CLKMUX2V1_7TV50 is not defined for instance U26
+"../../PR/Output_Files/spi_combine.v", 4860: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[0]
+"../../PR/Output_Files/spi_combine.v", 4864: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[0]
+"../../PR/Output_Files/spi_combine.v", 4869: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[2]
+"../../PR/Output_Files/spi_combine.v", 4874: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \rx_bit_cnt_reg[1]
+"../../PR/Output_Files/spi_combine.v", 4879: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[1]
+"../../PR/Output_Files/spi_combine.v", 4884: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \tx_bit_cnt_reg[2]
+"../../PR/Output_Files/spi_combine.v", 4889: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance \sfr_rx_reg[7]/U3
+"../../PR/Output_Files/spi_combine.v", 4894: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U34
+"../../PR/Output_Files/spi_combine.v", 4909: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U36
+"../../PR/Output_Files/spi_combine.v", 4911: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U38
+"../../PR/Output_Files/spi_combine.v", 4913: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U40
+"../../PR/Output_Files/spi_combine.v", 4915: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U41
+"../../PR/Output_Files/spi_combine.v", 4917: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U52
+"../../PR/Output_Files/spi_combine.v", 4919: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U53
+"../../PR/Output_Files/spi_combine.v", 4921: 
+
+*Error* view CLKINV1_7TV50 is not defined for instance U54
+"../../PR/Output_Files/spi_combine.v", 4923: 
+
+*Error* view DRQV1_7TV50 is not defined for instance \sfr_rx_reg[7]
+"../../PR/Output_Files/spi_combine.v", 4896: 
+
+*Error* view PULL1_7TV50 is not defined for instance U25
+"../../PR/Output_Files/spi_combine.v", 4900: 
+
+*Error* view INV1_7TV50 is not defined for instance U28
+"../../PR/Output_Files/spi_combine.v", 4901: 
+
+*Error* view INV1_7TV50 is not defined for instance U62
+"../../PR/Output_Files/spi_combine.v", 4929: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U56
+"../../PR/Output_Files/spi_combine.v", 4925: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U64
+"../../PR/Output_Files/spi_combine.v", 4934: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U65
+"../../PR/Output_Files/spi_combine.v", 4938: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U66
+"../../PR/Output_Files/spi_combine.v", 4942: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U67
+"../../PR/Output_Files/spi_combine.v", 4946: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U68
+"../../PR/Output_Files/spi_combine.v", 4950: 
+
+*Error* view MUX2NV1_7TV50 is not defined for instance U69
+"../../PR/Output_Files/spi_combine.v", 4954: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../../PR/Output_Files/spi_combine.v", 4972: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../../PR/Output_Files/spi_combine.v", 4975: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../../PR/Output_Files/spi_combine.v", 4992: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../../PR/Output_Files/spi_combine.v", 4995: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance inline_tri
+"../../PR/Output_Files/spi_combine.v", 5012: 
+
+*Error* view TBUFV1_7TV50 is not defined for instance portline_tri
+"../../PR/Output_Files/spi_combine.v", 5015: 
+
+*Error* view CLKBUFV4_7TV50 is not defined for instance FE_PHC487_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 5109: 
+
+*Error* view CLKBUFV6_7TV50 is not defined for instance FE_PHC469_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 5111: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC458_spi_con_6_
+"../../PR/Output_Files/spi_combine.v", 5113: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC343_spi_con_4_
+"../../PR/Output_Files/spi_combine.v", 5115: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC297_spi_con_1_
+"../../PR/Output_Files/spi_combine.v", 5117: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC291_rstn_temp
+"../../PR/Output_Files/spi_combine.v", 5119: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC242_spi_con_7_
+"../../PR/Output_Files/spi_combine.v", 5121: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC228_spi_con_1_
+"../../PR/Output_Files/spi_combine.v", 5125: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC204_spi_con_0_
+"../../PR/Output_Files/spi_combine.v", 5127: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC147_spi_con_3_
+"../../PR/Output_Files/spi_combine.v", 5135: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC68_spi_con_6_
+"../../PR/Output_Files/spi_combine.v", 5141: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC8_rstn_temp
+"../../PR/Output_Files/spi_combine.v", 5153: 
+
+*Error* view BUFV1_7TV50 is not defined for instance FE_PHC4_rstn_temp
+"../../PR/Output_Files/spi_combine.v", 5155: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC235_spi_con_2_
+"../../PR/Output_Files/spi_combine.v", 5123: 
+
+*Error* view CLKBUFV3_7TV50 is not defined for instance FE_PHC191_rstn_temp
+"../../PR/Output_Files/spi_combine.v", 5131: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC195_spi_con_4_
+"../../PR/Output_Files/spi_combine.v", 5129: 
+
+*Error* view CLKBUFV2_7TV50 is not defined for instance FE_PHC9_spi_con_3_
+"../../PR/Output_Files/spi_combine.v", 5151: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC175_spi_con_6_
+"../../PR/Output_Files/spi_combine.v", 5133: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC118_spi_con_7_
+"../../PR/Output_Files/spi_combine.v", 5137: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC116_spi_con_1_
+"../../PR/Output_Files/spi_combine.v", 5139: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC64_spi_con_2_
+"../../PR/Output_Files/spi_combine.v", 5143: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC39_spi_con_4_
+"../../PR/Output_Files/spi_combine.v", 5145: 
+
+*Error* view CLKBUFV1_7TV50 is not defined for instance FE_PHC10_spi_con_0_
+"../../PR/Output_Files/spi_combine.v", 5149: 
+
+*Error* view BUFV16_7TV50 is not defined for instance FE_PHC19_rstn_temp
+"../../PR/Output_Files/spi_combine.v", 5147: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_OFC3_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 5157: 
+
+*Error* view BUFV4_7TV50 is not defined for instance FE_OFC2_rstn_sync
+"../../PR/Output_Files/spi_combine.v", 5159: 
+
+*Error* view INV0P7_7TV50 is not defined for instance FE_DBTC1_spi_con_5_
+"../../PR/Output_Files/spi_combine.v", 5161: 
+
+*Error* view INV0P7_7TV50 is not defined for instance FE_DBTC0_spi_con_7_
+"../../PR/Output_Files/spi_combine.v", 5163: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rstn_temp_reg
+"../../PR/Output_Files/spi_combine.v", 5165: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance rstn_sync_reg
+"../../PR/Output_Files/spi_combine.v", 5169: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[7]
+"../../PR/Output_Files/spi_combine.v", 5173: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[6]
+"../../PR/Output_Files/spi_combine.v", 5177: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[4]
+"../../PR/Output_Files/spi_combine.v", 5181: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[3]
+"../../PR/Output_Files/spi_combine.v", 5185: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[2]
+"../../PR/Output_Files/spi_combine.v", 5189: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[1]
+"../../PR/Output_Files/spi_combine.v", 5193: 
+
+*Error* view DRNQV1_7TV50 is not defined for instance \spi_con_reg[0]
+"../../PR/Output_Files/spi_combine.v", 5197: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U9
+"../../PR/Output_Files/spi_combine.v", 5201: 
+
+*Error* view AOI22BBV1_7TV50 is not defined for instance U11
+"../../PR/Output_Files/spi_combine.v", 5206: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U4
+"../../PR/Output_Files/spi_combine.v", 5267: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U7
+"../../PR/Output_Files/spi_combine.v", 5271: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U10
+"../../PR/Output_Files/spi_combine.v", 5275: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U6
+"../../PR/Output_Files/spi_combine.v", 5279: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U5
+"../../PR/Output_Files/spi_combine.v", 5283: 
+
+*Error* view MUX2V1_7TV50 is not defined for instance U8
+"../../PR/Output_Files/spi_combine.v", 5287: 
+
+*Error* view NAND4XXBBV1_7TV50 is not defined for instance U12
+"../../PR/Output_Files/spi_combine.v", 5291: 
+
+*Error* view CLKNOR2V2_7TV50 is not defined for instance U13
+"../../PR/Output_Files/spi_combine.v", 5296: 
+
+*Error* view DSRNQV1_7TV50 is not defined for instance \spi_con_reg[5]
+"../../PR/Output_Files/spi_combine.v", 5299: 
+
+*Error* view PULL1_7TV50 is not defined for instance U17
+"../../PR/Output_Files/spi_combine.v", 5304: 
+
+*Error* view NOR2V1_7TV50 is not defined for instance U18
+"../../PR/Output_Files/spi_combine.v", 5305: 
+Total	1202 error(s),   0 warning(s)

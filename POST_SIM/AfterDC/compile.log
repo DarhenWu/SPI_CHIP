@@ -1,0 +1,572 @@
+Command: vcs -sverilog +v2k -timescale=1ns/1ps -full64 -fsdb -debug_all +notimingcheck \
+-P /opt/Synopsys/Verdi2015/share/PLI/VCS/LINUXAMD64/novas.tab /opt/Synopsys/Verdi2015/share/PLI/VCS/LINUXAMD64/pli.a \
++vcs+flush+all +vcd+vcdpluson -f ./netlist_filelist.f -o spi_master -l compile.log \
++define+DUMP_VPD +define+DUMP_FSDB +NET_SIM -v ../../LIB/scc018v3ebcd_uhd50_rvt.v \
+
+                         Chronologic VCS (TM)
+         Version I-2014.03_Full64 -- Fri Jan  5 13:07:04 2024
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'vcd+vcdpluson' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'NET_SIM' is ignored.
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpvars' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpvarsES' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMDA' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpSVA' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpvarsByFile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbSuppress' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpon' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpoff' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbSwitchDumpfile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpfile' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbAutoSwitchDumpfile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpFinish' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpflush' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbLog' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbAddRuntimeSignal' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpSC' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpvarsToFile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_create_transaction_stream' has multiple definitions 
+  in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_begin_transaction' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_end_transaction' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_free_transaction' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_add_attribute' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_update_label' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_add_relation' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbWhatif' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpClassMethod' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbSuppressClassMethod' has multiple definitions in PLI
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbSuppressClassProp' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMDAByFile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_create_stream_begin' has multiple definitions 
+  in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_define_attribute' has multiple definitions in 
+  PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_create_stream_end' has multiple definitions in
+  PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_begin' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_set_label' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_add_attribute' has multiple definitions in PLI
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_add_tag' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_end' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_add_relation' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_get_error_code' has multiple definitions in 
+  PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_add_stream_attribute' has multiple definitions
+  in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbTrans_add_scope_attribute' has multiple definitions 
+  in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_interactive' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_test' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpClassObject' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpClassObjectByFile' has multiple definitions in 
+  PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$ridbDump' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$sps_flush_file' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpPSL' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDisplay' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumplimit' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMem' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMemNow' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMemInScope' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMDANow' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMDAOnChange' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMDAInScope' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpMemInFile' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpPSLon' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpPSLoff' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpSVAon' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpSVAoff' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpStrength' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpSingle' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpIO' has multiple definitions in PLI table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbDumpPattern' has multiple definitions in PLI 
+  table(s).
+  
+
+
+Warning-[UFTMD] User function/task multiply defined
+  The function/task '$fsdbSubstituteHier' has multiple definitions in PLI 
+  table(s).
+  
+
+Parsing design file '../../SYN/DC/OUT/dc_v1/spi_combine.v'
+Parsing design file '../../testbench/spi_slave.v'
+Parsing design file '../../testbench/tb_spi_master.v'
+Parsing design file '../../testbench/wb_master_model.v'
+Parsing design file '../../testbench/tb_spi_slave.v'
+Parsing library file '../../LIB/scc018v3ebcd_uhd50_rvt.v'
+Top Level Modules:
+       tb_spi_master
+       tb_spi_slave
+TimeScale is 10 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../../testbench/tb_spi_master.v, 147
+"spi_combine u_spi_combine( .clk_i (sys_clk),  .rstn_i (rstn),  .mosi (mosi),  .miso (miso),  .sck (sck),  .ssn_o (ssn_o),  .stb_i (stb),  .addr_i (adr[1:0]),  .we_i (we),  .data_i (wb_dat_o),  .data_o (wb_dat_i),  .ack_o (ack),  .int_o (inta));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../../testbench/tb_spi_slave.v, 158
+"wb_master_model #(.DATA_WIDTH(WISHBONE_DATA_WIDTH), .ADR_WIDTH(WISHBONE_ADR_WIDTH)) u_wb_model( .clk (sys_clk),  .rst (rstn_i),  .stb (stb),  .we (we),  .adr (adr),  .dout (wb_dat_o));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../../testbench/tb_spi_slave.v, 167
+"spi_combine u_spi_combine( .clk_i (sys_clk),  .rstn_i (rstn_i),  .mosi (mosi_i),  .miso (miso_o),  .sck (sck_i),  .ssn_i (ssn_i),  .stb_i (stb),  .we_i (we),  .addr_i (adr[1:0]),  .data_i (wb_dat_o),  .tx_valid (tx_valid),  .tx_data (tx_data),  .rx_valid (rx_valid),  .rx_data (rx_data));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+Starting vcs inline pass...
+55 modules and 5 UDPs read.
+	However, due to incremental compilation, only 55 modules need to be compiled.
+recompiling module BitDistributor8 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module spi_MasterMode_DW01_dec_0 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module inout_port_2 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module inout_port_1 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module inout_port_0 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module spi_combine because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module tb_spi_master because:
+	Signal dependencies have changed
+	Module parameters have been changed via defparam.
+	Set of coalesce able signals has changed
+recompiling module tb_spi_slave because:
+	Signal dependencies have changed
+	Module parameters have been changed via defparam.
+	Set of coalesce able signals has changed
+recompiling module AND2V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO12V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO21BV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO221V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO222V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO22V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AO32V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI211V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI21V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI221V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI222V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI22BBV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI22V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI31V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module AOI32V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module BUFV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module CLKOR2V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module DRNQV1_7TV50 because:
+	Module port or port directions have been changed.
+	Signal dependencies have changed
+recompiling module DRQV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module DSRNQV1_7TV50 because:
+	Module port or port directions have been changed.
+	Signal dependencies have changed
+recompiling module INV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module MUX2NV1_7TV50 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module MUX2V1_7TV50 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module MUX3V1_7TV50 because:
+	This module or some inlined child module(s) has/have been modified.
+recompiling module NAND2V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NAND2XBV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NAND3V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NAND4V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NAND4XXBBV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NOR2V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NOR2XBV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NOR3V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module NOR4V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OA12V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OA21BV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI211V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI21V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI221V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI22BBV1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI22V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI22XBV1_7TV50 because:
+	Signal dependencies have changed
+50 of 55 modules done
+recompiling module OAI2XB11V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI31V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module OAI32V1_7TV50 because:
+	Signal dependencies have changed
+recompiling module PULL1_7TV50 because:
+	Signal dependencies have changed
+recompiling module XNOR2V1_7TV50 because:
+	Signal dependencies have changed
+All of 55 modules done
+make[1]: Entering directory `/home/IC/SPI_CHIP/POST_SIM/AfterDC/csrc'
+rm -f _csrc*.so amd64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared -o .//../spi_master.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a  --no-whole-archive \
+
+ld -shared -o .//../spi_master.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o  
+ld -shared -o .//../spi_master.daidir//pre_vcsobj_0_1.so --whole-archive pre_vcsobj_0_1.a \
+--no-whole-archive
+if [ -x ../spi_master ]; then chmod -x ../spi_master; fi
+g++  -o ../spi_master    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/spi_master.daidir/ \
+-Wl,-rpath='$ORIGIN'/spi_master.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_0_1.so \
+rmapats_mop.o rmapats.o rmar.o           /opt/Synopsys/VCS2014/amd64/lib/libzerosoft_rt_stubs.so \
+/opt/Synopsys/VCS2014/amd64/lib/libvirsim.so /opt/Synopsys/VCS2014/amd64/lib/liberrorinf.so \
+/opt/Synopsys/VCS2014/amd64/lib/libsnpsmalloc.so /opt/Synopsys/Verdi2015/share/PLI/VCS/LINUXAMD64/pli.a \
+/opt/Synopsys/VCS2014/amd64/lib/libvcsnew.so /opt/Synopsys/VCS2014/amd64/lib/libuclinative.so \
+-Wl,-whole-archive /opt/Synopsys/VCS2014/amd64/lib/libvcsucli.so -Wl,-no-whole-archive \
+_vcs_pli_stub_.o   /opt/Synopsys/VCS2014/amd64/lib/vcs_save_restore_new.o /opt/Synopsys/Verdi2015/share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm -lm  -lc -lpthread -ldl 
+../spi_master up to date
+make[1]: Leaving directory `/home/IC/SPI_CHIP/POST_SIM/AfterDC/csrc'
+CPU time: .553 seconds to compile + .059 seconds to elab + .214 seconds to link

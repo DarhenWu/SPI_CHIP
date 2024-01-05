@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : spi_combine
+Version: K-2015.06
+Date   : Wed Dec 27 15:36:29 2023
+****************************************
+
+Library(s) Used:
+
+    scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic (File: /home/IC/SPI_CHIP/scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic.db)
+
+Number of ports:                          221
+Number of nets:                           913
+Number of cells:                          731
+Number of combinational cells:            539
+Number of sequential cells:               183
+Number of macros/black boxes:               0
+Number of buf/inv:                         90
+Number of references:                      16
+
+Combinational area:               7060.838485
+Buf/Inv area:                      580.608001
+Noncombinational area:            8778.470272
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 15839.308757
+Total area:                 undefined
+1

@@ -1,0 +1,14 @@
+Warning: Ignoring compile_fix_multiple_port_nets = TRUE. (UIO-60)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : spi_combine
+Version: K-2015.06
+Date   : Mon Jan  1 18:08:46 2024
+****************************************
+
+This design has no violated constraints.
+
+1

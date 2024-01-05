@@ -1,0 +1,6 @@
+sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
+verdiWindowResize -win $_Verdi_1 "0" "25" "1918" "850"
+debImport "+v2k" "-sverilog" "-top" "tb_spi_slave" "-f" "./layout_filelist.f"
+debLoadSimResult /home/IC/SPI_CHIP/POST_SIM/AfterPR/tb_spi_slave.fsdb
+wvCreateWindow
+debExit

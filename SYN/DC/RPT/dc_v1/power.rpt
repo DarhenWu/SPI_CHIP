@@ -1,0 +1,53 @@
+Loading db file '/home/IC/SPI_CHIP/FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : spi_combine
+Version: K-2015.06
+Date   : Mon Jan  1 18:08:47 2024
+****************************************
+
+
+Library(s) Used:
+
+    scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic (File: /home/IC/SPI_CHIP/FDRY/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.db)
+
+
+Operating Conditions: tt_v5p0_25c   Library: scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+  Cell Internal Power  =   5.4028 mW   (97%)
+  Net Switching Power  = 172.9538 uW    (3%)
+                         ---------
+Total Dynamic Power    =   5.5757 mW  (100%)
+
+Cell Leakage Power     = 663.9746 pW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  2.5799e-02        4.6011e-02        2.1069e-06        7.1810e-02  (   1.29%)
+register           5.3394        2.2374e-02        3.1808e-04            5.3618  (  96.16%)
+sequential     3.8538e-04        1.6153e-05        5.1045e-06        4.0153e-04  (   0.01%)
+combinational  3.7196e-02            0.1045        3.3869e-04            0.1417  (   2.54%)
+--------------------------------------------------------------------------------------------------
+Total              5.4028 mW         0.1729 mW     6.6397e-04 uW         5.5757 mW
+1

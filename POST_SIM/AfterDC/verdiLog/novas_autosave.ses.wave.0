@@ -1,0 +1,71 @@
+Magic 271485
+Revision Verdi3_K-2015.09-SP1-1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 28 1918 746 109 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/IC/SPI_CHIP/POST_SIM/tb_spi_master.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 9117507350.000000
+cursor 4463635000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 1
+; marker line index
+markerPos 10
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/home/IC/SPI_CHIP/POST_SIM/tb_spi_master.fsdb"
+addSignal -h 25 /tb_spi_master/u_spi_combine/spi_MasterMode_u/clk_i
+addSignal -h 25 -holdScope rstn_i
+addSignal -h 25 -holdScope master_mode
+addSignal -h 25 -holdScope stb_i
+addSignal -h 25 -UNSIGNED -HEX -holdScope addr_i[1:0]
+addSignal -h 25 -holdScope we_i
+addSignal -h 25 -UNSIGNED -HEX -holdScope data_i[7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope spi_con_i[7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope data_o[7:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope ssn_o_8[7:0]
+addSignal -h 25 -holdScope ack_o
+addSignal -h 25 -UNSIGNED -HEX -holdScope int_o
+addSignal -h 25 -holdScope sck_o
+addSignal -h 25 -holdScope miso_i
+addSignal -h 25 -holdScope mosi_o
+addSignal -h 25 -UNSIGNED -HEX /tb_spi_master/cpol[1:0]
+addSignal -h 25 -UNSIGNED -HEX -holdScope cpha[1:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

@@ -1,0 +1,67 @@
+# Version：15 Views
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name TYP1 -cap_table {../TYP.capTbl} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name TYP2 -cap_table {../TYP.capTbl} -T {0} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name TYP3 -cap_table {../TYP.capTbl} -T {25} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name TYP4 -cap_table {../TYP.capTbl} -T {85} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name TYP5 -cap_table {../TYP.capTbl} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX1 -cap_table {../MAX.capTbl} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX2 -cap_table {../MAX.capTbl} -T {0} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX3 -cap_table {../MAX.capTbl} -T {25} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX4 -cap_table {../MAX.capTbl} -T {85} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX5 -cap_table {../MAX.capTbl} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN1 -cap_table {../MIN.capTbl} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN2 -cap_table {../MIN.capTbl} -T {0} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN3 -cap_table {../MIN.capTbl} -T {25} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN4 -cap_table {../MIN.capTbl} -T {85} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN5 -cap_table {../MIN.capTbl} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+
+create_op_cond -name op_cond1 -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic.lib} -P {1} -V {5.5} -T {-40.0}
+create_op_cond -name op_cond2 -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_0c_basic.lib} -P {1} -V {5.5} -T {0.0}
+create_op_cond -name op_cond3 -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.lib} -P {1} -V {5.5} -T {25.0}
+create_op_cond -name op_cond4 -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_85c_basic.lib} -P {1} -V {5.5} -T {25.0}
+create_op_cond -name op_cond5 -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ss_v4p5_125c_basic.lib} -P {1} -V {4.5} -T {125}
+
+create_library_set -name lib1 -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic.lib}
+create_library_set -name lib2 -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_0c_basic.lib}
+create_library_set -name lib3 -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.lib}
+create_library_set -name lib4 -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_85c_basic.lib}
+create_library_set -name lib5 -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ss_v4p5_125c_basic.lib}
+
+create_constraint_mode -name sdc -sdc_files {../OUT/dc_v1/spi_combine.sdc}
+
+create_delay_corner -name lib1_corner1 -library_set {lib1} -rc_corner {TYP1}
+create_delay_corner -name lib1_corner2 -library_set {lib1} -rc_corner {MAX1}
+create_delay_corner -name lib1_corner3 -library_set {lib1} -rc_corner {MIN1}
+create_delay_corner -name lib2_corner1 -library_set {lib2} -rc_corner {TYP1}
+create_delay_corner -name lib2_corner2 -library_set {lib2} -rc_corner {MAX1}
+create_delay_corner -name lib2_corner3 -library_set {lib2} -rc_corner {MIN1}
+create_delay_corner -name lib3_corner1 -library_set {lib3} -rc_corner {TYP1}
+create_delay_corner -name lib3_corner2 -library_set {lib3} -rc_corner {MAX1}
+create_delay_corner -name lib3_corner3 -library_set {lib3} -rc_corner {MIN1}
+create_delay_corner -name lib4_corner1 -library_set {lib4} -rc_corner {TYP1}
+create_delay_corner -name lib4_corner2 -library_set {lib4} -rc_corner {MAX1}
+create_delay_corner -name lib4_corner3 -library_set {lib4} -rc_corner {MIN1}
+create_delay_corner -name lib5_corner1 -library_set {lib5} -rc_corner {TYP1}
+create_delay_corner -name lib5_corner2 -library_set {lib5} -rc_corner {MAX1}
+create_delay_corner -name lib5_corner3 -library_set {lib5} -rc_corner {MIN1}
+
+create_analysis_view -name view_lib1_corner1 -constraint_mode {sdc} -delay_corner {lib1_corner1}
+create_analysis_view -name view_lib1_corner2 -constraint_mode {sdc} -delay_corner {lib1_corner2}
+create_analysis_view -name view_lib1_corner3 -constraint_mode {sdc} -delay_corner {lib1_corner3}
+create_analysis_view -name view_lib2_corner1 -constraint_mode {sdc} -delay_corner {lib2_corner1}
+create_analysis_view -name view_lib2_corner2 -constraint_mode {sdc} -delay_corner {lib2_corner2}
+create_analysis_view -name view_lib2_corner3 -constraint_mode {sdc} -delay_corner {lib2_corner3}
+create_analysis_view -name view_lib3_corner1 -constraint_mode {sdc} -delay_corner {lib3_corner1}
+create_analysis_view -name view_lib3_corner2 -constraint_mode {sdc} -delay_corner {lib3_corner2}
+create_analysis_view -name view_lib3_corner3 -constraint_mode {sdc} -delay_corner {lib3_corner3}
+create_analysis_view -name view_lib4_corner1 -constraint_mode {sdc} -delay_corner {lib4_corner1}
+create_analysis_view -name view_lib4_corner2 -constraint_mode {sdc} -delay_corner {lib4_corner2}
+create_analysis_view -name view_lib4_corner3 -constraint_mode {sdc} -delay_corner {lib4_corner3}
+create_analysis_view -name view_lib5_corner1 -constraint_mode {sdc} -delay_corner {lib5_corner1}
+create_analysis_view -name view_lib5_corner2 -constraint_mode {sdc} -delay_corner {lib5_corner2}
+create_analysis_view -name view_lib5_corner3 -constraint_mode {sdc} -delay_corner {lib5_corner3}
+
+
+set_analysis_view -setup {view_lib1_corner1 view_lib1_corner2 view_lib1_corner3 view_lib2_corner1 view_lib2_corner2 view_lib2_corner3 view_lib3_corner1 view_lib3_corner2 view_lib3_corner3 view_lib4_corner1 view_lib4_corner2 view_lib4_corner3 view_lib5_corner1 view_lib5_corner2 view_lib5_corner3} -hold {view_lib1_corner1 view_lib1_corner2 view_lib1_corner3 view_lib2_corner1 view_lib2_corner2 view_lib2_corner3 view_lib3_corner1 view_lib3_corner2 view_lib3_corner3 view_lib4_corner1 view_lib4_corner2 view_lib4_corner3 view_lib5_corner1 view_lib5_corner2 view_lib5_corner3}

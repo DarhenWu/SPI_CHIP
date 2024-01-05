@@ -1,0 +1,733 @@
+sidCmdLineBehaviorAnalysisOpt -incr -clockSkew 0 -loopUnroll 0 -bboxEmptyModule 0  -cellModel 0 -bboxIgnoreProtected 0 
+debImport "+v2k" "-sverilog" "-top" "tb_spi_master" "-f" "./netlist_filelist.f"
+debLoadSimResult /home/IC/SPI_CHIP/POST_SIM/tb_spi_master.fsdb
+wvCreateWindow
+wvSetCursor -win $_nWave2 182607340.437236
+srcHBSelect "tb_spi_master.u_spi_combine.spi_MasterMode_u" -win $_nTrace1
+srcHBSelect "tb_spi_master.u_spi_combine.spi_MasterMode_u" -win $_nTrace1
+srcHBSelect "tb_spi_master.u_spi_combine.spi_MasterMode_u" -win $_nTrace1
+wvAddSignal -win $_nWave2 "/tb_spi_master/u_spi_combine/spi_MasterMode_u/clk_i" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/rstn_i" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/master_mode" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/stb_i" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/addr_i\[1:0\]" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/we_i" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/data_i\[7:0\]" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/spi_con_i\[7:0\]" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/data_o\[7:0\]" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/ack_o" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/int_o" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/sck_o" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/ssn_o_8\[7:0\]" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/mosi_o" \
+           "/tb_spi_master/u_spi_combine/spi_MasterMode_u/miso_i"
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvSetPosition -win $_nWave2 {("G1" 15)}
+wvSetPosition -win $_nWave2 {("G1" 15)}
+verdiWindowResize -win $_Verdi_1 "0" "25" "1918" "850"
+wvZoomAll -win $_nWave2
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollUp -win $_nWave2 7
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollUp -win $_nWave2 2
+wvScrollDown -win $_nWave2 7
+srcHBSelect "tb_spi_master.u_spi_combine" -win $_nTrace1
+srcHBSelect "tb_spi_master.u_spi_combine" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb_spi_master.u_spi_combine" -delim "."
+srcHBSelect "tb_spi_master.u_spi_combine.spi_MasterMode_u" -win $_nTrace1
+srcHBSelect "tb_spi_master.u_spi_combine" -win $_nTrace1
+srcHBSelect "tb_spi_master" -win $_nTrace1
+srcHBSelect "tb_spi_master" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb_spi_master" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 40 -pos 16 -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -word -line 41 -pos 16 -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+wvScrollDown -win $_nWave2 1
+wvSetCursor -win $_nWave2 10558780.949624 -snap {("G1" 14)}
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvSetCursor -win $_nWave2 490042.432687 -snap {("G1" 14)}
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvZoomIn -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 14 15 16 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 14 15 16 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 15 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 13 14 15 16 17 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 14 15 16 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectGroup -win $_nWave2 {G2}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 16 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 16 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+simSetDumpUnfinshTrans off
+wvSetDefaultValue -space 8 -digitalheight 20
+simSetInteractiveFsdbFile inter.fsdb
+simSetSimMode on
+simSetDumpUnfinshTrans off
+wvSetDefaultValue -space 10
+simSetDumpUnfinshTrans off
+wvSetDefaultValue -digitalheight 25
+simSetDumpUnfinshTrans off
+simSetDumpUnfinshTrans off
+wvSelectGroup -win $_nWave2 {G1}
+wvSelectSignal -win $_nWave2 {( "G1" 16 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 14 15 16 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 14 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 16 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 16 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSelectSignal -win $_nWave2 {( "G1" 15 )} 
+wvSetPosition -win $_nWave2 {("G1" 15)}
+wvSetPosition -win $_nWave2 {("G1" 14)}
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 11)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 11)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 14 )} 
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvSetPosition -win $_nWave2 {("G1" 14)}
+wvSetPosition -win $_nWave2 {("G1" 15)}
+wvSetPosition -win $_nWave2 {("G1" 16)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 16)}
+wvSelectSignal -win $_nWave2 {( "G1" 17 )} 
+wvSetPosition -win $_nWave2 {("G1" 17)}
+wvSetPosition -win $_nWave2 {("G1" 16)}
+wvSetPosition -win $_nWave2 {("G1" 15)}
+wvSetPosition -win $_nWave2 {("G1" 14)}
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvSetPosition -win $_nWave2 {("G1" 14)}
+wvSelectSignal -win $_nWave2 {( "G1" 15 )} 
+wvSetPosition -win $_nWave2 {("G1" 15)}
+wvSetPosition -win $_nWave2 {("G1" 14)}
+wvSetPosition -win $_nWave2 {("G1" 13)}
+wvSetPosition -win $_nWave2 {("G1" 12)}
+wvSetPosition -win $_nWave2 {("G1" 11)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G1" 9)}
+wvSetPosition -win $_nWave2 {("G1" 10)}
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+verdiDockWidgetRestore -dock windowDock_nWave_2
+srcHBSelect "tb_spi_master.u_spi_combine" -win $_nTrace1
+srcHBSelect "tb_spi_master.u_spi_combine" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb_spi_master.u_spi_combine" -delim "."
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+wvScrollDown -win $_nWave2 1
+verdiDockWidgetMaximize -dock windowDock_nWave_2
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvSetCursor -win $_nWave2 446674.737880 -snap {("G1" 14)}
+wvSetCursor -win $_nWave2 454332.019101 -snap {("G1" 14)}
+wvSetCursor -win $_nWave2 444122.310806 -snap {("G1" 15)}
+wvSetCursor -win $_nWave2 421150.467144 -snap {("G1" 13)}
+wvSetCursor -win $_nWave2 410940.758849 -snap {("G1" 13)}
+wvSetCursor -win $_nWave2 467094.154469 -snap {("G1" 13)}
+wvSetCursor -win $_nWave2 604925.216443 -snap {("G1" 14)}
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 13 14 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 13 14 15 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 12 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSelectSignal -win $_nWave2 {( "G1" 13 )} 
+wvSetCursor -win $_nWave2 908664.038201 -snap {("G1" 4)}
+wvZoomAll -win $_nWave2
+wvSetCursor -win $_nWave2 4468533870.023283 -snap {("G1" 16)}

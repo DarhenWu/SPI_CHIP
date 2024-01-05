@@ -1,0 +1,1061 @@
+Warning: Ignoring compile_fix_multiple_port_nets = TRUE. (UIO-60)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : spi_combine
+Version: K-2015.06
+Date   : Wed Dec 27 15:36:29 2023
+****************************************
+
+
+  Startpoint: rstn_temp_reg
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: rstn_sync_reg
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk_i (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  rstn_temp_reg/CK (DRQV1_7TV50)           0.00       0.00 r
+  rstn_temp_reg/Q (DRQV1_7TV50)            0.42       0.42 f
+  rstn_sync_reg/D (DRQV2_7TV50)            0.00       0.42 f
+  data arrival time                                   0.42
+
+  clock clk_i (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  clock uncertainty                        0.50       0.50
+  rstn_sync_reg/CK (DRQV2_7TV50)           0.00       0.50 r
+  library hold time                        0.08       0.58
+  data required time                                  0.58
+  -----------------------------------------------------------
+  data required time                                  0.58
+  data arrival time                                  -0.42
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -0.16
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[4]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[4]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[4]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[4]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U33/ZN (AOI22V1_7TV50)                 0.07       0.49 r
+  spi_MasterMode_u/U31/ZN (NAND2V1_7TV50)                 0.06       0.55 f
+  spi_MasterMode_u/data_o_reg[4]/D (DRNQV1_7TV50)         0.00       0.55 f
+  data arrival time                                                  0.55
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[4]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.05
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[5]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[5]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[5]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[5]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U30/ZN (AOI22V1_7TV50)                 0.07       0.49 r
+  spi_MasterMode_u/U28/ZN (NAND2V1_7TV50)                 0.06       0.55 f
+  spi_MasterMode_u/data_o_reg[5]/D (DRNQV1_7TV50)         0.00       0.55 f
+  data arrival time                                                  0.55
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[5]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.55
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.05
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[0]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[0]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[0]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U47/ZN (AOI22V1_7TV50)                 0.08       0.49 r
+  spi_MasterMode_u/U44/ZN (OAI211V1_7TV50)                0.07       0.56 f
+  spi_MasterMode_u/data_o_reg[0]/D (DRNQV1_7TV50)         0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[0]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[1]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[1]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[1]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U43/ZN (AOI22V1_7TV50)                 0.08       0.49 r
+  spi_MasterMode_u/U41/ZN (OAI211V1_7TV50)                0.07       0.56 f
+  spi_MasterMode_u/data_o_reg[1]/D (DRNQV1_7TV50)         0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[1]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[3]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[3]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[3]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[3]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U36/ZN (AOI22V1_7TV50)                 0.08       0.49 r
+  spi_MasterMode_u/U34/ZN (OAI211V1_7TV50)                0.07       0.56 f
+  spi_MasterMode_u/data_o_reg[3]/D (DRNQV1_7TV50)         0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[3]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[7]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[7]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[7]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[7]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U21/ZN (AOI22V1_7TV50)                 0.08       0.49 r
+  spi_MasterMode_u/U19/ZN (OAI211V1_7TV50)                0.07       0.56 f
+  spi_MasterMode_u/data_o_reg[7]/D (DRNQV1_7TV50)         0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[7]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_MasterMode_u/int_o_reg
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/int_o_reg
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/int_o_reg/CK (DRNQV1_7TV50)            0.00       0.00 r
+  spi_MasterMode_u/int_o_reg/Q (DRNQV1_7TV50)             0.41       0.41 f
+  spi_MasterMode_u/U22/Z (AO32V1_7TV50)                   0.15       0.56 f
+  spi_MasterMode_u/int_o_reg/D (DRNQV1_7TV50)             0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/int_o_reg/CK (DRNQV1_7TV50)            0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_MasterMode_u/data_o_reg[2]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/data_o_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/data_o_reg[2]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/data_o_reg[2]/Q (DRNQV1_7TV50)         0.42       0.42 f
+  spi_MasterMode_u/U39/ZN (AOI22V1_7TV50)                 0.07       0.49 r
+  spi_MasterMode_u/U38/ZN (OAI2XB11V1_7TV50)              0.07       0.56 f
+  spi_MasterMode_u/data_o_reg[2]/D (DRNQV1_7TV50)         0.00       0.56 f
+  data arrival time                                                  0.56
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/data_o_reg[2]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.04
+
+
+  Startpoint: spi_SlaveMode_u/rx_valid_d1_reg
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_valid_d1_reg
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_valid_d1_reg/CK (DRNQV1_7TV50)       0.00       0.00 r
+  spi_SlaveMode_u/rx_valid_d1_reg/Q (DRNQV1_7TV50)        0.43       0.43 f
+  spi_SlaveMode_u/U19/Z (AO21BV1_7TV50)                   0.14       0.57 f
+  spi_SlaveMode_u/rx_valid_d1_reg/D (DRNQV1_7TV50)        0.00       0.57 f
+  data arrival time                                                  0.57
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_valid_d1_reg/CK (DRNQV1_7TV50)       0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_MasterMode_u/wr_col_f_reg
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/wr_col_f_reg
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/wr_col_f_reg/CK (DRNQV1_7TV50)         0.00       0.00 r
+  spi_MasterMode_u/wr_col_f_reg/Q (DRNQV1_7TV50)          0.43       0.43 f
+  spi_MasterMode_u/U169/Z (AO32V1_7TV50)                  0.15       0.57 f
+  spi_MasterMode_u/wr_col_f_reg/D (DRNQV1_7TV50)          0.00       0.57 f
+  data arrival time                                                  0.57
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/wr_col_f_reg/CK (DRNQV1_7TV50)         0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_MasterMode_u/spi_ext_reg[7]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_MasterMode_u/trans_cnt_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_MasterMode_u/spi_ext_reg[7]/CK (DRQV1_7TV50)        0.00       0.00 r
+  spi_MasterMode_u/spi_ext_reg[7]/Q (DRQV1_7TV50)         0.46       0.46 f
+  spi_MasterMode_u/U13/ZN (OAI21V1_7TV50)                 0.07       0.52 r
+  spi_MasterMode_u/U12/ZN (CLKNAND2V1_7TV50)              0.07       0.59 f
+  spi_MasterMode_u/trans_cnt_reg[1]/D (DRNQV1_7TV50)      0.00       0.59 f
+  data arrival time                                                  0.59
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_MasterMode_u/trans_cnt_reg[1]/CK (DRNQV1_7TV50)     0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.59
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.01
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[1]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[1]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[1]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U16/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[1]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[1]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[2]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[2]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[2]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[2]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U15/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[2]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[2]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[3]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[3]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[3]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[3]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U14/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[3]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[3]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[4]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[4]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[4]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[4]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U13/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[4]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[4]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[5]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[5]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[5]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[5]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U12/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[5]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[5]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[6]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[6]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[6]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[6]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U11/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[6]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[6]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/rx_data_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_i)
+  Endpoint: spi_SlaveMode_u/rx_data_reg[0]
+            (rising edge-triggered flip-flop clocked by clk_i)
+  Path Group: clk_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  spi_SlaveMode_u/rx_data_reg[0]/CK (DRNQV1_7TV50)        0.00       0.00 r
+  spi_SlaveMode_u/rx_data_reg[0]/Q (DRNQV1_7TV50)         0.41       0.41 f
+  spi_SlaveMode_u/U17/ZN (AOI22BBV1_7TV50)                0.19       0.60 f
+  spi_SlaveMode_u/rx_data_reg[0]/D (DRNQV1_7TV50)         0.00       0.60 f
+  data arrival time                                                  0.60
+
+  clock clk_i (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                       0.50       0.50
+  spi_SlaveMode_u/rx_data_reg[0]/CK (DRNQV1_7TV50)        0.00       0.50 r
+  library hold time                                       0.10       0.60
+  data required time                                                 0.60
+  --------------------------------------------------------------------------
+  data required time                                                 0.60
+  data arrival time                                                 -0.60
+  --------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                      0.00
+
+
+  Startpoint: spi_SlaveMode_u/tx_bit_cnt_reg[2]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/tx_bit_cnt_reg[2]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/tx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.00 r
+  spi_SlaveMode_u/tx_bit_cnt_reg[2]/Q (DSRNQV1_7TV50)     0.45      10.45 r
+  spi_SlaveMode_u/U3/ZN (AOI22BBV1_7TV50)                 0.06      10.51 f
+  spi_SlaveMode_u/tx_bit_cnt_reg[2]/D (DSRNQV1_7TV50)     0.00      10.51 f
+  data arrival time                                                 10.51
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/tx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.50 r
+  library hold time                                       0.09      10.59
+  data required time                                                10.59
+  --------------------------------------------------------------------------
+  data required time                                                10.59
+  data arrival time                                                -10.51
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.07
+
+
+  Startpoint: spi_SlaveMode_u/rx_valid_reg
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/rx_valid_reg
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/rx_valid_reg/CK (DRNQV1_7TV50)          0.00      10.00 r
+  spi_SlaveMode_u/rx_valid_reg/Q (DRNQV1_7TV50)           0.43      10.43 f
+  spi_SlaveMode_u/U23/ZN (CLKNAND2V1_7TV50)               0.06      10.49 r
+  spi_SlaveMode_u/U22/ZN (OAI31V1_7TV50)                  0.04      10.54 f
+  spi_SlaveMode_u/rx_valid_reg/D (DRNQV1_7TV50)           0.00      10.54 f
+  data arrival time                                                 10.54
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/rx_valid_reg/CK (DRNQV1_7TV50)          0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.54
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.06
+
+
+  Startpoint: spi_SlaveMode_u/rx_bit_cnt_reg[2]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/rx_bit_cnt_reg[2]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.00 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/Q (DSRNQV1_7TV50)     0.46      10.46 r
+  spi_SlaveMode_u/U8/ZN (OAI31V1_7TV50)                   0.08      10.54 f
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/D (DSRNQV1_7TV50)     0.00      10.54 f
+  data arrival time                                                 10.54
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/rx_bit_cnt_reg[2]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.50 r
+  library hold time                                       0.09      10.59
+  data required time                                                10.59
+  --------------------------------------------------------------------------
+  data required time                                                10.59
+  data arrival time                                                -10.54
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.05
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[6]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[7]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[6]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[6]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U48/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U36/ZN (AOI22BBV1_7TV50)                0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[7]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[7]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[0]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[0]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[0]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[0]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U49/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U50/ZN (AOI22BBV1_7TV50)                0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[0]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[0]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[1]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[1]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[1]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[1]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U54/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U47/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[1]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[1]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[5]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[5]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[5]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[5]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U51/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U39/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[5]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[5]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[4]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[4]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[4]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[4]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U52/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U41/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[4]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[4]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[3]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[3]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[3]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[3]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U53/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U43/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[3]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[3]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[2]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[2]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[2]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[2]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U46/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U45/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[2]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[2]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/sfr_rx_reg[6]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/sfr_rx_reg[6]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/sfr_rx_reg[6]/CK (DRNQV1_7TV50)         0.00      10.00 r
+  spi_SlaveMode_u/sfr_rx_reg[6]/Q (DRNQV1_7TV50)          0.42      10.42 f
+  spi_SlaveMode_u/U48/ZN (CLKINV1_7TV50)                  0.09      10.51 r
+  spi_SlaveMode_u/U37/ZN (AOI22V1_7TV50)                  0.06      10.57 f
+  spi_SlaveMode_u/sfr_rx_reg[6]/D (DRNQV1_7TV50)          0.00      10.57 f
+  data arrival time                                                 10.57
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/sfr_rx_reg[6]/CK (DRNQV1_7TV50)         0.00      10.50 r
+  library hold time                                       0.10      10.60
+  data required time                                                10.60
+  --------------------------------------------------------------------------
+  data required time                                                10.60
+  data arrival time                                                -10.57
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/rx_bit_cnt_reg[1]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/rx_bit_cnt_reg[1]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/rx_bit_cnt_reg[1]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.00 r
+  spi_SlaveMode_u/rx_bit_cnt_reg[1]/Q (DSRNQV1_7TV50)     0.51      10.51 r
+  spi_SlaveMode_u/U24/ZN (XNOR2V1_7TV50)                  0.06      10.56 f
+  spi_SlaveMode_u/rx_bit_cnt_reg[1]/D (DSRNQV1_7TV50)     0.00      10.56 f
+  data arrival time                                                 10.56
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/rx_bit_cnt_reg[1]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.50 r
+  library hold time                                       0.09      10.59
+  data required time                                                10.59
+  --------------------------------------------------------------------------
+  data required time                                                10.59
+  data arrival time                                                -10.56
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: spi_SlaveMode_u/tx_bit_cnt_reg[1]
+              (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Endpoint: spi_SlaveMode_u/tx_bit_cnt_reg[1]
+            (rising edge-triggered flip-flop clocked by spi_SlaveMode_u/sck_i')
+  Path Group: spi_SlaveMode_u/sck_i
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  spi_SlaveMode_u/tx_bit_cnt_reg[1]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.00 r
+  spi_SlaveMode_u/tx_bit_cnt_reg[1]/Q (DSRNQV1_7TV50)     0.52      10.52 r
+  spi_SlaveMode_u/U5/ZN (AOI22BBV1_7TV50)                 0.06      10.58 f
+  spi_SlaveMode_u/tx_bit_cnt_reg[1]/D (DSRNQV1_7TV50)     0.00      10.58 f
+  data arrival time                                                 10.58
+
+  clock spi_SlaveMode_u/sck_i' (rise edge)               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                       0.50      10.50
+  spi_SlaveMode_u/tx_bit_cnt_reg[1]/CK (DSRNQV1_7TV50)
+                                                          0.00      10.50 r
+  library hold time                                       0.09      10.59
+  data required time                                                10.59
+  --------------------------------------------------------------------------
+  data required time                                                10.59
+  data arrival time                                                -10.58
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.01
+
+
+    Net: ssn_o[0]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[1]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[2]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[3]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[4]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[5]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[6]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+    Net: ssn_o[7]
+
+    Capacitance            0.00
+  - min_capacitance        0.00
+  ------------------------------
+    Slack                  0.00  (VIOLATED: increase significant digits)
+
+
+1

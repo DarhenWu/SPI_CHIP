@@ -1,0 +1,9 @@
+/home/IC/SPI_CHIP/RTL/bitdistributor8.v
+/home/IC/SPI_CHIP/RTL/inout_port.v
+/home/IC/SPI_CHIP/RTL/spi_MasterMode.v
+/home/IC/SPI_CHIP/RTL/spi_SlaveMode.v
+/home/IC/SPI_CHIP/RTL/spi_combine.v
+/home/IC/SPI_CHIP/RTL/spi_fifo.v
+/home/IC/SPI_CHIP/testbench/spi_slave.v
+/home/IC/SPI_CHIP/testbench/tb_spi_master.v
+/home/IC/SPI_CHIP/testbench/wb_master_model.v

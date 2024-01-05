@@ -1,0 +1,5 @@
+Command Line: /opt/Synopsys/Verdi2015/platform/LINUXAMD64/bin/Novas +v2k -sverilog -top tb_spi_slave -nologo -f ./netlist_filelist.f -ssf tb_spi_slave.fsdb
+uname(Linux IC 2.6.32-573.el6.x86_64 #1 SMP Wed Jul 1 18:23:37 EDT 2015 x86_64)
+tyau time 3853.271687 32.853006 166.592674 delta 311296000 311296000 total 686436352 686436352
+eld= tb_spi_slave
+au time 919.270166 12.898039 24.172326 delta 290230272 290230272 total 665370624 665370624

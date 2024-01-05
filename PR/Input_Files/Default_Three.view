@@ -1,0 +1,20 @@
+# Current:3 Views
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name TYP -cap_table {../TYP.capTbl} -T {25} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MAX -cap_table {../MAX.capTbl} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_rc_corner -name MIN -cap_table {../MIN.capTbl} -T {-40} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0}
+create_op_cond -name FAST -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic.lib} -P {1} -V {5.0} -T {-40.0}
+create_op_cond -name TYPICAL -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.lib} -P {1} -V {5.0} -T {25.0}
+create_op_cond -name SLOW -library_file {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ss_v4p5_125c_basic.lib} -P {1} -V {4.5} -T {125}
+create_library_set -name FASTlib -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ff_v5p5_-40c_basic.lib}
+create_library_set -name SLOWlib -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_ss_v4p5_125c_basic.lib}
+create_library_set -name TYPlib -timing {../DCLayout/prfiles/prfiles/lib/scc018v3ebcd_uhd50_rvt_tt_v5p0_25c_basic.lib}
+create_constraint_mode -name sdc -sdc_files {../OUT/dc_v1/spi_combine.sdc}
+create_delay_corner -name TYP -library_set {TYPlib} -rc_corner {TYP}
+create_delay_corner -name SLOW -library_set {SLOWlib} -rc_corner {MAX}
+create_delay_corner -name FAST -library_set {FASTlib} -rc_corner {MIN}
+create_analysis_view -name TYPview -constraint_mode {sdc} -delay_corner {TYP}
+create_analysis_view -name FASTview -constraint_mode {sdc} -delay_corner {FAST}
+create_analysis_view -name SLOWview -constraint_mode {sdc} -delay_corner {SLOW}
+set_analysis_view -setup {TYPview FASTview SLOWview} -hold {TYPview FASTview SLOWview}
