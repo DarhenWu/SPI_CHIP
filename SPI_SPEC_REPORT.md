@@ -32,7 +32,7 @@
 
 ### 1.1 整体框图
 
-![image-20240103105421319](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240103105421319.png)
+![image-20240103105421319](pictures/image-20240103105421319.png)
 
 ​	本设计框图如上所示，顶层模块为spi_combine，分为两大模块：spi_MasterMode和spi_SlaveMode，分别为主模式和从模式。除此之外，还有数据分配器ssn_distributor模块，用于将ssn信号输出到某一个从机，实现从机8选1的操作。最后还有tri_state_port模块为三态输入输出端口：在主模式下mosi和sck作为输出，miso作为输入；在从模式下mosi和sck作为输入，miso作为输出。
 
@@ -140,7 +140,7 @@ assign    slave_mode_en  =  ~ mode_sel && spi_en ;
 
 ##### Ⅱ. 原理框图
 
-![image-20240103220405529](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240103220405529.png)
+![image-20240103220405529](pictures/image-20240103220405529.png)
 
 ##### Ⅲ. 设计特点
 
@@ -210,7 +210,7 @@ end
 
 ##### Ⅱ. 原理框图
 
-![image-20240103230758840](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240103230758840.png)
+![image-20240103230758840](pictures/image-20240103230758840.png)
 
 ##### Ⅲ. 设计思路
 
@@ -242,7 +242,7 @@ end
 
 ​	由于本芯片即可做主机也可做从机，因此sck，mosi，miso端口均需要复用，因此设计一个三态输出端口，来切换端口为输入或输出：
 
-![image-20240103232817052](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240103232817052.png)
+![image-20240103232817052](pictures/image-20240103232817052.png)
 
 ### 1.3 寄存器简介
 
@@ -255,7 +255,7 @@ end
 
 #### 1.3.1 控制寄存器（地址为2'b00)
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104093250425.png" alt="image-20240104093250425" style="zoom:67%;" />
+<img src="pictures/image-20240104093250425.png" alt="image-20240104093250425" style="zoom:67%;" />
 
 |   **bit**    |                **function**                |
 | :----------: | :----------------------------------------: |
@@ -268,7 +268,7 @@ end
 
 #### 1.3.2 拓展寄存器（地址为2'b11)
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104095718064.png" alt="image-20240104095718064" style="zoom:67%;" />
+<img src="pictures/image-20240104095718064.png" alt="image-20240104095718064" style="zoom:67%;" />
 
 |     **bit**     |                         **function**                         |
 | :-------------: | :----------------------------------------------------------: |
@@ -278,7 +278,7 @@ end
 
 #### 1.3.3 状态寄存器（地址为2'b01)
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104101349897.png" alt="image-20240104101349897" style="zoom:67%;" />
+<img src="pictures/image-20240104101349897.png" alt="image-20240104101349897" style="zoom:67%;" />
 
 |  **bit**  |     **function**     |
 | :-------: | :------------------: |
@@ -293,7 +293,7 @@ end
 
 ​	本设计选择使用深度为4bytes的FIFO作为数据寄存器。在主模式下，将要发出的数据存到写FIFO（wfifo），将收到的数据存到读FIFO（rfifo）。具体工作流程如下图所示：
 
-![image-20240104102859200](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104102859200.png)
+![image-20240104102859200](pictures/image-20240104102859200.png)
 
 ##### Ⅰ. data_i  -> wfifo
 
@@ -333,7 +333,7 @@ end
 
 #### 2.1.1 仿真方案
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104143631864.png" alt="image-20240104143631864" style="zoom:67%;" />
+<img src="pictures/image-20240104143631864.png" alt="image-20240104143631864" style="zoom:67%;" />
 
 ​	基本仿真方案如上图所示，除主模块外，编写两个仿真测试模块：wb_master_model和spi_slave。wb_master_model模块通过wb_write和wb_read两个task来模拟总线对芯片的读写操作。spi_slave为测试使用的SPI从机模块，只有复位端口及4个标准SPI端口。定义一个内部存储mem来存储从机发给主机的数据。数据传输时，每次传输将一个byte数据从mem的指定地址中取出，传输完成后，将收到的数据存到原来的地址。
 
@@ -343,39 +343,39 @@ end
 
 ##### ①整体结果
 
-![image-20240104151440577](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104151440577.png)
+![image-20240104151440577](pictures/image-20240104151440577.png)
 
 ##### ②配置控制寄存器和拓展寄存器
 
-![image-20240104151947871](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104151947871.png)
+![image-20240104151947871](pictures/image-20240104151947871.png)
 
 ##### ③发送并接收数据（发送的数据为5、6、7、8循环，接收的数据1-32依次递增）
 
 **00模式：**（空闲为低电平，上升沿采样数据，下降沿切换数据）
 
-![image-20240104182637852](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104182637852.png)
+![image-20240104182637852](pictures/image-20240104182637852.png)
 
-![image-20240104182702225](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104182702225.png)
+![image-20240104182702225](pictures/image-20240104182702225.png)
 
-![image-20240104182814785](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104182814785.png)
+![image-20240104182814785](pictures/image-20240104182814785.png)
 
 **10模式：**（空闲为高电平，下降沿采样数据，上升沿切换数据）
 
-![image-20240104183014798](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104183014798.png)
+![image-20240104183014798](pictures/image-20240104183014798.png)
 
 **01模式：**（空闲为低电平，下降沿采样数据，上升沿切换数据）
 
-![image-20240104183638784](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104183638784.png)
+![image-20240104183638784](pictures/image-20240104183638784.png)
 
 **11模式：**（空闲为高电平，上升沿采样数据，下降沿切换数据）
 
-![image-20240104183836587](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104183836587.png)
+![image-20240104183836587](pictures/image-20240104183836587.png)
 
 ### 2.2从模式仿真
 
 #### 2.2.1 仿真方案
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104185047259.png" alt="image-20240104185047259" style="zoom:67%;" />
+<img src="pictures/image-20240104185047259.png" alt="image-20240104185047259" style="zoom:67%;" />
 
 ​	从模式仿真时，直接通过TB来输入ssn，sck和mosi信号，tx_data数据通过miso线发送出去。简单示意图如上所示。
 
@@ -385,19 +385,19 @@ end
 
 ##### ①配置控制寄存器，选择从模式（spi_con[5] = 0)，分频选择16分频（spi_con[2:0] = 2'b011)。
 
-![image-20240104192826918](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104192826918.png)
+![image-20240104192826918](pictures/image-20240104192826918.png)
 
 ##### ②等到sck时钟后开始传输数据
 
 **00模式：**（空闲为低，上升沿采样，下降沿切换）
 
-![image-20240104193106650](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104193106650.png)
+![image-20240104193106650](pictures/image-20240104193106650.png)
 
 **11模式：**（空闲为高，上升沿采样，下降沿切换）
 
 （修改tb_spi_slave.v中的第81行，配置控制寄存器第4 5位为"11"，第87行cpol和cpha改为"11"。
 
-![image-20240104195308497](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104195308497.png)
+![image-20240104195308497](pictures/image-20240104195308497.png)
 
 至此，功能仿真结束，实际上还有一些bug需要修复。
 
@@ -523,7 +523,7 @@ set_false_path -from [get_ports rstn_i] -to [all_registers]
 
 * 将系统时钟与SPI时钟设置为异步时钟组
 
-![image-20240104202544698](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104202544698.png)
+![image-20240104202544698](pictures/image-20240104202544698.png)
 
 ##### ④输出时序检查报告及综合结果
 
@@ -557,23 +557,23 @@ set_svf -off
 
 * dc_v1对应tt25工艺脚，dc_v2对应ss150工艺脚，dc_v3对应ff-40工艺脚。
 
-![image-20240104203202560](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104203202560.png)
+![image-20240104203202560](pictures/image-20240104203202560.png)
 
 ##### ①timing.max.rpt 建立时间检查报告
 
-![image-20240104203523749](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104203523749.png)
+![image-20240104203523749](pictures/image-20240104203523749.png)
 
 ##### ②timing.min.rpt 保持时间检查报告
 
-![image-20240104203641088](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104203641088.png)
+![image-20240104203641088](pictures/image-20240104203641088.png)
 
 ### 3.3功耗报告
 
-![image-20240104203926196](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104203926196.png)
+![image-20240104203926196](pictures/image-20240104203926196.png)
 
 ### 3.4综合输出网表
 
-![image-20240104204307696](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104204307696.png)
+![image-20240104204307696](pictures/image-20240104204307696.png)
 
 * **.ddc 文件：** Design Description Constraints 文件，通常包含关于设计的约束信息，例如时钟频率、时序要求等。这些约束对于综合工具在生成网表时的优化和分析至关重要。
 * **.sdc 文件：** Synopsys Design Constraints 文件，包含了对综合和时序分析的详细约束。这些约束包括时钟定义、时序路径、时序关系等，用于确保设计在满足时序和性能要求的情况下进行综合。
@@ -683,17 +683,17 @@ clean:
 
 * 与前仿一致
 
-![image-20240104223702805](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104223702805.png)
+![image-20240104223702805](pictures/image-20240104223702805.png)
 
-![image-20240104223739504](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104223739504.png)
+![image-20240104223739504](pictures/image-20240104223739504.png)
 
 ### 4.5 从模式仿真结果
 
 * 与前仿一致（不知道为啥有毛刺）
 
-![image-20240104225251834](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104225251834.png)
+![image-20240104225251834](pictures/image-20240104225251834.png)
 
-![image-20240104225144517](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240104225144517.png)
+![image-20240104225144517](pictures/image-20240104225144517.png)
 
 ​	至此，DC综合后的网表仿真结束，与前仿结果基本一致，下一步进行布局布线。
 
@@ -703,7 +703,7 @@ clean:
 
 ### 5.1 后端整体流程
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105100613094.png" alt="image-20240105100613094" style="zoom:67%;" />
+<img src="pictures/image-20240105100613094.png" alt="image-20240105100613094" style="zoom:67%;" />
 
 ### 5.2  详细步骤
 
@@ -789,10 +789,10 @@ set_analysis_view -setup {view_lib1_corner1 view_lib1_corner2 view_lib1_corner3 
 
 将56个IO分为13+13+12+16四组，IO Boundry：185um×175um，通过EXCEL计算，保证同侧信号位置**分布均匀**，保证总线信号分布于相同一侧。
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105101018403.png" alt="image-20240105101018403" style="zoom:67%;" />
+<img src="pictures/image-20240105101018403.png" alt="image-20240105101018403" style="zoom:67%;" />
 
 <center>计算IO位置的Excel数据
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105101418763.png" alt="imae-20240105101418763" style="zoom:67%;" />
+<img src="pictures/image-20240105101418763.png" alt="imae-20240105101418763" style="zoom:67%;" />
 
 <center>布局后的IO引脚位置图
 
@@ -800,7 +800,7 @@ set_analysis_view -setup {view_lib1_corner1 view_lib1_corner2 view_lib1_corner3 
 
 第一次导入时设置：
 
-![image-20240105101630074](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105101630074.png)
+![image-20240105101630074](pictures/image-20240105101630074.png)
 
 之后使用时，可以直接Load第一次保存的Default.globals文件。
 
@@ -808,41 +808,41 @@ set_analysis_view -setup {view_lib1_corner1 view_lib1_corner2 view_lib1_corner3 
 
 ​	指对各个功能模块的排列和布局进行规划的过程。这是在芯片级别上进行的整体布局设计，旨在确定每个功能模块、逻辑单元、存储单元、输入/输出接口等元素在芯片内部的位置。floorplan的最终目标是最大程度地优化性能、功耗和面积，以及确保满足布线和物理设计方面的限制。
 
-![image-20240105101757072](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105101757072.png)
+![image-20240105101757072](pictures/image-20240105101757072.png)
 
 #### 5.2.5 载入IO文件  Load IO file
 
 ​	包括芯片的输入/输出引脚列表、约束文件、时序信息以及其他与物理布局和布线相关的约束和要求。加载这些I/O文件是为了确保布局布线工具能够按照设计规范正确地放置和连接输入输出引脚，并满足设计的性能和功能要求。
 
-![image-20240105101943692](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105101943692.png)
+![image-20240105101943692](pictures/image-20240105101943692.png)
 
 #### 5.2.6 增加供电环 Add Power Ring
 
 ​	将供电网络连接在芯片的四周，以确保每个电路单元都能够得到足够的电源供应，从而提供稳定的工作环境。
 
-![image-20240105102130300](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102130300.png)
+![image-20240105102130300](pictures/image-20240105102130300.png)
 
 #### 5.2.7 增加条纹 Add Stripes
 
 ​	在芯片的布线或者布局阶段，增加一定的布线形状以改善电气特性，减少电压下降和噪声问题。这些条纹通常被用来提高电路的传输性能和稳定性。
 
-![image-20240105102258747](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102258747.png)
+![image-20240105102258747](pictures/image-20240105102258747.png)
 
 #### 5.2.8 全局信号线连接  Global Net Connections
 
 ​	连接整个芯片的主要信号线或者电源线。这些全局连接通常包括主要的时钟信号、复位信号、供电线等，在整个芯片内部起着关键的作用。在数字芯片的后端设计阶段，需要对这些全局网连接进行布局和布线，以确保信号传输的性能和稳定性。
 
-![image-20240105102352833](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102352833.png)
+![image-20240105102352833](pictures/image-20240105102352833.png)
 
 #### 5.2.9 特殊路径 Special Route
 
 ​	指的是定制的电路布线路径，用于连接芯片上的特定功能模块或提供更佳的性能。这些特殊的路线可能会经过定制的布局和布线规则，以确保信号的稳定性和最佳的电路性能。
 
-![image-20240105102507803](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102507803.png)
+![image-20240105102507803](pictures/image-20240105102507803.png)
 
 #### 5.2.10 放置标准单元 Place Standcells
 
-![image-20240105102720208](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102720208.png)
+![image-20240105102720208](pictures/image-20240105102720208.png)
 
 #### 5.2.11 时钟树综合 CTS
 
@@ -866,19 +866,19 @@ clockDesign -outDir ${BASENAME}_clock_reports
 
 #### 5.2.12 纳米布线 NanoRoute
 
-![image-20240105102952493](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105102952493.png)
+![image-20240105102952493](pictures/image-20240105102952493.png)
 
 #### 5.2.13 添加填充单元 Add Filler Cells
 
 ​	填补空白区域或优化布线而添加的特定类型的标准单元。这些填充单元通常用于平衡布局或解决布线规则要求。
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105103127550.png" alt="image-20240105103127550" style="zoom:80%;" />
+<img src="pictures/image-20240105103127550.png" alt="image-20240105103127550" style="zoom:80%;" />
 
 #### 5.2.14 保存和读取设计
 
-![image-20240105103220390](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105103220390.png)
+![image-20240105103220390](pictures/image-20240105103220390.png)
 
-![image-20240105103233462](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105103233462.png)
+![image-20240105103233462](pictures/image-20240105103233462.png)
 
 ### 5.3 布局布线结果检查
 
@@ -886,29 +886,29 @@ clockDesign -outDir ${BASENAME}_clock_reports
 
 * Special Route之后版图
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104315553.png" alt="image-20240105104315553" style="zoom:67%;" />
+<img src="pictures/image-20240105104315553.png" alt="image-20240105104315553" style="zoom:67%;" />
 
 * 最终版图
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104359135.png" alt="image-20240105104359135" style="zoom:67%;" />
+<img src="pictures/image-20240105104359135.png" alt="image-20240105104359135" style="zoom:67%;" />
 
 * Amoba View
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104424595.png" alt="image-20240105104424595" style="zoom:67%;" />
+<img src="pictures/image-20240105104424595.png" alt="image-20240105104424595" style="zoom:67%;" />
 
 * Amoba View的局部放大，可以看到三态门
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104449451.png" alt="image-20240105104449451" style="zoom: 80%;" />
+<img src="pictures/image-20240105104449451.png" alt="image-20240105104449451" style="zoom: 80%;" />
 
 * Floorplan View
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104512357.png" alt="image-20240105104512357" style="zoom:67%;" />
+<img src="pictures/image-20240105104512357.png" alt="image-20240105104512357" style="zoom:67%;" />
 
 #### 5.3.2 面积利用率
 
 面积利用率为**86.895%**。
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104604289.png" alt="image-20240105104604289" style="zoom:33%;" />
+<img src="pictures/image-20240105104604289.png" alt="image-20240105104604289" style="zoom:33%;" />
 
 #### 5.3.3 时序检查 Timing Check
 
@@ -923,31 +923,31 @@ clockDesign -outDir ${BASENAME}_clock_reports
 
 * optimize后的Pre-CTS-setup结果：
 
-![image-20240105104830276](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105104830276.png)
+![image-20240105104830276](pictures/image-20240105104830276.png)
 
   * optimize后的Pre-CTS-hold结果：
 
-    ![image-20240105105024063](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105024063.png)
+    ![image-20240105105024063](pictures/image-20240105105024063.png)
 
 ##### Ⅱ. Post-CTS Check
 
  * optimize后的Post-CTS-setup结果：
 
-![image-20240105105130498](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105130498.png)
+![image-20240105105130498](pictures/image-20240105105130498.png)
 
   * optimize后的Post-CTS-hold结果：
 
-    ![image-20240105105155520](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105155520.png)
+    ![image-20240105105155520](pictures/image-20240105105155520.png)
 
 ##### Ⅲ. Post-Route Check
 
  * optimize后的Post-Route-setup结果：
 
-![image-20240105105311287](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105311287.png)
+![image-20240105105311287](pictures/image-20240105105311287.png)
 
   * optimize后的Post-Route-hold结果：
 
-    ![image-20240105105348621](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105348621.png)
+    ![image-20240105105348621](pictures/image-20240105105348621.png)
 
     
 
@@ -957,19 +957,19 @@ clockDesign -outDir ${BASENAME}_clock_reports
 
 * Verify Connectivity通过:
 
-  ![image-20240105105602310](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105105602310.png)
+  ![image-20240105105602310](pictures/image-20240105105602310.png)
 
 ##### Ⅱ. DRC
 
 * Verify DRC通过：
 
-![image-20240105110349292](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105110349292.png)
+![image-20240105110349292](pictures/image-20240105110349292.png)
 
 ##### Ⅲ. Geometry
 
 * Verify Geometry存在数字电路的常见报错。（日志文件中显示为8个Wiring错误，但是实际上可能更多）
 
-![image-20240105110453641](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105110453641.png)
+![image-20240105110453641](pictures/image-20240105110453641.png)
 
 ## 6. 布局布线后仿真
 
@@ -1002,27 +1002,27 @@ end
 
 * 与综合后网表仿真和功能仿真均一致：
 
-![image-20240105134939697](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105134939697.png)
+![image-20240105134939697](pictures/image-20240105134939697.png)
 
-![image-20240105135008662](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105135008662.png)
+![image-20240105135008662](pictures/image-20240105135008662.png)
 
 ### 6.4 从模式仿真结果
 
 * 与综合网表仿真及前仿一致：
 
-![image-20240105135320797](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105135320797.png)
+![image-20240105135320797](pictures/image-20240105135320797.png)
 
 ## 7. 目前存在的问题
 
 ### ① 导出GDSII文件时如何配置Map File等文件
 
-<img src="D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105140021682.png" alt="image-20240105140021682" style="zoom:67%;" />
+<img src="pictures/image-20240105140021682.png" alt="image-20240105140021682" style="zoom:67%;" />
 
 ### ②布局布线后的网表进行仿真时有报时序违例
 
-![image-20240105140155917](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105140155917.png)
+![image-20240105140155917](pictures/image-20240105140155917.png)
 
 ### ③VCS+Verdi跑不了前仿
 
-![image-20240105093922634](D:\5Pgd\B-YAN1\DIC_prj\SPI_CHIP\pictures\image-20240105093922634.png)
+![image-20240105093922634](pictures/image-20240105093922634.png)
 
